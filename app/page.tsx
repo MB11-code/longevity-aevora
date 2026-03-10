@@ -60,7 +60,7 @@ const faqSchema = {
       name: "Waar is ORAVIVUM gevestigd?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ORAVIVUM is gevestigd aan de Van Baerlestraat 33h in Amsterdam, direct bij het Museumplein. De kliniek is goed bereikbaar met openbaar vervoer (tram 2, 5 en 12).",
+        text: "ORAVIVUM is gevestigd aan de Teniersstraat 2 hs in Amsterdam, direct bij het Museumplein. De kliniek is goed bereikbaar met openbaar vervoer (tram 3, 5, 12, 16).",
       },
     },
     {
@@ -222,7 +222,7 @@ export default function HomePage() {
               ["Is botox tegen tandenknarsen veilig?", "Ja, botox tegen bruxisme is een veilige en veelgebruikte behandeling. De botox wordt in lage doses geïnjecteerd in de kaakspieren (m. masseter), waardoor overactieve spieren ontspannen zonder dat normaal kauwen wordt belemmerd. De behandeling duurt 15 minuten en heeft minimale bijwerkingen."],
               ["Hoeveel kost een behandeling?", "De kosten variëren per behandeling. Neem contact met ons op voor een persoonlijk advies en prijsindicatie. Sommige behandelingen worden (gedeeltelijk) vergoed door uw aanvullende zorgverzekering."],
               ["Moet ik doorverwezen worden door mijn tandarts?", "Nee, u kunt rechtstreeks een afspraak maken bij ORAVIVUM. Een verwijzing is niet nodig, maar wij werken graag samen met uw eigen tandarts voor een optimaal behandelresultaat."],
-              ["Waar is ORAVIVUM gevestigd?", "ORAVIVUM is gevestigd aan de Van Baerlestraat 33h in Amsterdam, direct bij het Museumplein. De kliniek is uitstekend bereikbaar met openbaar vervoer (tram 2, 5 en 12) en per auto."],
+              ["Waar is ORAVIVUM gevestigd?", "ORAVIVUM is gevestigd aan de Teniersstraat 2 hs in Amsterdam, direct bij het Museumplein. De kliniek is uitstekend bereikbaar met openbaar vervoer (tram 3, 5, 12, 16) en per auto."],
               ["Wie is de behandelaar?", "ORAVIVUM wordt geleid door Lotte Meereboer, MSc tandarts voor orthodontie met meer dan 18 jaar ervaring. Zij is BIG-geregistreerd, ingeschreven in het VTvO kwaliteitskeurmerk en oprichter van de Dutch Aligner Society."],
               ["Wordt de behandeling vergoed?", "Vergoeding is afhankelijk van uw zorgverzekering. Botox en gummy smile vallen doorgaans niet onder de basisverzekering. Slaapapneu behandeling met MRA wordt soms wel vergoed. Wij adviseren u graag over de mogelijkheden."],
             ].map(([q, a]) => (

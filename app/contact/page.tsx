@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact — ORAVIVUM Oral Longevity Clinic Amsterdam",
   description:
-    "Maak een afspraak bij ORAVIVUM. Gevestigd aan de Van Baerlestraat 33h, Amsterdam, bij het Museumplein. Bel, mail of plan online uw afspraak.",
+    "Maak een afspraak bij ORAVIVUM. Gevestigd aan de Teniersstraat 2 hs, Amsterdam, bij het Museumplein. Bel, mail of plan online uw afspraak.",
   openGraph: {
     title: "Contact | ORAVIVUM Amsterdam",
     description: "Maak een afspraak bij ORAVIVUM — Oral Longevity Clinic aan het Museumplein.",
@@ -32,8 +32,8 @@ export default function ContactPage() {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-sm tracking-widest uppercase text-gold mb-2">Adres</h3>
-                  <p className="text-charcoal/70">Van Baerlestraat 33h</p>
-                  <p className="text-charcoal/70">1071 AP Amsterdam</p>
+                  <p className="text-charcoal/70">Teniersstraat 2 hs</p>
+                  <p className="text-charcoal/70">1071 DX Amsterdam</p>
                   <p className="text-charcoal/50 text-sm mt-1">Bij het Museumplein, op loopafstand van het Concertgebouw</p>
                 </div>
                 <div>
@@ -47,16 +47,16 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-sm tracking-widest uppercase text-gold mb-2">Openingstijden</h3>
                   <div className="text-charcoal/70 text-sm space-y-1">
-                    <p>Maandag – Vrijdag: 08:00 – 18:00</p>
-                    <p>Zaterdag &amp; Zondag: Gesloten</p>
+                    <p>Werkdagen: 08:30 – 17:30</p>
+                    <p>Zaterdag: 09:30 – 16:00 | Zondag: Gesloten</p>
                     <p className="text-charcoal/50 italic mt-2">[Openingstijden worden aangevuld]</p>
                   </div>
                 </div>
                 <div>
                   <h3 className="text-sm tracking-widest uppercase text-gold mb-2">Bereikbaarheid</h3>
                   <div className="text-charcoal/70 text-sm space-y-1">
-                    <p>🚊 Tram 2, 5, 12 — halte Museumplein</p>
-                    <p>🚗 Parkeergarage Q-Park Museumplein</p>
+                    <p>🚊 Tram 3, 5, 12, 16 — halte Van Baerlestraat/Concertgebouw</p>
+                    <p>🚗 Teniersstraat (gratis parkeren) & Q-Park Museumplein</p>
                   </div>
                 </div>
               </div>
@@ -142,7 +142,7 @@ export default function ContactPage() {
       <section className="bg-sand/20 h-[400px] flex items-center justify-center">
         <div className="text-center text-charcoal/30">
           <p className="text-4xl mb-4">📍</p>
-          <p className="font-playfair text-xl">Van Baerlestraat 33h, Amsterdam</p>
+          <p className="font-playfair text-xl">Teniersstraat 2 hs, Amsterdam</p>
           <p className="text-sm mt-2">Google Maps integratie volgt</p>
         </div>
       </section>

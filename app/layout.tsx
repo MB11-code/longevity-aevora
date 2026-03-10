@@ -43,9 +43,9 @@ const localBusinessSchema = {
   email: "[EMAIL]",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Van Baerlestraat 33h",
+    streetAddress: "Teniersstraat 2 hs",
     addressLocality: "Amsterdam",
-    postalCode: "1071 AP",
+    postalCode: "1071 DX",
     addressCountry: "NL",
   },
   geo: {
@@ -57,8 +57,8 @@ const localBusinessSchema = {
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "08:00",
-      closes: "18:00",
+      opens: "08:30",
+      closes: "17:30",
     },
   ],
   medicalSpecialty: "Orthodontics",
@@ -124,8 +124,8 @@ function Footer() {
           <div>
             <h4 className="text-gold text-sm tracking-widest uppercase mb-4">Contact</h4>
             <div className="space-y-2 text-sm">
-              <p>Van Baerlestraat 33h</p>
-              <p>1071 AP Amsterdam</p>
+              <p>Teniersstraat 2 hs</p>
+              <p>1071 DX Amsterdam</p>
               <p>[TELEFOON]</p>
               <p>[EMAIL]</p>
             </div>
@@ -133,8 +133,8 @@ function Footer() {
           <div>
             <h4 className="text-gold text-sm tracking-widest uppercase mb-4">Openingstijden</h4>
             <div className="space-y-2 text-sm">
-              <p>Maandag – Vrijdag: 08:00 – 18:00</p>
-              <p>Zaterdag &amp; Zondag: Gesloten</p>
+              <p>Werkdagen: 08:30 – 17:30</p>
+              <p>Zaterdag: 09:30 – 16:00 | Zondag: Gesloten</p>
             </div>
           </div>
         </div>

@@ -124,13 +124,13 @@ export default function OverOnsPage() {
           <h2 className="font-playfair text-3xl mb-8">De praktijk aan het Museumplein</h2>
           <div className="space-y-4 text-charcoal/70 leading-relaxed">
             <p>
-              ORAVIVUM is gevestigd aan de Van Baerlestraat 33h in Amsterdam, op loopafstand van het Museumplein,
+              ORAVIVUM is gevestigd aan de Teniersstraat 2 hs in Amsterdam, op loopafstand van het Museumplein,
               het Concertgebouw en het Stedelijk Museum. De kliniek is modern ingericht met state-of-the-art apparatuur
               voor digitale orthodontie.
             </p>
             <p>
-              De praktijk is goed bereikbaar met openbaar vervoer (tram 2, 5 en 12, halte Museumplein) en per auto.
-              Parkeren kan in de parkeergarage Q-Park Museumplein.
+              De praktijk is goed bereikbaar met openbaar vervoer (tram 3, 5, 12, 16, halte Van Baerlestraat/Concertgebouw) en per auto.
+              Parkeren kan in de Teniersstraat (gratis parkeren) en Q-Park Museumplein.
             </p>
           </div>
           <div className="mt-8">
