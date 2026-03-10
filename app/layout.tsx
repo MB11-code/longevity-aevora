@@ -39,8 +39,7 @@ const localBusinessSchema = {
   description:
     "De eerste oral longevity kliniek van Amsterdam. Botox bruxisme, gummy smile behandeling en slaapapneu screening.",
   url: "https://oravivum.nl",
-  telephone: "[TELEFOON]",
-  email: "[EMAIL]",
+  telephone: "020 72 35 222",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Teniersstraat 2 hs",
@@ -126,8 +125,7 @@ function Footer() {
             <div className="space-y-2 text-sm">
               <p>Teniersstraat 2 hs</p>
               <p>1071 DX Amsterdam</p>
-              <p>[TELEFOON]</p>
-              <p>[EMAIL]</p>
+              <p>020 72 35 222</p>
             </div>
           </div>
           <div>
