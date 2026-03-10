@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-teal: #1A5C5E;
+  --color-sand: #E8D5B7;
+  --color-gold: #C9A96E;
+  --color-offwhite: #F7F4EF;
+  --color-charcoal: #2D2D2D;
+  --font-playfair: var(--font-playfair);
+  --font-inter: var(--font-inter);
+}
