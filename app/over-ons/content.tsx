@@ -59,7 +59,7 @@ export function OverOnsContent() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-20 items-start">
             <ScrollReveal>
-              <div className="relative aspect-[3/4] overflow-hidden rounded-lg border border-sand/30">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-sand/30">
                 <Image
                   src="/images/lotte-meereboer.jpg"
                   alt="Lotte Meereboer - Tandarts voor Orthodontie bij ORAVIVUM"
@@ -198,22 +198,23 @@ export function OverOnsContent() {
               {t("Aangesloten bij", "Affiliated with")}
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-              <div className="text-center p-6 border border-sand/20 rounded-lg bg-white">
-                <p className="font-playfair text-lg text-teal mb-1">VTvO</p>
-                <p className="text-[10px] text-charcoal/40 leading-tight">{t("Vereniging Tandartsen voor Orthodontie", "Association of Dentists for Orthodontics")}</p>
-              </div>
-              <div className="text-center p-6 border border-sand/20 rounded-lg bg-white">
-                <p className="font-playfair text-lg text-teal mb-1">EAS</p>
-                <p className="text-[10px] text-charcoal/40 leading-tight">European Aligner Society</p>
-              </div>
-              <div className="text-center p-6 border border-sand/20 rounded-lg bg-white">
-                <p className="font-playfair text-lg text-teal mb-1">ANT</p>
-                <p className="text-[10px] text-charcoal/40 leading-tight">{t("Associatie Nederlandse Tandartsen", "Association of Dutch Dentists")}</p>
-              </div>
-              <div className="text-center p-6 border border-sand/20 rounded-lg bg-white">
-                <p className="font-playfair text-lg text-teal mb-1">OK</p>
-                <p className="text-[10px] text-charcoal/40 leading-tight">{t("OK Register Kwaliteitskeurmerk", "OK Register Quality Certification")}</p>
-              </div>
+              {[
+                { name: "VTvO", desc: t("Vereniging Tandartsen voor Orthodontie", "Association of Dentists for Orthodontics"), label: t("Erkend lid", "Certified member") },
+                { name: "EAS", desc: "European Aligner Society", label: t("Erkend lid", "Certified member") },
+                { name: "ANT", desc: t("Associatie Nederlandse Tandartsen", "Association of Dutch Dentists"), label: t("Erkend lid", "Certified member") },
+                { name: "OK", desc: t("OK Register Kwaliteitskeurmerk", "OK Register Quality Certification"), label: t("Geregistreerd", "Registered") },
+              ].map((item) => (
+                <div key={item.name} className="text-center p-8 border-2 border-teal/20 rounded-xl bg-white">
+                  <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-teal/10 flex items-center justify-center">
+                    <svg className="w-6 h-6 text-teal" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
+                    </svg>
+                  </div>
+                  <p className="font-playfair text-xl text-teal font-bold mb-1">{item.name}</p>
+                  <p className="text-[10px] text-charcoal/50 leading-snug mb-3">{item.desc}</p>
+                  <p className="text-[10px] tracking-[0.2em] uppercase text-gold">{item.label}</p>
+                </div>
+              ))}
             </div>
           </ScrollReveal>
         </div>

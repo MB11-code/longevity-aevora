@@ -18,7 +18,7 @@ export function Navbar() {
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-charcoal shadow-lg"
+          ? "bg-teal/95 backdrop-blur-md shadow-lg"
           : "bg-transparent"
       }`}
     >
@@ -39,7 +39,7 @@ export function Navbar() {
           <Link href="/over-ons" className={`text-xs tracking-[0.2em] uppercase transition-colors ${scrolled ? "text-offwhite/70 hover:text-offwhite" : "text-charcoal/70 hover:text-teal"}`}>
             {t("Over Ons", "About")}
           </Link>
-          <Link href="/contact" className="text-xs tracking-[0.2em] uppercase bg-teal text-offwhite px-5 py-2.5 rounded-lg hover:bg-teal/90 transition-colors">
+          <Link href="/contact" className={`text-xs tracking-[0.2em] uppercase px-5 py-2.5 rounded-lg transition-colors ${scrolled ? "bg-gold text-charcoal hover:bg-gold/90" : "bg-teal text-offwhite hover:bg-teal/90"}`}>
             {t("Afspraak", "Appointment")}
           </Link>
           <button

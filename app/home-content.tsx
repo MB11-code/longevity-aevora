@@ -183,7 +183,7 @@ export function HomeContent() {
               </div>
             </ScrollReveal>
             <ScrollReveal staggerIndex={1}>
-              <div className="relative aspect-[3/4] overflow-hidden rounded-lg border border-sand/30">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-sand/30">
                 <Image
                   src="/images/lotte-meereboer.jpg"
                   alt="Lotte Meereboer - Tandarts voor Orthodontie"
