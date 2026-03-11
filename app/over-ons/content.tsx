@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useLang } from "../lang-context";
 
@@ -8,25 +9,44 @@ export function OverOnsContent() {
 
   return (
     <>
-      <section className="py-28 bg-sand/10">
-        <div className="max-w-4xl mx-auto px-6">
-          <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">{t("Over ons", "About us")}</p>
-          <h1 className="font-playfair text-4xl md:text-6xl mb-8">
-            {t("De mond als gateway to the body", "The mouth as gateway to the body")}
-          </h1>
-          <p className="text-xl text-charcoal/60 max-w-2xl leading-relaxed">
+      {/* Hero */}
+      <section className="relative min-h-[70vh] flex items-end overflow-hidden">
+        <Image
+          src="/images/clinic-exterior.jpg"
+          alt={t("ORAVIVUM Kliniek Amsterdam", "ORAVIVUM Clinic Amsterdam")}
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/30 to-transparent" />
+        <div className="relative max-w-7xl mx-auto px-8 lg:px-12 pb-20 pt-40 w-full">
+          <div className="max-w-2xl">
+            <div className="section-divider mb-8 !bg-gold" />
+            <p className="text-gold/90 text-[11px] tracking-[0.4em] uppercase mb-5">{t("Over ons", "About us")}</p>
+            <h1 className="font-playfair text-4xl md:text-6xl text-offwhite leading-[1.1]">
+              {t("De mond als gateway to the body", "The mouth as gateway to the body")}
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      {/* Philosophy quote */}
+      <section className="py-20 bg-teal">
+        <div className="max-w-3xl mx-auto px-8 lg:px-12 text-center">
+          <p className="font-playfair text-2xl md:text-3xl text-offwhite/90 leading-relaxed italic">
             {t(
-              'ORAVIVUM — "De Levende Mond" — is geboren uit de overtuiging dat mondgezondheid de sleutel is tot een langer, gezonder leven.',
-              'ORAVIVUM — "The Living Mouth" — was born from the conviction that oral health is the key to a longer, healthier life.'
+              '"ORAVIVUM — De Levende Mond — is geboren uit de overtuiging dat mondgezondheid de sleutel is tot een langer, gezonder leven."',
+              '"ORAVIVUM — The Living Mouth — was born from the conviction that oral health is the key to a longer, healthier life."'
             )}
           </p>
         </div>
       </section>
 
-      <section className="py-24">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-playfair text-3xl mb-10">{t("Ons verhaal", "Our story")}</h2>
-          <div className="space-y-5 text-charcoal/60 leading-relaxed">
+      <section className="py-28 lg:py-32">
+        <div className="max-w-4xl mx-auto px-8 lg:px-12">
+          <div className="section-divider mb-8" />
+          <h2 className="font-playfair text-3xl md:text-4xl mb-10">{t("Ons verhaal", "Our story")}</h2>
+          <div className="space-y-6 text-charcoal/55 text-[15px] leading-[1.85]">
             <p>
               {t(
                 "De mond is het beginpunt van het spijsverteringskanaal, de poort tot de luchtwegen en een spiegel van uw algehele gezondheid. Wetenschappelijk onderzoek toont steeds duidelijker aan dat chronische ontstekingen in de mond — van parodontitis tot onbehandeld bruxisme — directe gevolgen hebben voor hart, hersenen en immuunsysteem.",
@@ -49,16 +69,22 @@ export function OverOnsContent() {
         </div>
       </section>
 
-      <section className="py-24 bg-sand/10">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-20 items-start">
-            <div className="bg-sand/20 aspect-[3/4] flex items-center justify-center border border-sand/30">
-              <p className="text-sm text-charcoal/25 tracking-wide">{t("Portretfoto volgt", "Portrait photo coming soon")}</p>
+      <section className="py-28 lg:py-32 bg-sand/8">
+        <div className="max-w-7xl mx-auto px-8 lg:px-12">
+          <div className="grid md:grid-cols-2 gap-16 lg:gap-24 items-start">
+            <div className="relative aspect-[3/4] overflow-hidden">
+              <Image
+                src="/images/lotte-portrait.jpg"
+                alt="Lotte Meereboer, MSc"
+                fill
+                className="object-cover"
+              />
             </div>
-            <div>
-              <h2 className="font-playfair text-3xl mb-3">Lotte Meereboer, MSc</h2>
-              <p className="text-gold text-xs tracking-[0.2em] uppercase mb-8">{t("Tandarts voor Orthodontie", "Orthodontist")}</p>
-              <div className="space-y-5 text-charcoal/60 leading-relaxed">
+            <div className="md:pt-8">
+              <div className="section-divider mb-8" />
+              <h2 className="font-playfair text-3xl md:text-4xl mb-3">Lotte Meereboer, MSc</h2>
+              <p className="text-gold text-[11px] tracking-[0.2em] uppercase mb-10">{t("Tandarts voor Orthodontie", "Orthodontist")}</p>
+              <div className="space-y-5 text-charcoal/55 text-[15px] leading-[1.85]">
                 <p>
                   {t(
                     "Lotte Meereboer studeerde Tandheelkunde aan de Vrije Universiteit Amsterdam en behaalde vervolgens haar Master of Science Orthodontics aan de Universiteit van Murcia in Spanje.",
@@ -78,7 +104,7 @@ export function OverOnsContent() {
                   )}
                 </p>
               </div>
-              <div className="mt-10 space-y-2 text-sm text-charcoal/40">
+              <div className="mt-10 space-y-2 text-[13px] text-charcoal/35">
                 <p>BIG-{t("geregistreerd tandarts", "registered dentist")}</p>
                 <p>VTvO {t("kwaliteitskeurmerk", "quality certification")}</p>
                 <p>European Aligner Society (EAS)</p>
@@ -90,10 +116,11 @@ export function OverOnsContent() {
         </div>
       </section>
 
-      <section className="py-24">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-playfair text-3xl mb-14">{t("Onze visie op longevity", "Our vision on longevity")}</h2>
-          <div className="grid md:grid-cols-3 gap-10">
+      <section className="py-28 lg:py-32">
+        <div className="max-w-7xl mx-auto px-8 lg:px-12">
+          <div className="section-divider mb-8" />
+          <h2 className="font-playfair text-3xl md:text-4xl mb-16">{t("Onze visie op longevity", "Our vision on longevity")}</h2>
+          <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
             {[
               [
                 "Evidence-based",
@@ -117,22 +144,34 @@ export function OverOnsContent() {
                 ),
               ],
             ].map(([title, desc]) => (
-              <div key={title} className="p-8 border border-sand/20 bg-sand/5">
-                <div className="w-8 h-[1px] bg-gold mb-6" />
-                <h3 className="font-playfair text-xl mb-4">{title}</h3>
-                <p className="text-sm text-charcoal/60 leading-relaxed">{desc}</p>
+              <div key={title} className="p-10 lg:p-12 border border-sand/20 bg-sand/5 hover:shadow-md transition-shadow duration-500">
+                <div className="w-8 h-[1px] bg-gold mb-8" />
+                <h3 className="font-playfair text-2xl mb-5">{title}</h3>
+                <p className="text-[15px] text-charcoal/55 leading-[1.8]">{desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="py-24 bg-sand/10">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-playfair text-3xl mb-10">
+      {/* Clinic image band */}
+      <section className="relative h-[50vh] overflow-hidden">
+        <Image
+          src="/images/behandelkamer.jpg"
+          alt={t("De praktijk", "The practice")}
+          fill
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-charcoal/15" />
+      </section>
+
+      <section className="py-28 lg:py-32">
+        <div className="max-w-4xl mx-auto px-8 lg:px-12">
+          <div className="section-divider mb-8" />
+          <h2 className="font-playfair text-3xl md:text-4xl mb-10">
             {t("De praktijk aan het Museumplein", "The clinic at the Museumplein")}
           </h2>
-          <div className="space-y-5 text-charcoal/60 leading-relaxed">
+          <div className="space-y-5 text-charcoal/55 text-[15px] leading-[1.85]">
             <p>
               {t(
                 "ORAVIVUM is gevestigd aan de Teniersstraat 2 hs in Amsterdam, op loopafstand van het Museumplein, het Concertgebouw en het Stedelijk Museum. De kliniek is modern ingericht met state-of-the-art apparatuur voor digitale orthodontie.",
@@ -146,8 +185,8 @@ export function OverOnsContent() {
               )}
             </p>
           </div>
-          <div className="mt-10">
-            <Link href="/contact" className="inline-block bg-teal text-offwhite px-10 py-4 text-xs tracking-[0.25em] uppercase hover:bg-teal/90 transition-colors">
+          <div className="mt-12">
+            <Link href="/contact" className="inline-block bg-teal text-offwhite px-12 py-4 text-[11px] tracking-[0.25em] uppercase hover:bg-teal-light transition-colors duration-300">
               {t("Neem contact op", "Contact us")}
             </Link>
           </div>

@@ -1,65 +1,113 @@
 "use client";
 
 import Link from "next/link";
+import { useState, useEffect } from "react";
 import { useLang } from "./lang-context";
 
 export function Navbar() {
   const { lang, toggle, t } = useLang();
+  const [scrolled, setScrolled] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 40);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-offwhite/90 backdrop-blur-md border-b border-sand/40">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-playfair font-bold tracking-wide text-teal">
-          <span className="text-2xl">ORAVIVUM</span>
+    <nav
+      className={`fixed top-0 w-full z-50 transition-all duration-500 ${
+        scrolled
+          ? "bg-offwhite/95 backdrop-blur-md shadow-sm"
+          : "bg-transparent"
+      }`}
+    >
+      <div className="max-w-7xl mx-auto px-8 lg:px-12 py-5 flex items-center justify-between">
+        <Link href="/" className="font-playfair font-bold tracking-[0.05em] text-teal">
+          <span className="text-[1.6rem] leading-none">ORAVIVUM</span>
         </Link>
-        <div className="hidden md:flex items-center gap-8">
-          <Link href="/botox-bruxisme" className="text-xs tracking-[0.2em] uppercase text-charcoal/70 hover:text-teal transition-colors">
+
+        {/* Desktop */}
+        <div className="hidden md:flex items-center gap-10">
+          <Link href="/botox-bruxisme" className="text-[11px] tracking-[0.2em] uppercase text-charcoal/60 hover:text-teal transition-colors duration-300">
             {t("Bruxisme", "Bruxism")}
           </Link>
-          <Link href="/gummy-smile" className="text-xs tracking-[0.2em] uppercase text-charcoal/70 hover:text-teal transition-colors">
+          <Link href="/gummy-smile" className="text-[11px] tracking-[0.2em] uppercase text-charcoal/60 hover:text-teal transition-colors duration-300">
             Gummy Smile
           </Link>
-          <Link href="/slaapapneu" className="text-xs tracking-[0.2em] uppercase text-charcoal/70 hover:text-teal transition-colors">
+          <Link href="/slaapapneu" className="text-[11px] tracking-[0.2em] uppercase text-charcoal/60 hover:text-teal transition-colors duration-300">
             {t("Slaapapneu", "Sleep Apnea")}
           </Link>
-          <Link href="/over-ons" className="text-xs tracking-[0.2em] uppercase text-charcoal/70 hover:text-teal transition-colors">
+          <Link href="/over-ons" className="text-[11px] tracking-[0.2em] uppercase text-charcoal/60 hover:text-teal transition-colors duration-300">
             {t("Over Ons", "About")}
           </Link>
-          <Link href="/contact" className="text-xs tracking-[0.2em] uppercase bg-teal text-offwhite px-5 py-2.5 hover:bg-teal/90 transition-colors">
+          <Link
+            href="/contact"
+            className="text-[11px] tracking-[0.2em] uppercase bg-teal text-offwhite px-6 py-2.5 hover:bg-teal-light transition-colors duration-300"
+          >
             {t("Afspraak", "Appointment")}
           </Link>
           <button
             onClick={toggle}
-            className="text-xs tracking-[0.2em] uppercase border border-sand/60 px-3 py-1.5 text-charcoal/60 hover:border-teal hover:text-teal transition-colors"
+            className="text-[11px] tracking-[0.15em] text-charcoal/40 hover:text-teal transition-colors duration-300"
             aria-label="Switch language"
           >
-            {lang === "nl" ? "EN" : "NL"}
+            {lang === "nl" ? "NL" : "EN"} <span className="text-charcoal/20">|</span> {lang === "nl" ? "EN" : "NL"}
           </button>
         </div>
-        {/* Mobile menu */}
-        <div className="md:hidden flex items-center gap-3">
+
+        {/* Mobile */}
+        <div className="md:hidden flex items-center gap-4">
           <button
             onClick={toggle}
-            className="text-xs tracking-[0.2em] uppercase border border-sand/60 px-2 py-1 text-charcoal/60"
+            className="text-[11px] tracking-[0.15em] text-charcoal/40"
           >
-            {lang === "nl" ? "EN" : "NL"}
+            {lang === "nl" ? "NL | EN" : "EN | NL"}
           </button>
-          <details className="relative">
-            <summary className="list-none cursor-pointer p-2">
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </summary>
-            <div className="absolute right-0 top-full mt-2 bg-offwhite border border-sand/40 shadow-lg py-4 px-6 flex flex-col gap-4 min-w-[200px]">
-              <Link href="/botox-bruxisme" className="text-xs tracking-[0.2em] uppercase">{t("Bruxisme", "Bruxism")}</Link>
-              <Link href="/gummy-smile" className="text-xs tracking-[0.2em] uppercase">Gummy Smile</Link>
-              <Link href="/slaapapneu" className="text-xs tracking-[0.2em] uppercase">{t("Slaapapneu", "Sleep Apnea")}</Link>
-              <Link href="/over-ons" className="text-xs tracking-[0.2em] uppercase">{t("Over Ons", "About")}</Link>
-              <Link href="/contact" className="text-xs tracking-[0.2em] uppercase text-teal font-semibold">{t("Afspraak maken", "Book Appointment")}</Link>
-            </div>
-          </details>
+          <button
+            onClick={() => setMobileOpen(!mobileOpen)}
+            className="p-1"
+            aria-label="Menu"
+          >
+            <svg className="w-6 h-6 text-charcoal/70" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.2}>
+              {mobileOpen ? (
+                <path strokeLinecap="round" d="M6 6l12 12M6 18L18 6" />
+              ) : (
+                <path strokeLinecap="round" d="M4 7h16M4 12h12M4 17h16" />
+              )}
+            </svg>
+          </button>
         </div>
       </div>
+
+      {/* Mobile menu */}
+      {mobileOpen && (
+        <div className="md:hidden bg-offwhite/98 backdrop-blur-lg border-t border-sand/20 px-8 py-8 space-y-6 animate-[fadeIn_0.2s_ease]">
+          {[
+            { href: "/botox-bruxisme", label: t("Bruxisme", "Bruxism") },
+            { href: "/gummy-smile", label: "Gummy Smile" },
+            { href: "/slaapapneu", label: t("Slaapapneu", "Sleep Apnea") },
+            { href: "/over-ons", label: t("Over Ons", "About") },
+          ].map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              onClick={() => setMobileOpen(false)}
+              className="block text-[11px] tracking-[0.2em] uppercase text-charcoal/70"
+            >
+              {item.label}
+            </Link>
+          ))}
+          <Link
+            href="/contact"
+            onClick={() => setMobileOpen(false)}
+            className="block text-[11px] tracking-[0.2em] uppercase text-teal font-semibold pt-2 border-t border-sand/20"
+          >
+            {t("Afspraak maken", "Book Appointment")}
+          </Link>
+        </div>
+      )}
     </nav>
   );
 }
