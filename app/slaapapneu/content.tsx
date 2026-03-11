@@ -28,9 +28,6 @@ export function SlaapapneuContent() {
               "An estimated 10-15% of the Dutch population has a form of obstructive sleep apnea. Many cases go undiagnosed. We examine the relationship between your jaw position and airway obstruction."
             )}
           </p>
-          <div className="mt-10 inline-block border border-gold/40 text-gold px-6 py-3 rounded-lg text-xs tracking-[0.2em] uppercase">
-            {t("Binnenkort volledig beschikbaar", "Coming soon")}
-          </div>
         </div>
       </section>
 
