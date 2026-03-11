@@ -108,7 +108,7 @@ export function ContactContent() {
                     <h3 className="text-xs tracking-[0.2em] uppercase text-gold mb-3">{t("Bereikbaarheid", "Getting here")}</h3>
                     <div className="text-charcoal/60 text-sm space-y-2">
                       <p>Tram 3, 5, 12, 16 — {t("halte", "stop")} Van Baerlestraat / Concertgebouw</p>
-                      <p>{t("Auto", "Car")}: Teniersstraat ({t("gratis parkeren", "free parking")}) &amp; Q-Park Museumplein</p>
+                      <p>{t("Auto", "Car")}: Teniersstraat &amp; Q-Park Museumplein</p>
                     </div>
                   </div>
                 </div>
