@@ -189,34 +189,6 @@ export function OverOnsContent() {
         </div>
       </section>
 
-      <section className="py-20 bg-sand/10">
-        <div className="max-w-4xl mx-auto px-6">
-          <ScrollReveal>
-            <p className="text-center text-xs tracking-[0.2em] uppercase text-charcoal/40 mb-10">
-              {t("Aangesloten bij", "Affiliated with")}
-            </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-10 items-center">
-              {[
-                { name: "VTvO", desc: t("Vereniging Tandartsen voor Orthodontie", "Association of Dentists for Orthodontics"), label: t("Erkend lid", "Certified member") },
-                { name: "EAS", desc: "European Aligner Society", label: t("Erkend lid", "Certified member") },
-                { name: "ANT", desc: t("Associatie Nederlandse Tandartsen", "Association of Dutch Dentists"), label: t("Erkend lid", "Certified member") },
-                { name: "OK", desc: t("OK Register Kwaliteitskeurmerk", "OK Register Quality Certification"), label: t("Geregistreerd", "Registered") },
-              ].map((item) => (
-                <div key={item.name} className="text-center p-8 bg-white border border-sand/30 rounded-lg">
-                  <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-teal/10 flex items-center justify-center">
-                    <svg className="w-6 h-6 text-teal" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
-                    </svg>
-                  </div>
-                  <p className="font-playfair text-xl text-teal font-bold mb-1">{item.name}</p>
-                  <p className="text-[10px] text-charcoal/50 leading-snug mb-3">{item.desc}</p>
-                  <p className="text-[10px] tracking-[0.2em] uppercase text-gold">{item.label}</p>
-                </div>
-              ))}
-            </div>
-          </ScrollReveal>
-        </div>
-      </section>
     </>
   );
 }
