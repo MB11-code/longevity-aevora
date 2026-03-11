@@ -14,13 +14,22 @@ export interface BlogPost {
   readTime: string;
   keywords: string[];
   content: string;
+  contentEn: string;
 }
 
 export function getAllPosts(): BlogPost[] {
   const files = fs.readdirSync(blogDir).filter((f) => f.endsWith(".md"));
   const posts = files.map((file) => {
     const raw = fs.readFileSync(path.join(blogDir, file), "utf-8");
-    const { data, content } = matter(raw);
+    const { data, content: fullContent } = matter(raw);
+    const separator = "---EN---";
+    let contentNl = fullContent;
+    let contentEn = fullContent;
+    if (fullContent.includes(separator)) {
+      const parts = fullContent.split(separator);
+      contentNl = parts[0].trim();
+      contentEn = parts[1].trim();
+    }
     return {
       slug: data.slug,
       title: data.title,
@@ -30,7 +39,8 @@ export function getAllPosts(): BlogPost[] {
       date: data.date,
       readTime: data.readTime,
       keywords: data.keywords || [],
-      content,
+      content: contentNl,
+      contentEn,
     } as BlogPost;
   });
   return posts.sort((a, b) => (a.date > b.date ? -1 : 1));

@@ -137,3 +137,134 @@ Als orthodontische praktijk zijn wij gespecialiseerd in de structuur en functie 
 Overweegt u een botoxbehandeling tegen bruxisme? Bij ORAVIVUM bespreken wij graag uw situatie tijdens een [persoonlijk consult](/contact). Wij nemen de tijd om uw klachten in kaart te brengen en adviseren u eerlijk over de best passende behandeling.
 
 Lees ook ons artikel over [tandenknarsen: oorzaken, gevolgen en behandelingen](/kennisbank/tandenknarsen-oorzaken-gevolgen-behandelingen) voor een uitgebreid overzicht van dit veelvoorkomende probleem.
+
+---EN---
+
+## Botox for Teeth Grinding: A Modern Solution
+
+Botox has been well known as a cosmetic treatment for decades, but its medical applications are gaining increasingly broad recognition. One of the most effective uses is the treatment of **bruxism** — the unconscious grinding and clenching of the teeth. At ORAVIVUM, we offer this treatment drawing on our expertise in orofacial anatomy.
+
+## How Does Botox Work for Bruxism?
+
+Botulinum toxin type A (botox) works by temporarily blocking nerve signals to the muscle. For bruxism, it is injected into the **masseter muscle** — the powerful jaw muscle responsible for clenching.
+
+The mechanism of action in brief:
+
+1. **Injection** — Botox is injected at strategic points in the masseter
+2. **Blockade** — The toxin blocks the release of acetylcholine at the neuromuscular junction
+3. **Relaxation** — The muscle can no longer contract to its full capacity
+4. **Result** — Grinding pressure is significantly reduced, while you can chew and speak normally
+
+It is important to understand that botox does not paralyse the muscle. The dosage is carefully calibrated so that normal jaw function is preserved, while the excessive forces of grinding are diminished.
+
+## The Procedure: Step by Step
+
+### Preparation
+
+A botox treatment for bruxism requires no special preparation. However, we do advise:
+
+- Avoid blood-thinning medications or supplements (such as aspirin, ibuprofen or fish oil) 48 hours before treatment
+- No alcohol 24 hours beforehand
+- Inform us of any medications you are currently taking
+
+### During the Treatment
+
+The treatment itself takes **10 to 15 minutes** and proceeds as follows:
+
+- We mark the injection points based on palpation of the masseter
+- The skin is optionally numbed with a cooling cream (most patients do not find this necessary)
+- Using a fine needle, 3 to 5 injections are administered per side
+- The total dosage typically ranges from 25 to 50 units per side, depending on muscle volume
+
+### After the Treatment
+
+You can resume your daily activities immediately after treatment. There are a few points to keep in mind:
+
+- Do not rub or massage the treated areas (first 24 hours)
+- Avoid bending over or intense exercise (first 4 hours)
+- Mild swelling or a small bruise is possible but rare
+
+## Results: What Can You Expect?
+
+### Timeline
+
+- **Day 1–3:** No noticeable difference — the toxin needs time to take effect
+- **Week 1–2:** Initial relief. The jaw feels less tense, morning jaw pain decreases
+- **Week 4–6:** Maximum effect. Significantly less grinding, fewer headaches, better sleep
+- **Month 3–6:** Gradual decline of the effect. Retreatment is recommended
+
+### Effectiveness
+
+Scientific research shows positive results:
+
+- A systematic review in the *Journal of Dental Research* reported significant reduction in grinding intensity in 70–90% of patients
+- Patients report an average 50–60% reduction in jaw pain
+- Sleep quality improves in the majority of those treated
+
+### Visual Effect
+
+An additional benefit: in patients with an enlarged masseter (jaw muscle hypertrophy), the treatment often results in a slimmer jawline. While this is not a cosmetic goal in itself, it is experienced as a positive outcome by many patients.
+
+## Risks and Side Effects
+
+As with any medical treatment, there are possible side effects, although they are rare with botox in the masseter:
+
+- **Mild pain or bruising** at the injection site (resolves within days)
+- **Temporary chewing fatigue** with very tough foods (first weeks)
+- **Asymmetry** in the case of inaccurate placement (which is why expertise is crucial)
+- **Allergic reaction** (extremely rare)
+
+At ORAVIVUM, the treatment is performed exclusively by specialists with thorough knowledge of orofacial anatomy, minimising the risk of complications.
+
+## Who Is This Treatment Suitable For?
+
+Botox for bruxism is suitable for adults who:
+
+- Have demonstrable teeth grinding or clenching (confirmed by a dentist or partner)
+- Suffer from jaw pain, headaches or dental wear due to bruxism
+- Have not found sufficient relief from a bite splint alone
+- Desire a non-invasive treatment
+
+The treatment is **not** recommended for:
+
+- Pregnancy or breastfeeding
+- Neuromuscular conditions (such as myasthenia gravis)
+- Known allergy to botulinum toxin
+
+## The Costs
+
+The cost of a botox treatment for bruxism typically ranges between €300 and €500 per session, depending on the required dosage. The treatment is currently not covered by basic health insurance, though some supplementary insurance plans offer partial coverage.
+
+Considering the costs of the alternative consequences — such as crowns, bridges, physiotherapy and chronic pain medication — many patients regard it as a valuable investment in their health.
+
+## Frequently Asked Questions
+
+### Does the treatment hurt?
+
+Most patients experience no more than a slight prick. The needles we use are extremely fine. If desired, we apply a numbing cream beforehand.
+
+### How long do the results last?
+
+On average, 3 to 6 months. With repeated treatments, many patients find that the effect lasts longer, as the muscle gradually decreases in size.
+
+### Can I eat normally afterwards?
+
+Yes. The dosage is calibrated to preserve your normal chewing function. Some patients notice in the first weeks that very tough foods (such as chewy steak) require slightly more effort.
+
+### Is it safe in the long term?
+
+Botox has been used medically for over 30 years. Long-term studies on its use in the masseter show no significant adverse effects. The muscle recovers fully when treatment is discontinued.
+
+### Can I combine it with a bite splint?
+
+Absolutely. Many of our patients combine botox with a bite splint for optimal protection. The botox reduces the forces, while the splint protects the teeth.
+
+### Why ORAVIVUM?
+
+As an orthodontic practice, we specialise in the structure and function of the jaw region. We know the anatomy inside and out, resulting in precise placement and optimal results. Moreover, we look at the full picture: is botox the right fit for your situation, or would a different approach be more effective?
+
+## The Next Step
+
+Are you considering a botox treatment for bruxism? At ORAVIVUM, we would be happy to discuss your situation during a [personal consultation](/contact). We take the time to map out your complaints and provide honest advice on the most suitable treatment.
+
+Also read our article on [teeth grinding: causes, effects and treatments](/kennisbank/tandenknarsen-oorzaken-gevolgen-behandelingen) for a comprehensive overview of this common problem.
