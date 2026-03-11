@@ -77,7 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <LangProvider>
           <Navbar />
-          <main>{children}</main>
+          <main className="pt-[72px]">{children}</main>
           <Footer />
         </LangProvider>
       </body>
