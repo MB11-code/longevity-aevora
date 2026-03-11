@@ -37,6 +37,9 @@ export function Navbar() {
           <Link href="/over-ons" className="text-xs tracking-[0.2em] uppercase transition-colors text-offwhite/70 hover:text-offwhite">
             {t("Over Ons", "About")}
           </Link>
+          <Link href="/kennisbank" className="text-xs tracking-[0.2em] uppercase transition-colors text-offwhite/70 hover:text-offwhite">
+            {t("Kennisbank", "Knowledge Base")}
+          </Link>
           <Link href="/contact" className="text-xs tracking-[0.2em] uppercase px-5 py-2.5 rounded-lg transition-colors bg-gold text-charcoal hover:bg-gold/90">
             {t("Afspraak", "Appointment")}
           </Link>
@@ -67,6 +70,7 @@ export function Navbar() {
               <Link href="/gummy-smile" className="text-xs tracking-[0.2em] uppercase">Gummy Smile</Link>
               <Link href="/slaapapneu" className="text-xs tracking-[0.2em] uppercase">{t("Slaapapneu", "Sleep Apnea")}</Link>
               <Link href="/over-ons" className="text-xs tracking-[0.2em] uppercase">{t("Over Ons", "About")}</Link>
+              <Link href="/kennisbank" className="text-xs tracking-[0.2em] uppercase">{t("Kennisbank", "Knowledge Base")}</Link>
               <Link href="/contact" className="text-xs tracking-[0.2em] uppercase text-teal font-semibold">{t("Afspraak maken", "Book Appointment")}</Link>
             </div>
           </details>
