@@ -10,7 +10,7 @@ export function BotoxContent() {
 
   return (
     <>
-      <section className="py-28 bg-sand/10">
+      <section className="py-28 bg-offwhite">
         <div className="max-w-4xl mx-auto px-6">
           <ScrollReveal>
             <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">{t("Behandeling", "Treatment")}</p>
@@ -25,7 +25,7 @@ export function BotoxContent() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="py-28 bg-sand/10">
         <div className="max-w-4xl mx-auto px-6">
           <div className="grid md:grid-cols-5 gap-12 items-start">
             <div className="md:col-span-3">
@@ -66,7 +66,7 @@ export function BotoxContent() {
                 <div className="relative aspect-[3/4] overflow-hidden rounded-lg border border-sand/30">
                   <Image
                     src="/images/behandelkamer.jpg"
-                    alt="Interieur kliniek Orthodontie Museumplein"
+                    alt="Behandelkamer ORAVIVUM"
                     fill
                     className="object-cover"
                   />
@@ -77,12 +77,12 @@ export function BotoxContent() {
         </div>
       </section>
 
-      <section className="py-24 bg-sand/10">
+      <section className="py-28 bg-offwhite">
         <div className="max-w-4xl mx-auto px-6">
           <ScrollReveal>
             <h2 className="font-playfair text-3xl mb-14">{t("De behandeling", "The treatment")}</h2>
           </ScrollReveal>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-10">
             {[
               [t("Duur", "Duration"), t("15 minuten", "15 minutes"), t("Geen verdoving nodig", "No anaesthesia needed")],
               [t("Resultaat", "Results"), t("Na 1-2 weken", "After 1-2 weeks"), t("Geleidelijke ontspanning van de kaakspieren", "Gradual relaxation of the jaw muscles")],
@@ -90,8 +90,8 @@ export function BotoxContent() {
               [t("Prijs", "Price"), t("Op aanvraag", "On request"), t("Neem contact op voor een indicatie", "Contact us for an estimate")],
             ].map(([title, value, note], i) => (
               <ScrollReveal key={title} staggerIndex={i}>
-                <div className="bg-white p-8 border border-sand/20 rounded-lg">
-                  <div className="w-8 h-[1px] bg-gold mb-5" />
+                <div className="bg-white p-10 border border-sand/30 rounded-lg">
+                  <div className="w-10 h-[1px] bg-gold mb-8" />
                   <h3 className="font-playfair text-lg mb-2">{title}</h3>
                   <p className="text-teal font-semibold text-lg">{value}</p>
                   <p className="text-sm text-charcoal/45 mt-2">{note}</p>
@@ -102,7 +102,7 @@ export function BotoxContent() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="py-28 bg-sand/10">
         <div className="max-w-4xl mx-auto px-6">
           <ScrollReveal>
             <h2 className="font-playfair text-3xl mb-10">{t("Hoe werkt botox tegen tandenknarsen?", "How does botox work against teeth grinding?")}</h2>
@@ -124,7 +124,7 @@ export function BotoxContent() {
         </div>
       </section>
 
-      <section className="py-24 bg-sand/10">
+      <section className="py-28 bg-offwhite">
         <div className="max-w-4xl mx-auto px-6">
           <ScrollReveal>
             <h2 className="font-playfair text-3xl mb-10">{t("Voor wie is deze behandeling?", "Who is this treatment for?")}</h2>
@@ -171,11 +171,11 @@ export function BotoxContent() {
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="py-24">
+      <section className="py-28 bg-sand/5">
         <div className="max-w-3xl mx-auto px-6">
           <ScrollReveal>
-            <h2 className="font-playfair text-3xl text-center mb-14">
+            <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4 text-center">FAQ</p>
+            <h2 className="font-playfair text-3xl md:text-4xl text-center mb-20">
               {t("Veelgestelde vragen", "Frequently asked questions")}
             </h2>
           </ScrollReveal>
@@ -203,7 +203,7 @@ export function BotoxContent() {
               ],
             ] as [string, string][]).map(([q, a], i) => (
               <ScrollReveal key={q} staggerIndex={i}>
-                <details className="group bg-sand/5 border border-sand/20 p-7 rounded-lg">
+                <details className="group bg-white border border-sand/20 p-7 rounded-lg">
                   <summary className="cursor-pointer list-none flex justify-between items-center">
                     <span className="font-playfair text-lg pr-6">{q}</span>
                     <span className="text-teal text-xl shrink-0 group-open:rotate-45 transition-transform duration-200">+</span>
@@ -216,13 +216,13 @@ export function BotoxContent() {
         </div>
       </section>
 
-      <section className="py-24 bg-teal text-offwhite text-center">
+      <section className="py-28 bg-teal text-offwhite text-center">
         <div className="max-w-2xl mx-auto px-6">
           <ScrollReveal>
             <h2 className="font-playfair text-3xl md:text-4xl mb-8">
               {t("Last van tandenknarsen?", "Suffering from teeth grinding?")}
             </h2>
-            <p className="text-offwhite/60 mb-10">
+            <p className="text-offwhite/60 mb-12 leading-relaxed">
               {t("Maak een afspraak voor een vrijblijvend consult.", "Book a no-obligation consultation.")}
             </p>
             <Link href="/contact" className="inline-block bg-gold text-charcoal px-10 py-4 text-xs tracking-[0.25em] uppercase rounded-lg hover:bg-gold/90 transition-colors">

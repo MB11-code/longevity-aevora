@@ -52,7 +52,7 @@ export function ContactContent() {
 
   return (
     <>
-      <section className="py-28 bg-sand/10">
+      <section className="py-28 bg-offwhite">
         <div className="max-w-4xl mx-auto px-6">
           <ScrollReveal>
             <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">Contact</p>
@@ -69,10 +69,9 @@ export function ContactContent() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="py-28 bg-sand/10">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-20">
-            {/* Contact info */}
             <ScrollReveal>
               <div>
                 <h2 className="font-playfair text-2xl mb-10">{t("Contactgegevens", "Contact details")}</h2>
@@ -115,7 +114,6 @@ export function ContactContent() {
               </div>
             </ScrollReveal>
 
-            {/* Contact form */}
             <ScrollReveal staggerIndex={1}>
               <div>
                 <h2 className="font-playfair text-2xl mb-10">{t("Afspraak aanvragen", "Request an appointment")}</h2>
@@ -216,9 +214,8 @@ export function ContactContent() {
         </div>
       </section>
 
-      {/* Google Maps */}
-      <section className="bg-sand/10 border-t border-sand/20">
-        <div className="max-w-6xl mx-auto px-6 py-12">
+      <section className="bg-offwhite border-t border-sand/20">
+        <div className="max-w-6xl mx-auto px-6 py-16">
           <ScrollReveal>
             <div className="overflow-hidden rounded-lg border border-sand/30">
               <iframe
