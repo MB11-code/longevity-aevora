@@ -65,7 +65,7 @@ export function BotoxContent() {
               <ScrollReveal staggerIndex={1}>
                 <div className="relative aspect-[3/4] overflow-hidden rounded-lg border border-sand/30">
                   <Image
-                    src="/images/kliniek-interieur.jpg"
+                    src="/images/behandelkamer.jpg"
                     alt="Interieur kliniek Orthodontie Museumplein"
                     fill
                     className="object-cover"
