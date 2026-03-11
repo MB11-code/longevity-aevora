@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useLang } from "../lang-context";
+import { ScrollReveal } from "../scroll-reveal";
 
 export function BotoxContent() {
   const { t } = useLang();
@@ -10,67 +12,91 @@ export function BotoxContent() {
     <>
       <section className="py-28 bg-sand/10">
         <div className="max-w-4xl mx-auto px-6">
-          <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">{t("Behandeling", "Treatment")}</p>
-          <h1 className="font-playfair text-4xl md:text-6xl mb-8">{t("Botox tegen bruxisme", "Botox for bruxism")}</h1>
-          <p className="text-xl text-charcoal/60 max-w-2xl leading-relaxed">
-            {t(
-              "Tandenknarsen (bruxisme) treft tot 70% van de volwassenen en veroorzaakt kaakpijn, hoofdpijn en gebitsslijtage. Met een gerichte botoxbehandeling ontspannen wij de kaakspieren in slechts 15 minuten.",
-              "Teeth grinding (bruxism) affects up to 70% of adults, causing jaw pain, headaches and dental wear. With targeted botox we relax the jaw muscles in just 15 minutes."
-            )}
-          </p>
+          <ScrollReveal>
+            <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">{t("Behandeling", "Treatment")}</p>
+            <h1 className="font-playfair text-4xl md:text-6xl mb-8">{t("Botox tegen bruxisme", "Botox for bruxism")}</h1>
+            <p className="text-xl text-charcoal/60 max-w-2xl leading-relaxed">
+              {t(
+                "Tandenknarsen (bruxisme) treft tot 70% van de volwassenen en veroorzaakt kaakpijn, hoofdpijn en gebitsslijtage. Met een gerichte botoxbehandeling ontspannen wij de kaakspieren in slechts 15 minuten.",
+                "Teeth grinding (bruxism) affects up to 70% of adults, causing jaw pain, headaches and dental wear. With targeted botox we relax the jaw muscles in just 15 minutes."
+              )}
+            </p>
+          </ScrollReveal>
         </div>
       </section>
 
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-playfair text-3xl mb-10">{t("Wat is bruxisme?", "What is bruxism?")}</h2>
-          <div className="text-charcoal/60 space-y-5 leading-relaxed">
-            <p>
-              {t(
-                "Bruxisme is het onbewust knarsen of klemmen van de tanden, meestal 's nachts. Het wordt vaak veroorzaakt door stress, een afwijkende kaakstand of slaapstoornissen. Op lange termijn kan bruxisme leiden tot:",
-                "Bruxism is the unconscious grinding or clenching of teeth, usually at night. It is often caused by stress, jaw misalignment or sleep disorders. Long-term, bruxism can lead to:"
-              )}
-            </p>
-            <ul className="space-y-2 list-none pl-0">
-              {[
-                t("Slijtage en beschadiging van het glazuur", "Enamel wear and damage"),
-                t("Chronische kaakpijn (TMD/CMD)", "Chronic jaw pain (TMD/CMD)"),
-                t("Spanningshoofdpijn en migraine", "Tension headaches and migraines"),
-                t("Oorpijn en tinnitus", "Ear pain and tinnitus"),
-                t("Gestoorde slaapkwaliteit", "Disrupted sleep quality"),
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-3">
-                  <span className="w-1 h-1 rounded-full bg-teal mt-2.5 shrink-0" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-            <p>
-              {t(
-                "Vanuit het longevity-perspectief is bruxisme meer dan een tandheelkundig probleem: het is een signaal van chronische stress dat uw algehele gezondheid beïnvloedt.",
-                "From a longevity perspective, bruxism is more than a dental problem: it is a signal of chronic stress affecting your overall health."
-              )}
-            </p>
+          <div className="grid md:grid-cols-5 gap-12 items-start">
+            <div className="md:col-span-3">
+              <ScrollReveal>
+                <h2 className="font-playfair text-3xl mb-10">{t("Wat is bruxisme?", "What is bruxism?")}</h2>
+                <div className="text-charcoal/60 space-y-5 leading-relaxed">
+                  <p>
+                    {t(
+                      "Bruxisme is het onbewust knarsen of klemmen van de tanden, meestal 's nachts. Het wordt vaak veroorzaakt door stress, een afwijkende kaakstand of slaapstoornissen. Op lange termijn kan bruxisme leiden tot:",
+                      "Bruxism is the unconscious grinding or clenching of teeth, usually at night. It is often caused by stress, jaw misalignment or sleep disorders. Long-term, bruxism can lead to:"
+                    )}
+                  </p>
+                  <ul className="space-y-2 list-none pl-0">
+                    {[
+                      t("Slijtage en beschadiging van het glazuur", "Enamel wear and damage"),
+                      t("Chronische kaakpijn (TMD/CMD)", "Chronic jaw pain (TMD/CMD)"),
+                      t("Spanningshoofdpijn en migraine", "Tension headaches and migraines"),
+                      t("Oorpijn en tinnitus", "Ear pain and tinnitus"),
+                      t("Gestoorde slaapkwaliteit", "Disrupted sleep quality"),
+                    ].map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="w-1 h-1 rounded-full bg-teal mt-2.5 shrink-0" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p>
+                    {t(
+                      "Vanuit het longevity-perspectief is bruxisme meer dan een tandheelkundig probleem: het is een signaal van chronische stress dat uw algehele gezondheid beïnvloedt.",
+                      "From a longevity perspective, bruxism is more than a dental problem: it is a signal of chronic stress affecting your overall health."
+                    )}
+                  </p>
+                </div>
+              </ScrollReveal>
+            </div>
+            <div className="md:col-span-2">
+              <ScrollReveal staggerIndex={1}>
+                <div className="relative aspect-[3/4] overflow-hidden rounded-lg border border-sand/30">
+                  <Image
+                    src="/images/kliniek-interieur.jpg"
+                    alt="Interieur kliniek Orthodontie Museumplein"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </ScrollReveal>
+            </div>
           </div>
         </div>
       </section>
 
       <section className="py-24 bg-sand/10">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-playfair text-3xl mb-14">{t("De behandeling", "The treatment")}</h2>
+          <ScrollReveal>
+            <h2 className="font-playfair text-3xl mb-14">{t("De behandeling", "The treatment")}</h2>
+          </ScrollReveal>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               [t("Duur", "Duration"), t("15 minuten", "15 minutes"), t("Geen verdoving nodig", "No anaesthesia needed")],
               [t("Resultaat", "Results"), t("Na 1-2 weken", "After 1-2 weeks"), t("Geleidelijke ontspanning van de kaakspieren", "Gradual relaxation of the jaw muscles")],
               [t("Werkingsduur", "Duration of effect"), t("3-6 maanden", "3-6 months"), t("Bij herhaling vaak langer effect", "Repeated treatments often last longer")],
               [t("Prijs", "Price"), t("Op aanvraag", "On request"), t("Neem contact op voor een indicatie", "Contact us for an estimate")],
-            ].map(([title, value, note]) => (
-              <div key={title} className="bg-white p-8 border border-sand/20">
-                <div className="w-8 h-[1px] bg-gold mb-5" />
-                <h3 className="font-playfair text-lg mb-2">{title}</h3>
-                <p className="text-teal font-semibold text-lg">{value}</p>
-                <p className="text-sm text-charcoal/45 mt-2">{note}</p>
-              </div>
+            ].map(([title, value, note], i) => (
+              <ScrollReveal key={title} staggerIndex={i}>
+                <div className="bg-white p-8 border border-sand/20 rounded-lg">
+                  <div className="w-8 h-[1px] bg-gold mb-5" />
+                  <h3 className="font-playfair text-lg mb-2">{title}</h3>
+                  <p className="text-teal font-semibold text-lg">{value}</p>
+                  <p className="text-sm text-charcoal/45 mt-2">{note}</p>
+                </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -78,61 +104,69 @@ export function BotoxContent() {
 
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-playfair text-3xl mb-10">{t("Hoe werkt botox tegen tandenknarsen?", "How does botox work against teeth grinding?")}</h2>
-          <div className="space-y-5 text-charcoal/60 leading-relaxed">
-            <p>
-              {t(
-                "Botulinum toxine type A (botox) wordt in kleine doses geïnjecteerd in de musculus masseter — de grote kaakspier die verantwoordelijk is voor het klemmen en knarsen. De botox blokkeert tijdelijk de zenuwimpulsen naar de spier, waardoor deze ontspant.",
-                "Botulinum toxin type A (botox) is injected in small doses into the masseter muscle — the large jaw muscle responsible for clenching and grinding. The botox temporarily blocks nerve impulses to the muscle, causing it to relax."
-              )}
-            </p>
-            <p>
-              {t(
-                "Het resultaat: minder knarsen, minder kaakpijn, minder hoofdpijn en bescherming van uw gebit. De behandeling tast uw normale kauwfunctie niet aan.",
-                "The result: less grinding, less jaw pain, fewer headaches and protection of your teeth. The treatment does not affect your normal chewing function."
-              )}
-            </p>
-          </div>
+          <ScrollReveal>
+            <h2 className="font-playfair text-3xl mb-10">{t("Hoe werkt botox tegen tandenknarsen?", "How does botox work against teeth grinding?")}</h2>
+            <div className="space-y-5 text-charcoal/60 leading-relaxed">
+              <p>
+                {t(
+                  "Botulinum toxine type A (botox) wordt in kleine doses geïnjecteerd in de musculus masseter — de grote kaakspier die verantwoordelijk is voor het klemmen en knarsen. De botox blokkeert tijdelijk de zenuwimpulsen naar de spier, waardoor deze ontspant.",
+                  "Botulinum toxin type A (botox) is injected in small doses into the masseter muscle — the large jaw muscle responsible for clenching and grinding. The botox temporarily blocks nerve impulses to the muscle, causing it to relax."
+                )}
+              </p>
+              <p>
+                {t(
+                  "Het resultaat: minder knarsen, minder kaakpijn, minder hoofdpijn en bescherming van uw gebit. De behandeling tast uw normale kauwfunctie niet aan.",
+                  "The result: less grinding, less jaw pain, fewer headaches and protection of your teeth. The treatment does not affect your normal chewing function."
+                )}
+              </p>
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 
       <section className="py-24 bg-sand/10">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-playfair text-3xl mb-10">{t("Voor wie is deze behandeling?", "Who is this treatment for?")}</h2>
+          <ScrollReveal>
+            <h2 className="font-playfair text-3xl mb-10">{t("Voor wie is deze behandeling?", "Who is this treatment for?")}</h2>
+          </ScrollReveal>
           <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <h3 className="font-semibold mb-5 text-teal text-sm tracking-[0.15em] uppercase">{t("Geschikt voor u als", "Suitable for you if")}</h3>
-              <ul className="space-y-3 text-charcoal/60">
-                {[
-                  t("U 's nachts knarst of perst op de tanden", "You grind or clench your teeth at night"),
-                  t("U last heeft van kaakpijn of CMD", "You suffer from jaw pain or TMD"),
-                  t("Spanningshoofdpijn een terugkerend probleem is", "Tension headaches are a recurring issue"),
-                  t("Een bitesplint onvoldoende verlichting biedt", "A bite splint provides insufficient relief"),
-                  t("U gebitsslijtage wilt voorkomen", "You want to prevent dental wear"),
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-3">
-                    <span className="w-1 h-1 rounded-full bg-teal mt-2.5 shrink-0" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-5 text-charcoal/40 text-sm tracking-[0.15em] uppercase">{t("Niet geschikt bij", "Not suitable for")}</h3>
-              <ul className="space-y-3 text-charcoal/45">
-                {[
-                  t("Zwangerschap of borstvoeding", "Pregnancy or breastfeeding"),
-                  t("Neuromusculaire aandoeningen", "Neuromuscular disorders"),
-                  t("Allergie voor botulinum toxine", "Allergy to botulinum toxin"),
-                  t("Gebruik van bloedverdunners (overleg)", "Use of blood thinners (consult required)"),
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-3">
-                    <span className="w-1 h-1 rounded-full bg-charcoal/30 mt-2.5 shrink-0" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <ScrollReveal>
+              <div>
+                <h3 className="font-semibold mb-5 text-teal text-sm tracking-[0.15em] uppercase">{t("Geschikt voor u als", "Suitable for you if")}</h3>
+                <ul className="space-y-3 text-charcoal/60">
+                  {[
+                    t("U 's nachts knarst of perst op de tanden", "You grind or clench your teeth at night"),
+                    t("U last heeft van kaakpijn of CMD", "You suffer from jaw pain or TMD"),
+                    t("Spanningshoofdpijn een terugkerend probleem is", "Tension headaches are a recurring issue"),
+                    t("Een bitesplint onvoldoende verlichting biedt", "A bite splint provides insufficient relief"),
+                    t("U gebitsslijtage wilt voorkomen", "You want to prevent dental wear"),
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <span className="w-1 h-1 rounded-full bg-teal mt-2.5 shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </ScrollReveal>
+            <ScrollReveal staggerIndex={1}>
+              <div>
+                <h3 className="font-semibold mb-5 text-charcoal/40 text-sm tracking-[0.15em] uppercase">{t("Niet geschikt bij", "Not suitable for")}</h3>
+                <ul className="space-y-3 text-charcoal/45">
+                  {[
+                    t("Zwangerschap of borstvoeding", "Pregnancy or breastfeeding"),
+                    t("Neuromusculaire aandoeningen", "Neuromuscular disorders"),
+                    t("Allergie voor botulinum toxine", "Allergy to botulinum toxin"),
+                    t("Gebruik van bloedverdunners (overleg)", "Use of blood thinners (consult required)"),
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <span className="w-1 h-1 rounded-full bg-charcoal/30 mt-2.5 shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>
@@ -140,9 +174,11 @@ export function BotoxContent() {
       {/* FAQ */}
       <section className="py-24">
         <div className="max-w-3xl mx-auto px-6">
-          <h2 className="font-playfair text-3xl text-center mb-14">
-            {t("Veelgestelde vragen", "Frequently asked questions")}
-          </h2>
+          <ScrollReveal>
+            <h2 className="font-playfair text-3xl text-center mb-14">
+              {t("Veelgestelde vragen", "Frequently asked questions")}
+            </h2>
+          </ScrollReveal>
           <div className="space-y-4">
             {([
               [
@@ -165,14 +201,16 @@ export function BotoxContent() {
                 t("Hoe vaak moet ik terugkomen?", "How often do I need to return?"),
                 t("Gemiddeld 2-3 keer per jaar. Na verloop van tijd kan de frequentie afnemen doordat de spier structureel ontspant.", "On average 2-3 times per year. Over time the frequency may decrease as the muscle structurally relaxes."),
               ],
-            ] as [string, string][]).map(([q, a]) => (
-              <details key={q} className="group bg-sand/5 border border-sand/20 p-7">
-                <summary className="cursor-pointer list-none flex justify-between items-center">
-                  <span className="font-playfair text-lg pr-6">{q}</span>
-                  <span className="text-teal text-xl shrink-0 group-open:rotate-45 transition-transform duration-200">+</span>
-                </summary>
-                <p className="mt-5 text-charcoal/60 leading-relaxed text-sm">{a}</p>
-              </details>
+            ] as [string, string][]).map(([q, a], i) => (
+              <ScrollReveal key={q} staggerIndex={i}>
+                <details className="group bg-sand/5 border border-sand/20 p-7 rounded-lg">
+                  <summary className="cursor-pointer list-none flex justify-between items-center">
+                    <span className="font-playfair text-lg pr-6">{q}</span>
+                    <span className="text-teal text-xl shrink-0 group-open:rotate-45 transition-transform duration-200">+</span>
+                  </summary>
+                  <p className="mt-5 text-charcoal/60 leading-relaxed text-sm">{a}</p>
+                </details>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -180,15 +218,17 @@ export function BotoxContent() {
 
       <section className="py-24 bg-teal text-offwhite text-center">
         <div className="max-w-2xl mx-auto px-6">
-          <h2 className="font-playfair text-3xl md:text-4xl mb-8">
-            {t("Last van tandenknarsen?", "Suffering from teeth grinding?")}
-          </h2>
-          <p className="text-offwhite/60 mb-10">
-            {t("Maak een afspraak voor een vrijblijvend consult.", "Book a no-obligation consultation.")}
-          </p>
-          <Link href="/contact" className="inline-block bg-gold text-charcoal px-10 py-4 text-xs tracking-[0.25em] uppercase hover:bg-gold/90 transition-colors">
-            {t("Plan een afspraak", "Book an appointment")}
-          </Link>
+          <ScrollReveal>
+            <h2 className="font-playfair text-3xl md:text-4xl mb-8">
+              {t("Last van tandenknarsen?", "Suffering from teeth grinding?")}
+            </h2>
+            <p className="text-offwhite/60 mb-10">
+              {t("Maak een afspraak voor een vrijblijvend consult.", "Book a no-obligation consultation.")}
+            </p>
+            <Link href="/contact" className="inline-block bg-gold text-charcoal px-10 py-4 text-xs tracking-[0.25em] uppercase rounded-lg hover:bg-gold/90 transition-colors">
+              {t("Plan een afspraak", "Book an appointment")}
+            </Link>
+          </ScrollReveal>
         </div>
       </section>
     </>

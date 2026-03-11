@@ -8,6 +8,20 @@ export function Footer() {
 
   return (
     <footer className="bg-charcoal text-offwhite/80">
+      {/* Kwaliteitskeurmerken strip */}
+      <div className="border-b border-offwhite/10">
+        <div className="max-w-6xl mx-auto px-6 py-6 flex flex-wrap items-center justify-center gap-8 text-xs text-offwhite/30 tracking-[0.15em] uppercase">
+          <span>VTvO</span>
+          <span className="text-offwhite/10">|</span>
+          <span>EAS</span>
+          <span className="text-offwhite/10">|</span>
+          <span>ANT</span>
+          <span className="text-offwhite/10">|</span>
+          <span>OK Register</span>
+          <span className="text-offwhite/10">|</span>
+          <span>BIG-{t("geregistreerd", "registered")}</span>
+        </div>
+      </div>
       <div className="max-w-6xl mx-auto px-6 py-20">
         <div className="grid md:grid-cols-4 gap-12">
           <div>

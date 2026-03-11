@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { ScrollReveal } from "../scroll-reveal";
 import { useLang } from "../lang-context";
 
 export function GummySmileContent() {
@@ -65,7 +66,7 @@ export function GummySmileContent() {
               [t("Werkingsduur", "Duration of effect"), t("3-4 maanden", "3-4 months"), t("Herhaalbaar", "Repeatable")],
               [t("Prijs", "Price"), t("Op aanvraag", "On request"), t("Neem contact op voor een indicatie", "Contact us for an estimate")],
             ].map(([title, value, note]) => (
-              <div key={title} className="bg-white p-8 border border-sand/20">
+              <div key={title} className="bg-white p-8 border border-sand/20 rounded-lg">
                 <div className="w-8 h-[1px] bg-gold mb-5" />
                 <h3 className="font-playfair text-lg mb-2">{title}</h3>
                 <p className="text-teal font-semibold text-lg">{value}</p>
@@ -118,7 +119,7 @@ export function GummySmileContent() {
                 t("Bij een ernstige gummy smile kan een chirurgische lip-repositioning worden overwogen. Botox is de minst invasieve optie en een goed startpunt.", "For a severe gummy smile, surgical lip repositioning may be considered. Botox is the least invasive option and a good starting point."),
               ],
             ] as [string, string][]).map(([q, a]) => (
-              <details key={q} className="group bg-white border border-sand/20 p-7">
+              <details key={q} className="group bg-white border border-sand/20 p-7 rounded-lg">
                 <summary className="cursor-pointer list-none flex justify-between items-center">
                   <span className="font-playfair text-lg pr-6">{q}</span>
                   <span className="text-teal text-xl shrink-0 group-open:rotate-45 transition-transform duration-200">+</span>
@@ -136,7 +137,7 @@ export function GummySmileContent() {
             {t("Wilt u meer weten over gummy smile correctie?", "Want to know more about gummy smile correction?")}
           </h2>
           <p className="text-offwhite/60 mb-10">{t("Maak een afspraak voor een vrijblijvend consult.", "Book a no-obligation consultation.")}</p>
-          <Link href="/contact" className="inline-block bg-gold text-charcoal px-10 py-4 text-xs tracking-[0.25em] uppercase hover:bg-gold/90 transition-colors">
+          <Link href="/contact" className="inline-block bg-gold text-charcoal px-10 py-4 text-xs tracking-[0.25em] uppercase rounded-lg hover:bg-gold/90 transition-colors">
             {t("Plan een afspraak", "Book an appointment")}
           </Link>
         </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { ScrollReveal } from "../scroll-reveal";
 import { useLang } from "../lang-context";
 
 export function SlaapapneuContent() {
@@ -18,7 +19,7 @@ export function SlaapapneuContent() {
               "An estimated 10-15% of the Dutch population has a form of obstructive sleep apnea. Many cases go undiagnosed. We examine the relationship between your jaw position and airway obstruction."
             )}
           </p>
-          <div className="mt-10 inline-block border border-gold/40 text-gold px-6 py-3 text-xs tracking-[0.2em] uppercase">
+          <div className="mt-10 inline-block border border-gold/40 text-gold px-6 py-3 rounded-lg text-xs tracking-[0.2em] uppercase">
             {t("Binnenkort volledig beschikbaar", "Coming soon")}
           </div>
         </div>
@@ -88,7 +89,7 @@ export function SlaapapneuContent() {
               [t("Risicofactoren", "Risk Factors"), t("Inventarisatie van symptomen, BMI, nekomvang en slaappatroon", "Assessment of symptoms, BMI, neck circumference and sleep patterns")],
               [t("Doorverwijzing", "Referral"), t("Bij indicatie verwijzen wij voor een slaaponderzoek (polysomnografie)", "When indicated, we refer for a sleep study (polysomnography)")],
             ].map(([title, desc]) => (
-              <div key={title} className="p-8 border border-sand/20 bg-sand/5">
+              <div key={title} className="p-8 border border-sand/20 bg-sand/5 rounded-lg">
                 <div className="w-8 h-[1px] bg-gold mb-5" />
                 <h3 className="font-playfair text-lg mb-3">{title}</h3>
                 <p className="text-sm text-charcoal/60 leading-relaxed">{desc}</p>
@@ -140,7 +141,7 @@ export function SlaapapneuContent() {
                 t("Onbehandeld slaapapneu verhoogt het risico op hart- en vaatziekten, beroerte, diabetes type 2 en verkeersongevallen significant.", "Untreated sleep apnea significantly increases the risk of cardiovascular disease, stroke, type 2 diabetes and traffic accidents."),
               ],
             ] as [string, string][]).map(([q, a]) => (
-              <details key={q} className="group bg-sand/5 border border-sand/20 p-7">
+              <details key={q} className="group bg-sand/5 border border-sand/20 p-7 rounded-lg">
                 <summary className="cursor-pointer list-none flex justify-between items-center">
                   <span className="font-playfair text-lg pr-6">{q}</span>
                   <span className="text-teal text-xl shrink-0 group-open:rotate-45 transition-transform duration-200">+</span>
@@ -158,7 +159,7 @@ export function SlaapapneuContent() {
             {t("Benieuwd of u risico loopt op slaapapneu?", "Wondering if you're at risk for sleep apnea?")}
           </h2>
           <p className="text-offwhite/60 mb-10">{t("Maak een afspraak voor een screening.", "Book a screening appointment.")}</p>
-          <Link href="/contact" className="inline-block bg-gold text-charcoal px-10 py-4 text-xs tracking-[0.25em] uppercase hover:bg-gold/90 transition-colors">
+          <Link href="/contact" className="inline-block bg-gold text-charcoal px-10 py-4 text-xs tracking-[0.25em] uppercase rounded-lg hover:bg-gold/90 transition-colors">
             {t("Plan een screening", "Book a screening")}
           </Link>
         </div>

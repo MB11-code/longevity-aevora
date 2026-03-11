@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useLang } from "./lang-context";
+import { ScrollReveal } from "./scroll-reveal";
 
 export function HomeContent() {
   const { t } = useLang();
@@ -9,16 +11,22 @@ export function HomeContent() {
   return (
     <>
       {/* Hero */}
-      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-teal/5 via-offwhite to-sand/10" />
-        <div className="absolute top-20 right-0 w-[600px] h-[600px] rounded-full bg-sand/10 blur-3xl" />
+      <section className="relative min-h-[90vh] flex items-center overflow-hidden -mt-[72px] pt-[72px]">
+        <Image
+          src="/images/kliniek-hero.jpg"
+          alt="Orthodontie Museumplein kliniek Amsterdam"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-charcoal/50 to-transparent" />
         <div className="relative max-w-6xl mx-auto px-6 py-32">
           <div className="max-w-2xl">
             <p className="text-gold text-xs tracking-[0.35em] uppercase mb-8">Oral Longevity Clinic Amsterdam</p>
-            <h1 className="font-playfair text-5xl md:text-7xl leading-[1.08] text-charcoal mb-10">
+            <h1 className="font-playfair text-5xl md:text-7xl leading-[1.08] text-offwhite mb-10">
               {t("Uw gezondheid begint in de mond", "Your health begins in the mouth")}
             </h1>
-            <p className="text-lg md:text-xl text-charcoal/60 leading-relaxed mb-12 max-w-lg">
+            <p className="text-lg md:text-xl text-offwhite/70 leading-relaxed mb-12 max-w-lg">
               {t(
                 "ORAVIVUM verbindt orthodontische expertise met longevity-wetenschap. Wij kijken verder dan uw gebit — naar uw algehele gezondheid en vitaliteit.",
                 "ORAVIVUM connects orthodontic expertise with longevity science. We look beyond your teeth — at your overall health and vitality."
@@ -26,7 +34,7 @@ export function HomeContent() {
             </p>
             <Link
               href="/contact"
-              className="inline-block bg-teal text-offwhite px-10 py-4 text-xs tracking-[0.25em] uppercase hover:bg-teal/90 transition-colors"
+              className="inline-block bg-teal text-offwhite px-10 py-4 text-xs tracking-[0.25em] uppercase rounded-lg hover:bg-teal/90 transition-colors"
             >
               {t("Plan een afspraak", "Book an appointment")}
             </Link>
@@ -37,12 +45,14 @@ export function HomeContent() {
       {/* Diensten */}
       <section className="py-28 bg-offwhite">
         <div className="max-w-6xl mx-auto px-6">
-          <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4 text-center">
-            {t("Onze behandelingen", "Our treatments")}
-          </p>
-          <h2 className="font-playfair text-3xl md:text-5xl text-center mb-20">
-            {t("Drie pijlers van oral longevity", "Three pillars of oral longevity")}
-          </h2>
+          <ScrollReveal>
+            <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4 text-center">
+              {t("Onze behandelingen", "Our treatments")}
+            </p>
+            <h2 className="font-playfair text-3xl md:text-5xl text-center mb-20">
+              {t("Drie pijlers van oral longevity", "Three pillars of oral longevity")}
+            </h2>
+          </ScrollReveal>
           <div className="grid md:grid-cols-3 gap-10">
             {[
               {
@@ -69,17 +79,18 @@ export function HomeContent() {
                 ),
                 href: "/slaapapneu",
               },
-            ].map((d) => (
-              <Link
-                key={d.title}
-                href={d.href}
-                className="group p-10 border border-sand/30 hover:border-teal/30 transition-all duration-300 bg-white"
-              >
-                <div className="w-10 h-[1px] bg-gold mb-8" />
-                <h3 className="font-playfair text-xl mb-5 group-hover:text-teal transition-colors">{d.title}</h3>
-                <p className="text-charcoal/60 text-sm leading-relaxed mb-6">{d.desc}</p>
-                <span className="text-teal text-xs tracking-[0.2em] uppercase">{t("Meer informatie", "Learn more")} &rarr;</span>
-              </Link>
+            ].map((d, i) => (
+              <ScrollReveal key={d.title} staggerIndex={i}>
+                <Link
+                  href={d.href}
+                  className="group block p-10 border border-sand/30 hover:border-teal/30 transition-all duration-300 bg-white rounded-lg"
+                >
+                  <div className="w-10 h-[1px] bg-gold mb-8" />
+                  <h3 className="font-playfair text-xl mb-5 group-hover:text-teal transition-colors">{d.title}</h3>
+                  <p className="text-charcoal/60 text-sm leading-relaxed mb-6">{d.desc}</p>
+                  <span className="text-teal text-xs tracking-[0.2em] uppercase">{t("Meer informatie", "Learn more")} &rarr;</span>
+                </Link>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -88,18 +99,20 @@ export function HomeContent() {
       {/* Wetenschap */}
       <section className="py-28 bg-sand/10">
         <div className="max-w-6xl mx-auto px-6">
-          <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4 text-center">
-            {t("Wetenschap", "Science")}
-          </p>
-          <h2 className="font-playfair text-3xl md:text-5xl text-center mb-6">
-            {t("De mond als spiegel van uw gezondheid", "The mouth as a mirror of your health")}
-          </h2>
-          <p className="text-center text-charcoal/60 max-w-2xl mx-auto mb-20 leading-relaxed">
-            {t(
-              "Wetenschappelijk onderzoek laat steeds duidelijker zien dat mondgezondheid direct verbonden is met uw algehele gezondheid en levensverwachting.",
-              "Scientific research increasingly shows that oral health is directly linked to your overall health and life expectancy."
-            )}
-          </p>
+          <ScrollReveal>
+            <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4 text-center">
+              {t("Wetenschap", "Science")}
+            </p>
+            <h2 className="font-playfair text-3xl md:text-5xl text-center mb-6">
+              {t("De mond als spiegel van uw gezondheid", "The mouth as a mirror of your health")}
+            </h2>
+            <p className="text-center text-charcoal/60 max-w-2xl mx-auto mb-20 leading-relaxed">
+              {t(
+                "Wetenschappelijk onderzoek laat steeds duidelijker zien dat mondgezondheid direct verbonden is met uw algehele gezondheid en levensverwachting.",
+                "Scientific research increasingly shows that oral health is directly linked to your overall health and life expectancy."
+              )}
+            </p>
+          </ScrollReveal>
           <div className="grid md:grid-cols-3 gap-10">
             {[
               {
@@ -126,12 +139,14 @@ export function HomeContent() {
                 ),
                 source: "KNMT, 2023",
               },
-            ].map((s) => (
-              <div key={s.stat} className="text-center p-10 bg-white border border-sand/20">
-                <p className="font-playfair text-4xl md:text-5xl text-teal mb-5">{s.stat}</p>
-                <p className="text-charcoal/60 text-sm leading-relaxed mb-3">{s.label}</p>
-                <p className="text-xs text-charcoal/35 italic">{s.source}</p>
-              </div>
+            ].map((s, i) => (
+              <ScrollReveal key={s.stat} staggerIndex={i}>
+                <div className="text-center p-10 bg-white border border-sand/20 rounded-lg">
+                  <p className="font-playfair text-4xl md:text-5xl text-teal mb-5">{s.stat}</p>
+                  <p className="text-charcoal/60 text-sm leading-relaxed mb-3">{s.label}</p>
+                  <p className="text-xs text-charcoal/35 italic">{s.source}</p>
+                </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -141,33 +156,42 @@ export function HomeContent() {
       <section className="py-28 bg-offwhite">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-20 items-center">
-            <div>
-              <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">
-                {t("Over het team", "About the team")}
-              </p>
-              <h2 className="font-playfair text-3xl md:text-4xl mb-8">Lotte Meereboer, MSc</h2>
-              <p className="text-charcoal/60 leading-relaxed mb-5">
-                {t(
-                  "Tandarts voor orthodontie met meer dan 18 jaar ervaring. Studeerde Tandheelkunde aan de Vrije Universiteit en behaalde haar Master of Science Orthodontics aan de Universiteit van Murcia.",
-                  "Orthodontist with over 18 years of experience. Studied Dentistry at Vrije Universiteit Amsterdam and obtained her Master of Science in Orthodontics from the University of Murcia."
-                )}
-              </p>
-              <p className="text-charcoal/60 leading-relaxed mb-8">
-                {t(
-                  "Als oprichter van de Dutch Aligner Society en spreker op vele internationale symposia, combineert zij haar passie voor digitale orthodontie met de nieuwste inzichten uit longevity-wetenschap.",
-                  "As founder of the Dutch Aligner Society and speaker at numerous international symposia, she combines her passion for digital orthodontics with the latest longevity science insights."
-                )}
-              </p>
-              <p className="text-xs text-charcoal/40 mb-8 tracking-wide">
-                BIG-{t("geregistreerd", "registered")} · VTvO · European Aligner Society
-              </p>
-              <Link href="/over-ons" className="text-teal text-xs tracking-[0.2em] uppercase hover:underline underline-offset-4">
-                {t("Meer over ons team", "More about our team")} &rarr;
-              </Link>
-            </div>
-            <div className="bg-sand/20 aspect-[3/4] flex items-center justify-center border border-sand/30">
-              <p className="text-sm text-charcoal/25 tracking-wide">{t("Portretfoto volgt", "Portrait photo coming soon")}</p>
-            </div>
+            <ScrollReveal>
+              <div>
+                <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">
+                  {t("Over het team", "About the team")}
+                </p>
+                <h2 className="font-playfair text-3xl md:text-4xl mb-8">Lotte Meereboer, MSc</h2>
+                <p className="text-charcoal/60 leading-relaxed mb-5">
+                  {t(
+                    "Tandarts voor orthodontie met meer dan 18 jaar ervaring. Studeerde Tandheelkunde aan de Vrije Universiteit en behaalde haar Master of Science Orthodontics aan de Universiteit van Murcia.",
+                    "Orthodontist with over 18 years of experience. Studied Dentistry at Vrije Universiteit Amsterdam and obtained her Master of Science in Orthodontics from the University of Murcia."
+                  )}
+                </p>
+                <p className="text-charcoal/60 leading-relaxed mb-8">
+                  {t(
+                    "Als oprichter van de Dutch Aligner Society en spreker op vele internationale symposia, combineert zij haar passie voor digitale orthodontie met de nieuwste inzichten uit longevity-wetenschap.",
+                    "As founder of the Dutch Aligner Society and speaker at numerous international symposia, she combines her passion for digital orthodontics with the latest longevity science insights."
+                  )}
+                </p>
+                <p className="text-xs text-charcoal/40 mb-8 tracking-wide">
+                  BIG-{t("geregistreerd", "registered")} · VTvO · European Aligner Society
+                </p>
+                <Link href="/over-ons" className="text-teal text-xs tracking-[0.2em] uppercase hover:underline underline-offset-4">
+                  {t("Meer over ons team", "More about our team")} &rarr;
+                </Link>
+              </div>
+            </ScrollReveal>
+            <ScrollReveal staggerIndex={1}>
+              <div className="relative aspect-[3/4] overflow-hidden rounded-lg border border-sand/30">
+                <Image
+                  src="/images/lotte-meereboer.jpg"
+                  alt="Lotte Meereboer - Tandarts voor Orthodontie"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>
@@ -175,10 +199,12 @@ export function HomeContent() {
       {/* FAQ */}
       <section className="py-28 bg-sand/5">
         <div className="max-w-3xl mx-auto px-6">
-          <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4 text-center">FAQ</p>
-          <h2 className="font-playfair text-3xl md:text-4xl text-center mb-20">
-            {t("Veelgestelde vragen", "Frequently asked questions")}
-          </h2>
+          <ScrollReveal>
+            <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4 text-center">FAQ</p>
+            <h2 className="font-playfair text-3xl md:text-4xl text-center mb-20">
+              {t("Veelgestelde vragen", "Frequently asked questions")}
+            </h2>
+          </ScrollReveal>
           <div className="space-y-4">
             {([
               [
@@ -223,14 +249,16 @@ export function HomeContent() {
                   "Coverage depends on your insurance plan. Botox and gummy smile treatments are typically not covered by basic insurance. Sleep apnea treatment with an MRA may be covered in some cases. We are happy to advise you."
                 ),
               ],
-            ] as [string, string][]).map(([q, a]) => (
-              <details key={q} className="group bg-white border border-sand/20 p-7">
-                <summary className="cursor-pointer list-none flex justify-between items-center">
-                  <span className="font-playfair text-lg pr-6">{q}</span>
-                  <span className="text-teal text-xl shrink-0 group-open:rotate-45 transition-transform duration-200">+</span>
-                </summary>
-                <p className="mt-5 text-charcoal/60 leading-relaxed text-sm">{a}</p>
-              </details>
+            ] as [string, string][]).map(([q, a], i) => (
+              <ScrollReveal key={q} staggerIndex={i}>
+                <details className="group bg-white border border-sand/20 p-7 rounded-lg">
+                  <summary className="cursor-pointer list-none flex justify-between items-center">
+                    <span className="font-playfair text-lg pr-6">{q}</span>
+                    <span className="text-teal text-xl shrink-0 group-open:rotate-45 transition-transform duration-200">+</span>
+                  </summary>
+                  <p className="mt-5 text-charcoal/60 leading-relaxed text-sm">{a}</p>
+                </details>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -239,21 +267,23 @@ export function HomeContent() {
       {/* CTA */}
       <section className="py-28 bg-teal text-offwhite text-center">
         <div className="max-w-2xl mx-auto px-6">
-          <h2 className="font-playfair text-3xl md:text-5xl mb-8 leading-tight">
-            {t("Klaar voor een andere kijk op mondgezondheid?", "Ready for a new perspective on oral health?")}
-          </h2>
-          <p className="text-offwhite/60 mb-12 leading-relaxed">
-            {t(
-              "Maak een afspraak en ontdek wat oral longevity voor u kan betekenen.",
-              "Book an appointment and discover what oral longevity can do for you."
-            )}
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-gold text-charcoal px-10 py-4 text-xs tracking-[0.25em] uppercase hover:bg-gold/90 transition-colors"
-          >
-            {t("Plan een afspraak", "Book an appointment")}
-          </Link>
+          <ScrollReveal>
+            <h2 className="font-playfair text-3xl md:text-5xl mb-8 leading-tight">
+              {t("Klaar voor een andere kijk op mondgezondheid?", "Ready for a new perspective on oral health?")}
+            </h2>
+            <p className="text-offwhite/60 mb-12 leading-relaxed">
+              {t(
+                "Maak een afspraak en ontdek wat oral longevity voor u kan betekenen.",
+                "Book an appointment and discover what oral longevity can do for you."
+              )}
+            </p>
+            <Link
+              href="/contact"
+              className="inline-block bg-gold text-charcoal px-10 py-4 text-xs tracking-[0.25em] uppercase rounded-lg hover:bg-gold/90 transition-colors"
+            >
+              {t("Plan een afspraak", "Book an appointment")}
+            </Link>
+          </ScrollReveal>
         </div>
       </section>
     </>
