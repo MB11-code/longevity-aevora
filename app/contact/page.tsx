@@ -4,7 +4,7 @@ import { ContactContent } from "./content";
 export const metadata: Metadata = {
   title: "Contact — ORAVIVUM Oral Longevity Clinic Amsterdam",
   description:
-    "Maak een afspraak bij ORAVIVUM. Gevestigd aan de Teniersstraat 2 hs, Amsterdam, bij het Museumplein. Bel, mail of plan online uw afspraak.",
+    "Neem contact op met ORAVIVUM voor een afspraak of vrijblijvend advies. Gevestigd aan de Teniersstraat 2 hs, Amsterdam, bij het Museumplein. Bel 020 72 35 222.",
 };
 
 export default function ContactPage() {
