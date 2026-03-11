@@ -10,20 +10,26 @@ export function OverOnsContent() {
 
   return (
     <>
-      <section className="py-28 bg-offwhite">
-        <div className="max-w-4xl mx-auto px-6">
-          <ScrollReveal>
-            <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">{t("Over ons", "About us")}</p>
-            <h1 className="font-playfair text-4xl md:text-6xl mb-8">
-              {t("De mond als gateway to the body", "The mouth as gateway to the body")}
-            </h1>
-            <p className="text-xl text-charcoal/60 max-w-2xl leading-relaxed">
-              {t(
-                'ORAVIVUM — "De Levende Mond" — is geboren uit de overtuiging dat mondgezondheid de sleutel is tot een langer, gezonder leven.',
-                'ORAVIVUM — "The Living Mouth" — was born from the conviction that oral health is the key to a longer, healthier life.'
-              )}
-            </p>
-          </ScrollReveal>
+      <section className="relative min-h-[50vh] flex items-center overflow-hidden -mt-[72px] pt-[72px]">
+        <Image
+          src="/images/kliniek-hero.jpg"
+          alt="ORAVIVUM kliniek Amsterdam"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-charcoal/50 to-transparent" />
+        <div className="relative max-w-4xl mx-auto px-6 py-28">
+          <p className="text-gold text-xs tracking-[0.35em] uppercase mb-8">{t("Over ons", "About us")}</p>
+          <h1 className="font-playfair text-4xl md:text-6xl leading-[1.08] text-offwhite mb-10">
+            {t("De mond als gateway to the body", "The mouth as gateway to the body")}
+          </h1>
+          <p className="text-lg md:text-xl text-offwhite/70 leading-relaxed max-w-2xl">
+            {t(
+              'ORAVIVUM — "De Levende Mond" — is geboren uit de overtuiging dat mondgezondheid de sleutel is tot een langer, gezonder leven.',
+              'ORAVIVUM — "The Living Mouth" — was born from the conviction that oral health is the key to a longer, healthier life.'
+            )}
+          </p>
         </div>
       </section>
 

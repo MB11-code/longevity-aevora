@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useLang } from "../lang-context";
 import { ScrollReveal } from "../scroll-reveal";
 
@@ -52,20 +53,26 @@ export function ContactContent() {
 
   return (
     <>
-      <section className="py-28 bg-offwhite">
-        <div className="max-w-4xl mx-auto px-6">
-          <ScrollReveal>
-            <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">Contact</p>
-            <h1 className="font-playfair text-4xl md:text-6xl mb-8">
-              {t("Maak een afspraak", "Book an appointment")}
-            </h1>
-            <p className="text-xl text-charcoal/60 max-w-2xl leading-relaxed">
-              {t(
-                "Neem contact op met ORAVIVUM voor een afspraak of vrijblijvend advies. Wij staan graag voor u klaar.",
-                "Contact ORAVIVUM for an appointment or no-obligation advice. We look forward to hearing from you."
-              )}
-            </p>
-          </ScrollReveal>
+      <section className="relative min-h-[50vh] flex items-center overflow-hidden -mt-[72px] pt-[72px]">
+        <Image
+          src="/images/praktijk-buiten.jpg"
+          alt="ORAVIVUM praktijk Amsterdam"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-charcoal/50 to-transparent" />
+        <div className="relative max-w-4xl mx-auto px-6 py-28">
+          <p className="text-gold text-xs tracking-[0.35em] uppercase mb-8">Contact</p>
+          <h1 className="font-playfair text-4xl md:text-6xl leading-[1.08] text-offwhite mb-10">
+            {t("Maak een afspraak", "Book an appointment")}
+          </h1>
+          <p className="text-lg md:text-xl text-offwhite/70 leading-relaxed max-w-2xl">
+            {t(
+              "Neem contact op met ORAVIVUM voor een afspraak of vrijblijvend advies. Wij staan graag voor u klaar.",
+              "Contact ORAVIVUM for an appointment or no-obligation advice. We look forward to hearing from you."
+            )}
+          </p>
         </div>
       </section>
 

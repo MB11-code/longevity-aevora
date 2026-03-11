@@ -10,18 +10,24 @@ export function BotoxContent() {
 
   return (
     <>
-      <section className="py-28 bg-offwhite">
-        <div className="max-w-4xl mx-auto px-6">
-          <ScrollReveal>
-            <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">{t("Behandeling", "Treatment")}</p>
-            <h1 className="font-playfair text-4xl md:text-6xl mb-8">{t("Botox tegen bruxisme", "Botox for bruxism")}</h1>
-            <p className="text-xl text-charcoal/60 max-w-2xl leading-relaxed">
-              {t(
-                "Tandenknarsen (bruxisme) treft tot 70% van de volwassenen en veroorzaakt kaakpijn, hoofdpijn en gebitsslijtage. Met een gerichte botoxbehandeling ontspannen wij de kaakspieren in slechts 15 minuten.",
-                "Teeth grinding (bruxism) affects up to 70% of adults, causing jaw pain, headaches and dental wear. With targeted botox we relax the jaw muscles in just 15 minutes."
-              )}
-            </p>
-          </ScrollReveal>
+      <section className="relative min-h-[50vh] flex items-center overflow-hidden -mt-[72px] pt-[72px]">
+        <Image
+          src="/images/behandelkamer.jpg"
+          alt="Behandelkamer ORAVIVUM"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-charcoal/50 to-transparent" />
+        <div className="relative max-w-4xl mx-auto px-6 py-28">
+          <p className="text-gold text-xs tracking-[0.35em] uppercase mb-8">{t("Behandeling", "Treatment")}</p>
+          <h1 className="font-playfair text-4xl md:text-6xl leading-[1.08] text-offwhite mb-10">{t("Botox tegen bruxisme", "Botox for bruxism")}</h1>
+          <p className="text-lg md:text-xl text-offwhite/70 leading-relaxed max-w-2xl">
+            {t(
+              "Tandenknarsen (bruxisme) treft tot 70% van de volwassenen en veroorzaakt kaakpijn, hoofdpijn en gebitsslijtage. Met een gerichte botoxbehandeling ontspannen wij de kaakspieren in slechts 15 minuten.",
+              "Teeth grinding (bruxism) affects up to 70% of adults, causing jaw pain, headaches and dental wear. With targeted botox we relax the jaw muscles in just 15 minutes."
+            )}
+          </p>
         </div>
       </section>
 

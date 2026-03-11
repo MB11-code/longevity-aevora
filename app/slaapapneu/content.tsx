@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ScrollReveal } from "../scroll-reveal";
 import { useLang } from "../lang-context";
 
@@ -9,21 +10,27 @@ export function SlaapapneuContent() {
 
   return (
     <>
-      <section className="py-28 bg-offwhite">
-        <div className="max-w-4xl mx-auto px-6">
-          <ScrollReveal>
-            <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">{t("Screening & Behandeling", "Screening & Treatment")}</p>
-            <h1 className="font-playfair text-4xl md:text-6xl mb-8">{t("Slaapapneu screening", "Sleep apnea screening")}</h1>
-            <p className="text-xl text-charcoal/60 max-w-2xl leading-relaxed">
-              {t(
-                "Naar schatting heeft 10-15% van de Nederlandse bevolking een vorm van obstructief slaapapneu. Bij veel mensen wordt dit niet gediagnosticeerd. Wij onderzoeken de relatie tussen uw kaakpositie en luchtwegobstructie.",
-                "An estimated 10-15% of the Dutch population has a form of obstructive sleep apnea. Many cases go undiagnosed. We examine the relationship between your jaw position and airway obstruction."
-              )}
-            </p>
-            <div className="mt-10 inline-block border border-gold/40 text-gold px-6 py-3 rounded-lg text-xs tracking-[0.2em] uppercase">
-              {t("Binnenkort volledig beschikbaar", "Coming soon")}
-            </div>
-          </ScrollReveal>
+      <section className="relative min-h-[50vh] flex items-center overflow-hidden -mt-[72px] pt-[72px]">
+        <Image
+          src="/images/praktijk-buiten.jpg"
+          alt="ORAVIVUM praktijk Amsterdam Museumplein"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-charcoal/50 to-transparent" />
+        <div className="relative max-w-4xl mx-auto px-6 py-28">
+          <p className="text-gold text-xs tracking-[0.35em] uppercase mb-8">{t("Screening & Behandeling", "Screening & Treatment")}</p>
+          <h1 className="font-playfair text-4xl md:text-6xl leading-[1.08] text-offwhite mb-10">{t("Slaapapneu screening", "Sleep apnea screening")}</h1>
+          <p className="text-lg md:text-xl text-offwhite/70 leading-relaxed max-w-2xl">
+            {t(
+              "Naar schatting heeft 10-15% van de Nederlandse bevolking een vorm van obstructief slaapapneu. Bij veel mensen wordt dit niet gediagnosticeerd. Wij onderzoeken de relatie tussen uw kaakpositie en luchtwegobstructie.",
+              "An estimated 10-15% of the Dutch population has a form of obstructive sleep apnea. Many cases go undiagnosed. We examine the relationship between your jaw position and airway obstruction."
+            )}
+          </p>
+          <div className="mt-10 inline-block border border-gold/40 text-gold px-6 py-3 rounded-lg text-xs tracking-[0.2em] uppercase">
+            {t("Binnenkort volledig beschikbaar", "Coming soon")}
+          </div>
         </div>
       </section>
 

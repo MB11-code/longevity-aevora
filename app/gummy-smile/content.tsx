@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ScrollReveal } from "../scroll-reveal";
 import { useLang } from "../lang-context";
 
@@ -9,18 +10,24 @@ export function GummySmileContent() {
 
   return (
     <>
-      <section className="py-28 bg-offwhite">
-        <div className="max-w-4xl mx-auto px-6">
-          <ScrollReveal>
-            <p className="text-gold text-xs tracking-[0.35em] uppercase mb-4">{t("Behandeling", "Treatment")}</p>
-            <h1 className="font-playfair text-4xl md:text-6xl mb-8">{t("Gummy smile behandeling", "Gummy smile treatment")}</h1>
-            <p className="text-xl text-charcoal/60 max-w-2xl leading-relaxed">
-              {t(
-                "Een gummy smile — wanneer bij het lachen opvallend veel tandvlees zichtbaar is — kan onzekerheid veroorzaken. Met een gerichte botoxbehandeling bereiken wij een natuurlijkere lachlijn.",
-                "A gummy smile — when a significant amount of gum tissue shows while smiling — can cause self-consciousness. With targeted botox we achieve a more natural smile line."
-              )}
-            </p>
-          </ScrollReveal>
+      <section className="relative min-h-[50vh] flex items-center overflow-hidden -mt-[72px] pt-[72px]">
+        <Image
+          src="/images/kliniek-interieur.jpg"
+          alt="Interieur ORAVIVUM kliniek"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-charcoal/50 to-transparent" />
+        <div className="relative max-w-4xl mx-auto px-6 py-28">
+          <p className="text-gold text-xs tracking-[0.35em] uppercase mb-8">{t("Behandeling", "Treatment")}</p>
+          <h1 className="font-playfair text-4xl md:text-6xl leading-[1.08] text-offwhite mb-10">{t("Gummy smile behandeling", "Gummy smile treatment")}</h1>
+          <p className="text-lg md:text-xl text-offwhite/70 leading-relaxed max-w-2xl">
+            {t(
+              "Een gummy smile — wanneer bij het lachen opvallend veel tandvlees zichtbaar is — kan onzekerheid veroorzaken. Met een gerichte botoxbehandeling bereiken wij een natuurlijkere lachlijn.",
+              "A gummy smile — when a significant amount of gum tissue shows while smiling — can cause self-consciousness. With targeted botox we achieve a more natural smile line."
+            )}
+          </p>
         </div>
       </section>
 
