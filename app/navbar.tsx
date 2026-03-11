@@ -16,35 +16,33 @@ export function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-teal/95 backdrop-blur-md shadow-lg"
-          : "bg-transparent"
+      className={`fixed top-0 w-full z-50 transition-all duration-300 bg-teal/95 backdrop-blur-md ${
+        scrolled ? "shadow-lg" : ""
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className={`font-playfair font-bold tracking-wide transition-colors duration-300 ${scrolled ? "text-offwhite" : "text-teal"}`}>
+        <Link href="/" className="font-playfair font-bold tracking-wide text-offwhite">
           <span className="text-2xl">ORAVIVUM</span>
         </Link>
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/botox-bruxisme" className={`text-xs tracking-[0.2em] uppercase transition-colors ${scrolled ? "text-offwhite/70 hover:text-offwhite" : "text-charcoal/70 hover:text-teal"}`}>
+          <Link href="/botox-bruxisme" className="text-xs tracking-[0.2em] uppercase transition-colors text-offwhite/70 hover:text-offwhite">
             {t("Bruxisme", "Bruxism")}
           </Link>
-          <Link href="/gummy-smile" className={`text-xs tracking-[0.2em] uppercase transition-colors ${scrolled ? "text-offwhite/70 hover:text-offwhite" : "text-charcoal/70 hover:text-teal"}`}>
+          <Link href="/gummy-smile" className="text-xs tracking-[0.2em] uppercase transition-colors text-offwhite/70 hover:text-offwhite">
             Gummy Smile
           </Link>
-          <Link href="/slaapapneu" className={`text-xs tracking-[0.2em] uppercase transition-colors ${scrolled ? "text-offwhite/70 hover:text-offwhite" : "text-charcoal/70 hover:text-teal"}`}>
+          <Link href="/slaapapneu" className="text-xs tracking-[0.2em] uppercase transition-colors text-offwhite/70 hover:text-offwhite">
             {t("Slaapapneu", "Sleep Apnea")}
           </Link>
-          <Link href="/over-ons" className={`text-xs tracking-[0.2em] uppercase transition-colors ${scrolled ? "text-offwhite/70 hover:text-offwhite" : "text-charcoal/70 hover:text-teal"}`}>
+          <Link href="/over-ons" className="text-xs tracking-[0.2em] uppercase transition-colors text-offwhite/70 hover:text-offwhite">
             {t("Over Ons", "About")}
           </Link>
-          <Link href="/contact" className={`text-xs tracking-[0.2em] uppercase px-5 py-2.5 rounded-lg transition-colors ${scrolled ? "bg-gold text-charcoal hover:bg-gold/90" : "bg-teal text-offwhite hover:bg-teal/90"}`}>
+          <Link href="/contact" className="text-xs tracking-[0.2em] uppercase px-5 py-2.5 rounded-lg transition-colors bg-gold text-charcoal hover:bg-gold/90">
             {t("Afspraak", "Appointment")}
           </Link>
           <button
             onClick={toggle}
-            className={`text-xs tracking-[0.2em] uppercase border px-3 py-1.5 rounded-lg transition-colors ${scrolled ? "border-offwhite/30 text-offwhite/60 hover:border-offwhite hover:text-offwhite" : "border-sand/60 text-charcoal/60 hover:border-teal hover:text-teal"}`}
+            className="text-xs tracking-[0.2em] uppercase border px-3 py-1.5 rounded-lg transition-colors border-offwhite/30 text-offwhite/60 hover:border-offwhite hover:text-offwhite"
             aria-label="Switch language"
           >
             {lang === "nl" ? "EN" : "NL"}
@@ -54,12 +52,12 @@ export function Navbar() {
         <div className="md:hidden flex items-center gap-3">
           <button
             onClick={toggle}
-            className={`text-xs tracking-[0.2em] uppercase border px-2 py-1 rounded-lg ${scrolled ? "border-offwhite/30 text-offwhite/60" : "border-sand/60 text-charcoal/60"}`}
+            className="text-xs tracking-[0.2em] uppercase border px-2 py-1 rounded-lg border-offwhite/30 text-offwhite/60"
           >
             {lang === "nl" ? "EN" : "NL"}
           </button>
           <details className="relative">
-            <summary className={`list-none cursor-pointer p-2 ${scrolled ? "text-offwhite" : "text-charcoal"}`}>
+            <summary className="list-none cursor-pointer p-2 text-offwhite">
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
