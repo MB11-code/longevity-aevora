@@ -6,6 +6,7 @@ import { LangProvider } from "./lang-context";
 import { Navbar } from "./navbar";
 import { Footer } from "./footer";
 import { CookieBanner } from "./cookie-banner";
+import { Analytics } from "./analytics";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -81,6 +82,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="pt-[72px]">{children}</main>
           <Footer />
           <CookieBanner />
+          <Analytics />
         </LangProvider>
       </body>
     </html>

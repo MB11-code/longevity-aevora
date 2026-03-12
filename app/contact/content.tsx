@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { useLang } from "../lang-context";
 import { ScrollReveal } from "../scroll-reveal";
+import { trackEvent } from "../analytics";
 
 export function ContactContent() {
   const { t } = useLang();
@@ -39,6 +40,10 @@ export function ContactContent() {
 
       if (res.ok) {
         setStatus("success");
+        trackEvent("form_submit", {
+          form_name: "contact",
+          behandeling: data.behandeling || "geen",
+        });
         form.reset();
       } else {
         const json = await res.json();
@@ -96,7 +101,7 @@ export function ContactContent() {
                   </div>
                   <div>
                     <h3 className="text-xs tracking-[0.2em] uppercase text-gold mb-3">{t("Telefoon", "Phone")}</h3>
-                    <p className="text-charcoal/60">020 72 35 222</p>
+                    <a href="tel:+31207235222" className="text-charcoal/60 hover:text-teal transition-colors">020 72 35 222</a>
                   </div>
                   <div>
                     <h3 className="text-xs tracking-[0.2em] uppercase text-gold mb-3">E-mail</h3>

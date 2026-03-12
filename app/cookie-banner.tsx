@@ -19,8 +19,8 @@ export function CookieBanner() {
     localStorage.setItem("oravivum-cookies", level);
     setVisible(false);
     if (level === "all") {
-      // Load analytics here when ready
-      // e.g. window.gtag?.('consent', 'update', { analytics_storage: 'granted' });
+      // Signal the Analytics component to load GA4 (same-tab)
+      window.dispatchEvent(new Event("oravivum-consent"));
     }
   }
 

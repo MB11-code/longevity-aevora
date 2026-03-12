@@ -46,7 +46,7 @@ export function Footer() {
             <div className="space-y-3 text-sm text-offwhite/60">
               <p>Teniersstraat 2 hs</p>
               <p>1071 DX Amsterdam</p>
-              <p>020 72 35 222</p>
+              <p><a href="tel:+31207235222" className="hover:text-offwhite transition-colors">020 72 35 222</a></p>
             </div>
           </div>
           <div>
