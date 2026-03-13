@@ -24,8 +24,8 @@ export function GummySmileContent() {
           <h1 className="font-playfair text-4xl md:text-6xl leading-[1.08] text-offwhite mb-10">{t("Gummy smile behandeling", "Gummy smile treatment")}</h1>
           <p className="text-lg md:text-xl text-offwhite/70 leading-relaxed max-w-2xl">
             {t(
-              "Een gummy smile — wanneer bij het lachen opvallend veel tandvlees zichtbaar is — kan onzekerheid veroorzaken. Met een gerichte botoxbehandeling bereiken wij een natuurlijkere lachlijn.",
-              "A gummy smile — when a significant amount of gum tissue shows while smiling — can cause self-consciousness. With targeted botox we achieve a more natural smile line."
+              "Een gummy smile — wanneer bij het lachen opvallend veel tandvlees zichtbaar is — kan onzekerheid veroorzaken. Met een gerichte behandeling met botulinetoxine bereiken wij een natuurlijkere lachlijn.",
+              "A gummy smile — when a significant amount of gum tissue shows while smiling — can cause self-consciousness. With targeted botulinum toxin we achieve a more natural smile line."
             )}
           </p>
         </div>
@@ -135,8 +135,8 @@ export function GummySmileContent() {
                 t("Gemiddeld 3 tot 4 maanden. Daarna kan de behandeling eenvoudig herhaald worden.", "On average 3 to 4 months. After that, the treatment can easily be repeated."),
               ],
               [
-                t("Zijn er alternatieven voor botox?", "Are there alternatives to botox?"),
-                t("Bij een ernstige gummy smile kan een chirurgische lip-repositioning worden overwogen. Botox is de minst invasieve optie en een goed startpunt.", "For a severe gummy smile, surgical lip repositioning may be considered. Botox is the least invasive option and a good starting point."),
+                t("Zijn er alternatieven voor botulinetoxine?", "Are there alternatives to botulinum toxin?"),
+                t("Bij een ernstige gummy smile kan een chirurgische lip-repositioning worden overwogen. Botulinetoxine is de minst invasieve optie en een goed startpunt.", "For a severe gummy smile, surgical lip repositioning may be considered. Botulinum toxin is the least invasive option and a good starting point."),
               ],
             ] as [string, string][]).map(([q, a], i) => (
               <ScrollReveal key={q} staggerIndex={i}>

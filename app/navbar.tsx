@@ -25,7 +25,7 @@ export function Navbar() {
           <span className="text-2xl">ORAVIVUM</span>
         </Link>
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/botox-bruxisme" className="text-xs tracking-[0.2em] uppercase transition-colors text-offwhite/70 hover:text-offwhite">
+          <Link href="/bruxisme-behandeling" className="text-xs tracking-[0.2em] uppercase transition-colors text-offwhite/70 hover:text-offwhite">
             {t("Bruxisme", "Bruxism")}
           </Link>
           <Link href="/gummy-smile" className="text-xs tracking-[0.2em] uppercase transition-colors text-offwhite/70 hover:text-offwhite">
@@ -66,7 +66,7 @@ export function Navbar() {
               </svg>
             </summary>
             <div className="absolute right-0 top-full mt-2 bg-offwhite border border-sand/40 shadow-lg py-4 px-6 flex flex-col gap-4 min-w-[200px] rounded-lg">
-              <Link href="/botox-bruxisme" className="text-xs tracking-[0.2em] uppercase">{t("Bruxisme", "Bruxism")}</Link>
+              <Link href="/bruxisme-behandeling" className="text-xs tracking-[0.2em] uppercase">{t("Bruxisme", "Bruxism")}</Link>
               <Link href="/gummy-smile" className="text-xs tracking-[0.2em] uppercase">Gummy Smile</Link>
               <Link href="/slaapapneu" className="text-xs tracking-[0.2em] uppercase">{t("Slaapapneu", "Sleep Apnea")}</Link>
               <Link href="/over-ons" className="text-xs tracking-[0.2em] uppercase">{t("Over Ons", "About")}</Link>

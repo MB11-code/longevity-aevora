@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { BotoxContent } from "./content";
+import { BruxismeContent } from "./content";
 
 export const metadata: Metadata = {
-  title: "Botox Bruxisme Amsterdam — Tandenknarsen Behandeling",
+  title: "Bruxisme Behandeling Amsterdam — Tandenknarsen Behandeling",
   description:
-    "Botox tegen bruxisme (tandenknarsen) bij ORAVIVUM Amsterdam. Behandeling duurt 15 minuten, werkt 3-6 maanden. Ervaren orthodontist bij het Museumplein.",
+    "Botulinetoxine tegen bruxisme (tandenknarsen) bij ORAVIVUM Amsterdam. Behandeling duurt 15 minuten, werkt 3-6 maanden. Ervaren orthodontist bij het Museumplein.",
 };
 
 const schemas = [
   {
     "@context": "https://schema.org",
     "@type": "MedicalProcedure",
-    name: "Botox behandeling tegen bruxisme",
+    name: "Botulinetoxine behandeling tegen bruxisme",
     procedureType: "NonInvasive",
     bodyLocation: "Kaakspieren (m. masseter)",
     preparation: "Geen voorbereiding nodig",
@@ -20,11 +20,11 @@ const schemas = [
   },
 ];
 
-export default function BotoxBruxismePage() {
+export default function BruxismeBehandelingPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }} />
-      <BotoxContent />
+      <BruxismeContent />
     </>
   );
 }

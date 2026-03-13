@@ -1,36 +1,36 @@
 ---
-title: "Botox bij bruxisme: wat kunt u verwachten?"
-titleEn: "Botox for Bruxism: What Can You Expect?"
-description: "Alles over botox als behandeling tegen bruxisme: werking, procedure, resultaten en veelgestelde vragen."
-descriptionEn: "Everything about botox as a treatment for bruxism: how it works, the procedure, results and frequently asked questions."
+title: "Botulinetoxine bij bruxisme: wat kunt u verwachten?"
+titleEn: "Botulinum Toxin for Bruxism: What Can You Expect?"
+description: "Alles over botulinetoxine als behandeling tegen bruxisme: werking, procedure, resultaten en veelgestelde vragen."
+descriptionEn: "Everything about botulinum toxin as a treatment for bruxism: how it works, the procedure, results and frequently asked questions."
 date: "2026-03-10"
 readTime: "6 min"
-slug: "botox-bij-bruxisme-wat-kunt-u-verwachten"
-keywords: ["botox bruxisme", "botox kaakspier", "botox tandenknarsen", "bruxisme behandeling botox"]
+slug: "botulinetoxine-bij-bruxisme-wat-kunt-u-verwachten"
+keywords: ["bruxisme behandeling", "botulinetoxine kaakspier", "tandenknarsen behandeling", "bruxisme botulinetoxine"]
 ---
 
-## Botox tegen tandenknarsen: een moderne oplossing
+## Botulinetoxine tegen tandenknarsen: een moderne oplossing
 
-Botox is al decennia bekend als cosmetisch middel, maar de medische toepassingen worden steeds breder erkend. Een van de meest effectieve toepassingen is de behandeling van **bruxisme** — het onbewust knarsen en klemmen van de tanden. Bij ORAVIVUM passen wij deze behandeling toe vanuit onze expertise in de orofaciale anatomie.
+Botulinetoxine is al decennia bekend als cosmetisch middel, maar de medische toepassingen worden steeds breder erkend. Een van de meest effectieve toepassingen is de behandeling van **bruxisme** — het onbewust knarsen en klemmen van de tanden. Bij ORAVIVUM passen wij deze behandeling toe vanuit onze expertise in de orofaciale anatomie.
 
-## Hoe werkt botox bij bruxisme?
+## Hoe werkt botulinetoxine bij bruxisme?
 
-Botulinetoxine type A (botox) werkt door de zenuwsignalen naar de spier tijdelijk te blokkeren. Bij bruxisme wordt het geïnjecteerd in de **musculus masseter** — de krachtige kaakspier die verantwoordelijk is voor het dichtbijten.
+Botulinetoxine type A werkt door de zenuwsignalen naar de spier tijdelijk te blokkeren. Bij bruxisme wordt het geïnjecteerd in de **musculus masseter** — de krachtige kaakspier die verantwoordelijk is voor het dichtbijten.
 
 Het werkingsmechanisme in het kort:
 
-1. **Injectie** — Botox wordt op strategische punten in de masseter geïnjecteerd
+1. **Injectie** — Botulinetoxine wordt op strategische punten in de masseter geïnjecteerd
 2. **Blokkade** — Het toxine blokkeert de afgifte van acetylcholine aan de neuromusculaire junctie
 3. **Ontspanning** — De spier kan zich niet meer maximaal samentrekken
 4. **Resultaat** — De knarsdruk neemt significant af, terwijl u normaal kunt kauwen en spreken
 
-Het is belangrijk te begrijpen dat botox de spier niet verlamt. De dosering wordt zorgvuldig afgestemd zodat de normale kaakfunctie behouden blijft, maar de excessieve krachten van het knarsen worden verminderd.
+Het is belangrijk te begrijpen dat botulinetoxine de spier niet verlamt. De dosering wordt zorgvuldig afgestemd zodat de normale kaakfunctie behouden blijft, maar de excessieve krachten van het knarsen worden verminderd.
 
 ## De procedure: stap voor stap
 
 ### Voorbereiding
 
-Een botoxbehandeling voor bruxisme vereist geen bijzondere voorbereiding. Wij adviseren wel:
+Een behandeling met botulinetoxine voor bruxisme vereist geen bijzondere voorbereiding. Wij adviseren wel:
 
 - Geen bloedverdunnende medicijnen of supplementen (zoals aspirine, ibuprofen of visolie) 48 uur voor de behandeling
 - Geen alcohol 24 uur voorafgaand
@@ -76,7 +76,7 @@ Een bijkomend voordeel: bij patiënten met een vergrote masseter (kaakspierhyper
 
 ## Risico's en bijwerkingen
 
-Zoals bij elke medische behandeling zijn er mogelijke bijwerkingen, hoewel deze bij botox in de masseter zeldzaam zijn:
+Zoals bij elke medische behandeling zijn er mogelijke bijwerkingen, hoewel deze bij botulinetoxine in de masseter zeldzaam zijn:
 
 - **Lichte pijn of blauwe plek** op de injectieplaats (verdwijnt binnen dagen)
 - **Tijdelijke kauwvermoeidheid** bij zeer taai voedsel (eerste weken)
@@ -87,7 +87,7 @@ Bij ORAVIVUM wordt de behandeling uitsluitend uitgevoerd door specialisten met g
 
 ## Voor wie is deze behandeling geschikt?
 
-Botox tegen bruxisme is geschikt voor volwassenen die:
+Botulinetoxine tegen bruxisme is geschikt voor volwassenen die:
 
 - Aantoonbaar tandenknarsen of -klemmen (bevestigd door tandarts of partner)
 - Last hebben van kaakpijn, hoofdpijn of gebitsslijtage door bruxisme
@@ -102,7 +102,7 @@ De behandeling wordt **niet** aanbevolen bij:
 
 ## De kosten
 
-De kosten voor een botoxbehandeling tegen bruxisme liggen doorgaans tussen de €300 en €500 per sessie, afhankelijk van de benodigde dosering. De behandeling wordt op dit moment niet vergoed door de basisverzekering, maar sommige aanvullende verzekeringen bieden gedeeltelijke dekking.
+De kosten voor een behandeling met botulinetoxine tegen bruxisme liggen doorgaans tussen de €300 en €500 per sessie, afhankelijk van de benodigde dosering. De behandeling wordt op dit moment niet vergoed door de basisverzekering, maar sommige aanvullende verzekeringen bieden gedeeltelijke dekking.
 
 Gezien de kosten van de alternatieve gevolgen — denk aan kronen, bruggen, fysiotherapie en chronische pijnmedicatie — beschouwen veel patiënten het als een waardevolle investering in hun gezondheid.
 
@@ -122,46 +122,46 @@ Ja. De dosering is zo afgestemd dat uw normale kauwfunctie behouden blijft. Somm
 
 ### Is het veilig op de lange termijn?
 
-Botox wordt al meer dan 30 jaar medisch toegepast. Langetermijnstudies naar het gebruik in de masseter tonen geen significante nadelige effecten. De spier herstelt zich volledig wanneer de behandeling wordt gestaakt.
+Botulinetoxine wordt al meer dan 30 jaar medisch toegepast. Langetermijnstudies naar het gebruik in de masseter tonen geen significante nadelige effecten. De spier herstelt zich volledig wanneer de behandeling wordt gestaakt.
 
 ### Kan ik het combineren met een bitesplint?
 
-Absoluut. Veel van onze patiënten combineren botox met een bitesplint voor optimale bescherming. De botox vermindert de krachten, de splint beschermt het gebit.
+Absoluut. Veel van onze patiënten combineren botulinetoxine met een bitesplint voor optimale bescherming. De botulinetoxine vermindert de krachten, de splint beschermt het gebit.
 
 ### Waarom bij ORAVIVUM?
 
-Als orthodontische praktijk zijn wij gespecialiseerd in de structuur en functie van het kaakgebied. Wij kennen de anatomie als geen ander, wat resulteert in een precieze plaatsing en optimaal resultaat. Bovendien kijken wij naar het totaalplaatje: past botox bij uw situatie, of is een andere aanpak effectiever?
+Als orthodontische praktijk zijn wij gespecialiseerd in de structuur en functie van het kaakgebied. Wij kennen de anatomie als geen ander, wat resulteert in een precieze plaatsing en optimaal resultaat. Bovendien kijken wij naar het totaalplaatje: past botulinetoxine bij uw situatie, of is een andere aanpak effectiever?
 
 ## De volgende stap
 
-Overweegt u een botoxbehandeling tegen bruxisme? Bij ORAVIVUM bespreken wij graag uw situatie tijdens een [persoonlijk consult](/contact). Wij nemen de tijd om uw klachten in kaart te brengen en adviseren u eerlijk over de best passende behandeling.
+Overweegt u een behandeling met botulinetoxine tegen bruxisme? Bij ORAVIVUM bespreken wij graag uw situatie tijdens een [persoonlijk consult](/contact). Wij nemen de tijd om uw klachten in kaart te brengen en adviseren u eerlijk over de best passende behandeling.
 
 Lees ook ons artikel over [tandenknarsen: oorzaken, gevolgen en behandelingen](/kennisbank/tandenknarsen-oorzaken-gevolgen-behandelingen) voor een uitgebreid overzicht van dit veelvoorkomende probleem.
 
 ---EN---
 
-## Botox for Teeth Grinding: A Modern Solution
+## Botulinum Toxin for Teeth Grinding: A Modern Solution
 
-Botox has been well known as a cosmetic treatment for decades, but its medical applications are gaining increasingly broad recognition. One of the most effective uses is the treatment of **bruxism** — the unconscious grinding and clenching of the teeth. At ORAVIVUM, we offer this treatment drawing on our expertise in orofacial anatomy.
+Botulinum toxin has been well known as a cosmetic treatment for decades, but its medical applications are gaining increasingly broad recognition. One of the most effective uses is the treatment of **bruxism** — the unconscious grinding and clenching of the teeth. At ORAVIVUM, we offer this treatment drawing on our expertise in orofacial anatomy.
 
-## How Does Botox Work for Bruxism?
+## How Does Botulinum Toxin Work for Bruxism?
 
-Botulinum toxin type A (botox) works by temporarily blocking nerve signals to the muscle. For bruxism, it is injected into the **masseter muscle** — the powerful jaw muscle responsible for clenching.
+Botulinum toxin type A works by temporarily blocking nerve signals to the muscle. For bruxism, it is injected into the **masseter muscle** — the powerful jaw muscle responsible for clenching.
 
 The mechanism of action in brief:
 
-1. **Injection** — Botox is injected at strategic points in the masseter
+1. **Injection** — Botulinum toxin is injected at strategic points in the masseter
 2. **Blockade** — The toxin blocks the release of acetylcholine at the neuromuscular junction
 3. **Relaxation** — The muscle can no longer contract to its full capacity
 4. **Result** — Grinding pressure is significantly reduced, while you can chew and speak normally
 
-It is important to understand that botox does not paralyse the muscle. The dosage is carefully calibrated so that normal jaw function is preserved, while the excessive forces of grinding are diminished.
+It is important to understand that botulinum toxin does not paralyse the muscle. The dosage is carefully calibrated so that normal jaw function is preserved, while the excessive forces of grinding are diminished.
 
 ## The Procedure: Step by Step
 
 ### Preparation
 
-A botox treatment for bruxism requires no special preparation. However, we do advise:
+A botulinum toxin treatment for bruxism requires no special preparation. However, we do advise:
 
 - Avoid blood-thinning medications or supplements (such as aspirin, ibuprofen or fish oil) 48 hours before treatment
 - No alcohol 24 hours beforehand
@@ -207,7 +207,7 @@ An additional benefit: in patients with an enlarged masseter (jaw muscle hypertr
 
 ## Risks and Side Effects
 
-As with any medical treatment, there are possible side effects, although they are rare with botox in the masseter:
+As with any medical treatment, there are possible side effects, although they are rare with botulinum toxin in the masseter:
 
 - **Mild pain or bruising** at the injection site (resolves within days)
 - **Temporary chewing fatigue** with very tough foods (first weeks)
@@ -218,7 +218,7 @@ At ORAVIVUM, the treatment is performed exclusively by specialists with thorough
 
 ## Who Is This Treatment Suitable For?
 
-Botox for bruxism is suitable for adults who:
+Botulinum toxin for bruxism is suitable for adults who:
 
 - Have demonstrable teeth grinding or clenching (confirmed by a dentist or partner)
 - Suffer from jaw pain, headaches or dental wear due to bruxism
@@ -233,7 +233,7 @@ The treatment is **not** recommended for:
 
 ## The Costs
 
-The cost of a botox treatment for bruxism typically ranges between €300 and €500 per session, depending on the required dosage. The treatment is currently not covered by basic health insurance, though some supplementary insurance plans offer partial coverage.
+The cost of a botulinum toxin treatment for bruxism typically ranges between €300 and €500 per session, depending on the required dosage. The treatment is currently not covered by basic health insurance, though some supplementary insurance plans offer partial coverage.
 
 Considering the costs of the alternative consequences — such as crowns, bridges, physiotherapy and chronic pain medication — many patients regard it as a valuable investment in their health.
 
@@ -253,18 +253,18 @@ Yes. The dosage is calibrated to preserve your normal chewing function. Some pat
 
 ### Is it safe in the long term?
 
-Botox has been used medically for over 30 years. Long-term studies on its use in the masseter show no significant adverse effects. The muscle recovers fully when treatment is discontinued.
+Botulinum toxin has been used medically for over 30 years. Long-term studies on its use in the masseter show no significant adverse effects. The muscle recovers fully when treatment is discontinued.
 
 ### Can I combine it with a bite splint?
 
-Absolutely. Many of our patients combine botox with a bite splint for optimal protection. The botox reduces the forces, while the splint protects the teeth.
+Absolutely. Many of our patients combine botulinum toxin with a bite splint for optimal protection. The botulinum toxin reduces the forces, while the splint protects the teeth.
 
 ### Why ORAVIVUM?
 
-As an orthodontic practice, we specialise in the structure and function of the jaw region. We know the anatomy inside and out, resulting in precise placement and optimal results. Moreover, we look at the full picture: is botox the right fit for your situation, or would a different approach be more effective?
+As an orthodontic practice, we specialise in the structure and function of the jaw region. We know the anatomy inside and out, resulting in precise placement and optimal results. Moreover, we look at the full picture: is botulinum toxin the right fit for your situation, or would a different approach be more effective?
 
 ## The Next Step
 
-Are you considering a botox treatment for bruxism? At ORAVIVUM, we would be happy to discuss your situation during a [personal consultation](/contact). We take the time to map out your complaints and provide honest advice on the most suitable treatment.
+Are you considering a botulinum toxin treatment for bruxism? At ORAVIVUM, we would be happy to discuss your situation during a [personal consultation](/contact). We take the time to map out your complaints and provide honest advice on the most suitable treatment.
 
 Also read our article on [teeth grinding: causes, effects and treatments](/kennisbank/tandenknarsen-oorzaken-gevolgen-behandelingen) for a comprehensive overview of this common problem.

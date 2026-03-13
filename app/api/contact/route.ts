@@ -21,7 +21,7 @@ export async function POST(req: Request) {
     }
 
     const behandelingLabel: Record<string, string> = {
-      "botox-bruxisme": "Botox Bruxisme",
+      "bruxisme-behandeling": "Bruxisme Behandeling",
       "gummy-smile": "Gummy Smile",
       "slaapapneu": "Slaapapneu Screening",
       "consult": "Algemeen Consult",

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | ORAVIVUM",
   },
   description:
-    "ORAVIVUM is de eerste oral longevity kliniek van Amsterdam. Wij verbinden mondgezondheid met gezond ouder worden. Botox bruxisme, gummy smile en slaapapneu screening.",
+    "ORAVIVUM is de eerste oral longevity kliniek van Amsterdam. Wij verbinden mondgezondheid met gezond ouder worden. Bruxisme behandeling, gummy smile en slaapapneu screening.",
   openGraph: {
     type: "website",
     locale: "nl_NL",
@@ -41,7 +41,7 @@ const localBusinessSchema = {
   name: "ORAVIVUM — Oral Longevity Clinic Amsterdam",
   alternateName: "ORAVIVUM",
   description:
-    "De eerste oral longevity kliniek van Amsterdam. Botox bruxisme, gummy smile behandeling en slaapapneu screening.",
+    "De eerste oral longevity kliniek van Amsterdam. Bruxisme behandeling, gummy smile behandeling en slaapapneu screening.",
   url: "https://oravivum.nl",
   telephone: "020 72 35 222",
   address: {

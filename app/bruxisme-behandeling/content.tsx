@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useLang } from "../lang-context";
 import { ScrollReveal } from "../scroll-reveal";
 
-export function BotoxContent() {
+export function BruxismeContent() {
   const { t } = useLang();
 
   return (
@@ -21,11 +21,11 @@ export function BotoxContent() {
         <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-charcoal/50 to-transparent" />
         <div className="relative max-w-4xl mx-auto px-6 py-28">
           <p className="text-gold text-xs tracking-[0.35em] uppercase mb-8">{t("Behandeling", "Treatment")}</p>
-          <h1 className="font-playfair text-4xl md:text-6xl leading-[1.08] text-offwhite mb-10">{t("Botox tegen bruxisme", "Botox for bruxism")}</h1>
+          <h1 className="font-playfair text-4xl md:text-6xl leading-[1.08] text-offwhite mb-10">{t("Botulinetoxine tegen bruxisme", "Botulinum toxin for bruxism")}</h1>
           <p className="text-lg md:text-xl text-offwhite/70 leading-relaxed max-w-2xl">
             {t(
-              "Tandenknarsen (bruxisme) treft tot 70% van de volwassenen en veroorzaakt kaakpijn, hoofdpijn en gebitsslijtage. Met een gerichte botoxbehandeling ontspannen wij de kaakspieren in slechts 15 minuten.",
-              "Teeth grinding (bruxism) affects up to 70% of adults, causing jaw pain, headaches and dental wear. With targeted botox we relax the jaw muscles in just 15 minutes."
+              "Tandenknarsen (bruxisme) treft tot 70% van de volwassenen en veroorzaakt kaakpijn, hoofdpijn en gebitsslijtage. Met een gerichte behandeling met botulinetoxine ontspannen wij de kaakspieren in slechts 15 minuten.",
+              "Teeth grinding (bruxism) affects up to 70% of adults, causing jaw pain, headaches and dental wear. With targeted botulinum toxin we relax the jaw muscles in just 15 minutes."
             )}
           </p>
         </div>
@@ -111,12 +111,12 @@ export function BotoxContent() {
       <section className="py-28 bg-sand/10">
         <div className="max-w-4xl mx-auto px-6">
           <ScrollReveal>
-            <h2 className="font-playfair text-3xl mb-10">{t("Hoe werkt botox tegen tandenknarsen?", "How does botox work against teeth grinding?")}</h2>
+            <h2 className="font-playfair text-3xl mb-10">{t("Hoe werkt botulinetoxine tegen tandenknarsen?", "How does botulinum toxin work against teeth grinding?")}</h2>
             <div className="space-y-5 text-charcoal/60 leading-relaxed">
               <p>
                 {t(
-                  "Botulinum toxine type A (botox) wordt in kleine doses geïnjecteerd in de musculus masseter — de grote kaakspier die verantwoordelijk is voor het klemmen en knarsen. De botox blokkeert tijdelijk de zenuwimpulsen naar de spier, waardoor deze ontspant.",
-                  "Botulinum toxin type A (botox) is injected in small doses into the masseter muscle — the large jaw muscle responsible for clenching and grinding. The botox temporarily blocks nerve impulses to the muscle, causing it to relax."
+                  "Botulinum toxine type A (botulinetoxine) wordt in kleine doses geïnjecteerd in de musculus masseter — de grote kaakspier die verantwoordelijk is voor het klemmen en knarsen. Het middel blokkeert tijdelijk de zenuwimpulsen naar de spier, waardoor deze ontspant.",
+                  "Botulinum toxin type A (botulinum toxin) is injected in small doses into the masseter muscle — the large jaw muscle responsible for clenching and grinding. The substance temporarily blocks nerve impulses to the muscle, causing it to relax."
                 )}
               </p>
               <p>
@@ -188,7 +188,7 @@ export function BotoxContent() {
           <div className="space-y-4">
             {([
               [
-                t("Hoelang werkt botox tegen tandenknarsen?", "How long does botox for teeth grinding last?"),
+                t("Hoelang werkt botulinetoxine tegen tandenknarsen?", "How long does botulinum toxin for teeth grinding last?"),
                 t("Gemiddeld 3 tot 6 maanden. Bij herhaalde behandelingen merken veel patiënten dat het effect langer aanhoudt doordat de spier kleiner wordt.", "On average 3 to 6 months. With repeated treatments, many patients notice the effect lasts longer as the muscle becomes smaller."),
               ],
               [

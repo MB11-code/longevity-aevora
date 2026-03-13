@@ -4,7 +4,7 @@ import { HomeContent } from "./home-content";
 export const metadata: Metadata = {
   title: "ORAVIVUM — Oral Longevity Clinic Amsterdam | De Levende Mond",
   description:
-    "ORAVIVUM is de eerste oral longevity kliniek van Amsterdam. Botox bruxisme, gummy smile behandeling en slaapapneu screening bij het Museumplein.",
+    "ORAVIVUM is de eerste oral longevity kliniek van Amsterdam. Bruxisme behandeling, gummy smile behandeling en slaapapneu screening bij het Museumplein.",
   openGraph: {
     title: "ORAVIVUM — Oral Longevity Clinic Amsterdam",
     description: "Uw gezondheid begint in de mond. De eerste oral longevity kliniek van Amsterdam.",
@@ -28,7 +28,7 @@ const faqSchema = {
       name: "Wat doet ORAVIVUM anders dan een gewone tandarts?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ORAVIVUM kijkt verder dan alleen uw gebit. Wij combineren orthodontische expertise met longevity-wetenschap en bieden behandelingen als botox tegen bruxisme, gummy smile correctie en slaapapneu screening.",
+        text: "ORAVIVUM kijkt verder dan alleen uw gebit. Wij combineren orthodontische expertise met longevity-wetenschap en bieden behandelingen als botulinetoxine tegen bruxisme, gummy smile correctie en slaapapneu screening.",
       },
     },
   ],

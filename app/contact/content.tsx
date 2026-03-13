@@ -186,7 +186,7 @@ export function ContactContent() {
                         className="w-full border border-sand/40 bg-white px-4 py-3.5 text-sm rounded-lg focus:outline-none focus:border-teal transition-colors"
                       >
                         <option value="">{t("Selecteer een behandeling", "Select a treatment")}</option>
-                        <option value="botox-bruxisme">{t("Botox Bruxisme", "Botox for Bruxism")}</option>
+                        <option value="bruxisme-behandeling">{t("Bruxisme Behandeling", "Bruxism Treatment")}</option>
                         <option value="gummy-smile">Gummy Smile</option>
                         <option value="slaapapneu">{t("Slaapapneu Screening", "Sleep Apnea Screening")}</option>
                         <option value="consult">{t("Algemeen Consult", "General Consultation")}</option>

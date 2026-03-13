@@ -73,9 +73,9 @@ De behandeling van bruxisme is het meest effectief wanneer deze op meerdere nive
 
 Een op maat gemaakte bitesplint (occlusale splint) beschermt uw tanden tegen verdere slijtage. Het is geen behandeling van de oorzaak, maar voorkomt schade terwijl u aan de onderliggende factoren werkt.
 
-### Botoxbehandeling van de kaakspieren
+### Behandeling met botulinetoxine van de kaakspieren
 
-Een steeds populairdere en wetenschappelijk onderbouwde behandeling is het [injecteren van botox in de kaakspieren](/botox-bruxisme). Botox (botulinetoxine type A) ontspant de overactieve musculus masseter, waardoor de knarsdruk significant afneemt.
+Een steeds populairdere en wetenschappelijk onderbouwde behandeling is het [injecteren van botulinetoxine in de kaakspieren](/bruxisme-behandeling). Botulinetoxine (botulinum toxine type A) ontspant de overactieve musculus masseter, waardoor de knarsdruk significant afneemt.
 
 De voordelen van deze aanpak:
 
@@ -180,9 +180,9 @@ The treatment of bruxism is most effective when addressed on multiple levels:
 
 A custom-made bite splint (occlusal splint) protects your teeth against further wear. It does not treat the underlying cause, but it prevents damage while you work on the contributing factors.
 
-### Botox Treatment of the Jaw Muscles
+### Botulinum Toxin Treatment of the Jaw Muscles
 
-An increasingly popular and scientifically supported treatment is the [injection of botox into the jaw muscles](/botox-bruxisme). Botox (botulinum toxin type A) relaxes the overactive masseter muscle, significantly reducing grinding pressure.
+An increasingly popular and scientifically supported treatment is the [injection of botulinum toxin into the jaw muscles](/bruxisme-behandeling). Botulinum toxin (type A) relaxes the overactive masseter muscle, significantly reducing grinding pressure.
 
 The advantages of this approach:
 

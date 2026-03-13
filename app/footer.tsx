@@ -36,7 +36,7 @@ export function Footer() {
           <div>
             <h4 className="text-gold text-xs tracking-[0.2em] uppercase mb-5">{t("Behandelingen", "Treatments")}</h4>
             <div className="space-y-3 text-sm">
-              <p><Link href="/botox-bruxisme" className="text-offwhite/60 hover:text-offwhite transition-colors">{t("Botox Bruxisme", "Botox for Bruxism")}</Link></p>
+              <p><Link href="/bruxisme-behandeling" className="text-offwhite/60 hover:text-offwhite transition-colors">{t("Bruxisme Behandeling", "Bruxism Treatment")}</Link></p>
               <p><Link href="/gummy-smile" className="text-offwhite/60 hover:text-offwhite transition-colors">Gummy Smile</Link></p>
               <p><Link href="/slaapapneu" className="text-offwhite/60 hover:text-offwhite transition-colors">{t("Slaapapneu Screening", "Sleep Apnea Screening")}</Link></p>
             </div>

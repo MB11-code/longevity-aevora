@@ -56,12 +56,12 @@ export function HomeContent() {
           <div className="grid md:grid-cols-3 gap-10">
             {[
               {
-                title: t("Botox Bruxisme", "Botox for Bruxism"),
+                title: t("Bruxisme Behandeling", "Bruxism Treatment"),
                 desc: t(
-                  "Tandenknarsen veroorzaakt kaakpijn, hoofdpijn en gebitsslijtage. Met botox ontspannen wij de kaakspieren in slechts 15 minuten — effectief voor 3 tot 6 maanden.",
-                  "Teeth grinding causes jaw pain, headaches and dental wear. With botox we relax the jaw muscles in just 15 minutes — effective for 3 to 6 months."
+                  "Tandenknarsen veroorzaakt kaakpijn, hoofdpijn en gebitsslijtage. Met botulinetoxine ontspannen wij de kaakspieren in slechts 15 minuten — effectief voor 3 tot 6 maanden.",
+                  "Teeth grinding causes jaw pain, headaches and dental wear. With botulinum toxin we relax the jaw muscles in just 15 minutes — effective for 3 to 6 months."
                 ),
-                href: "/botox-bruxisme",
+                href: "/bruxisme-behandeling",
               },
               {
                 title: "Gummy Smile",
@@ -217,15 +217,15 @@ export function HomeContent() {
               [
                 t("Wat doet ORAVIVUM anders dan een gewone tandarts?", "What makes ORAVIVUM different from a regular dentist?"),
                 t(
-                  "Wij combineren orthodontische expertise met longevity-wetenschap. Naast reguliere tandheelkunde bieden wij botox tegen bruxisme, gummy smile correctie en slaapapneu screening — allemaal vanuit het perspectief dat mondgezondheid de basis is voor een langer, gezonder leven.",
-                  "We combine orthodontic expertise with longevity science. Beyond regular dentistry, we offer botox for bruxism, gummy smile correction and sleep apnea screening — all from the perspective that oral health is the foundation for a longer, healthier life."
+                  "Wij combineren orthodontische expertise met longevity-wetenschap. Naast reguliere tandheelkunde bieden wij botulinetoxine tegen bruxisme, gummy smile correctie en slaapapneu screening — allemaal vanuit het perspectief dat mondgezondheid de basis is voor een langer, gezonder leven.",
+                  "We combine orthodontic expertise with longevity science. Beyond regular dentistry, we offer botulinum toxin for bruxism, gummy smile correction and sleep apnea screening — all from the perspective that oral health is the foundation for a longer, healthier life."
                 ),
               ],
               [
-                t("Is botox tegen tandenknarsen veilig?", "Is botox for teeth grinding safe?"),
+                t("Is botulinetoxine tegen tandenknarsen veilig?", "Is botulinum toxin for teeth grinding safe?"),
                 t(
-                  "Ja, botox tegen bruxisme is een veilige en veelgebruikte behandeling. De botox wordt in lage doses geïnjecteerd in de kaakspieren, waardoor de spieren ontspannen zonder dat normaal kauwen wordt belemmerd. De behandeling duurt 15 minuten en heeft minimale bijwerkingen.",
-                  "Yes, botox for bruxism is a safe and widely used treatment. The botox is injected in low doses into the jaw muscles, relaxing them without affecting normal chewing. The treatment takes 15 minutes with minimal side effects."
+                  "Ja, botulinetoxine tegen bruxisme is een veilige en veelgebruikte behandeling. Het middel wordt in lage doses geïnjecteerd in de kaakspieren, waardoor de spieren ontspannen zonder dat normaal kauwen wordt belemmerd. De behandeling duurt 15 minuten en heeft minimale bijwerkingen.",
+                  "Yes, botulinum toxin for bruxism is a safe and widely used treatment. The substance is injected in low doses into the jaw muscles, relaxing them without affecting normal chewing. The treatment takes 15 minutes with minimal side effects."
                 ),
               ],
               [
@@ -245,8 +245,8 @@ export function HomeContent() {
               [
                 t("Wordt de behandeling vergoed?", "Is the treatment covered by insurance?"),
                 t(
-                  "Vergoeding is afhankelijk van uw zorgverzekering. Botox en gummy smile vallen doorgaans niet onder de basisverzekering. Slaapapneu behandeling met MRA wordt soms wel vergoed. Wij adviseren u graag over de mogelijkheden.",
-                  "Coverage depends on your insurance plan. Botox and gummy smile treatments are typically not covered by basic insurance. Sleep apnea treatment with an MRA may be covered in some cases. We are happy to advise you."
+                  "Vergoeding is afhankelijk van uw zorgverzekering. Bruxisme behandeling en gummy smile vallen doorgaans niet onder de basisverzekering. Slaapapneu behandeling met MRA wordt soms wel vergoed. Wij adviseren u graag over de mogelijkheden.",
+                  "Coverage depends on your insurance plan. Bruxism treatment and gummy smile treatments are typically not covered by basic insurance. Sleep apnea treatment with an MRA may be covered in some cases. We are happy to advise you."
                 ),
               ],
             ] as [string, string][]).map(([q, a], i) => (
