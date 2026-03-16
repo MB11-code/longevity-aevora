@@ -1,8 +1,21 @@
 # AGENTS.md — ORAVIVUM Website
 
-## Regels
+## Voordat je content schrijft
+**LEES ALTIJD EERST:** `content/SCHRIJFREGELS.md`
+Dit bestand bevat verboden woorden (o.a. "Botox"), tone of voice regels, en structuur-eisen.
+Geen content schrijven zonder dit bestand gelezen te hebben.
 
-### VERBODEN TERMEN
+## Technisch
+- Next.js site, Tailwind CSS
+- Blog/kennisbank: markdown bestanden in `content/blog/`
+- Tweetalig: NL + EN met `---EN---` separator
+- Frontmatter: title, titleEn, description, descriptionEn, date, readTime, slug, keywords
+- Git push = auto-deploy op Vercel
+
+## Content strategie
+Zie: `/Users/chrisparker/.openclaw/workspace/projects/longevity/content-strategie.md`
+
+## VERBODEN TERMEN
 Het woord "botox" (in alle vormen: Botox, botox, BOTOX, botoxbehandeling, etc.) mag NERGENS worden gebruikt in deze codebase.
 
 **Reden:** Google Ads keurt campagnes af bij het gebruik van de merknaam "Botox". Google scrapt de hele website inclusief meta tags, schema.org, en backend code.
