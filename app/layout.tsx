@@ -7,6 +7,7 @@ import { Navbar } from "./navbar";
 import { Footer } from "./footer";
 import { CookieBanner } from "./cookie-banner";
 import { Analytics } from "./analytics";
+import { GoogleTagManager, GoogleTagManagerNoScript } from "./gtm";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -72,6 +73,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="nl" className={`${playfair.variable} ${inter.variable}`}>
       <body className="font-inter bg-offwhite text-charcoal antialiased">
+        <GoogleTagManager />
+        <GoogleTagManagerNoScript />
         <Script
           id="local-business-schema"
           type="application/ld+json"

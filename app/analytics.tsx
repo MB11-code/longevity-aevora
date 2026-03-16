@@ -11,12 +11,20 @@ function hasConsent(): boolean {
   return localStorage.getItem("oravivum-cookies") === "all";
 }
 
-/** Push a gtag event (safe no-op when gtag isn't loaded yet). */
+/** Push a gtag event (safe no-op when gtag isn't loaded yet).
+ *  Also pushes to dataLayer so GTM can pick up the event. */
 export function trackEvent(
   eventName: string,
   params?: Record<string, string | number | boolean>
 ) {
-  if (typeof window !== "undefined" && window.gtag) {
+  if (typeof window === "undefined") return;
+
+  // Push to dataLayer for GTM (works even if GA4 isn't loaded via gtag)
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({ event: eventName, ...params });
+
+  // Also fire via gtag if loaded (direct GA4)
+  if (window.gtag) {
     window.gtag("event", eventName, params);
   }
 }

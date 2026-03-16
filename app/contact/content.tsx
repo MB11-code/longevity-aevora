@@ -44,6 +44,11 @@ export function ContactContent() {
           form_name: "contact",
           behandeling: data.behandeling || "geen",
         });
+        // Dedicated conversion event for Google Ads via GTM
+        trackEvent("contact_form_submit", {
+          form_name: "contact",
+          behandeling: data.behandeling || "geen",
+        });
         form.reset();
       } else {
         const json = await res.json();
