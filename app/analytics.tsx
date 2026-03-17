@@ -3,12 +3,31 @@
 import { useEffect, useCallback, useRef } from "react";
 import { usePathname } from "next/navigation";
 const GA_ID = process.env.NEXT_PUBLIC_GA4_ID;
+const GOOGLE_ADS_ID = "AW-18022149233";
 
 /* ── helpers ── */
 
 function hasConsent(): boolean {
   if (typeof window === "undefined") return false;
   return localStorage.getItem("oravivum-cookies") === "all";
+}
+
+/** Fire a generate_lead conversion for both Google Ads and GA4. */
+export function trackGenerateLead() {
+  if (typeof window === "undefined") return;
+  // Google Ads conversion
+  if (window.gtag) {
+    window.gtag("event", "generate_lead", {
+      send_to: GOOGLE_ADS_ID,
+      value: 1.0,
+      currency: "EUR",
+    });
+    // GA4 generate_lead
+    window.gtag("event", "generate_lead");
+  }
+  // Also push to dataLayer for GTM
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({ event: "generate_lead" });
 }
 
 /** Push a gtag event (safe no-op when gtag isn't loaded yet).
@@ -37,6 +56,14 @@ function handleTelClick(e: MouseEvent) {
   trackEvent("click_to_call", {
     phone_number: anchor.href.replace("tel:", ""),
   });
+  // Google Ads click-to-call conversion
+  if (window.gtag) {
+    window.gtag("event", "conversion", {
+      send_to: "AW-18022149233/AeqPCLz0r4ocEPHY0JFD",
+      value: 1.0,
+      currency: "EUR",
+    });
+  }
 }
 
 /* ── component ── */
@@ -65,6 +92,7 @@ export function Analytics() {
     };
     window.gtag("js", new Date());
     window.gtag("config", GA_ID, { send_page_view: true });
+    window.gtag("config", GOOGLE_ADS_ID);
 
     loaded.current = true;
   }, []);

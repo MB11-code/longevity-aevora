@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { useLang } from "../lang-context";
 import { ScrollReveal } from "../scroll-reveal";
-import { trackEvent } from "../analytics";
+import { trackEvent, trackGenerateLead } from "../analytics";
 
 export function ContactContent() {
   const { t } = useLang();
@@ -49,6 +49,8 @@ export function ContactContent() {
           form_name: "contact",
           behandeling: data.behandeling || "geen",
         });
+        // Google Ads + GA4 generate_lead conversion
+        trackGenerateLead();
         form.reset();
       } else {
         const json = await res.json();
