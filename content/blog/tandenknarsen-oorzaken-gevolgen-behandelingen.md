@@ -11,9 +11,9 @@ keywords: ["tandenknarsen oorzaken", "bruxisme", "tandenknarsen behandeling", "k
 
 ## Wat is tandenknarsen?
 
-Tandenknarsen — in de medische wereld bekend als **bruxisme** — is het onbewust knarsen, malen of klemmen van de tanden. Het komt vaker voor dan u wellicht denkt: onderzoek laat zien dat tot 30% van de volwassenen hier in meer of mindere mate last van heeft. Veel mensen zijn zich er niet eens van bewust, omdat het vooral 's nachts optreedt (slaapbruxisme).
+Tandenknarsen — in de medische wereld bekend als **bruxisme** — is het onbewust knarsen, malen of klemmen van de tanden. Het komt vaker voor dan u wellicht denkt: volgens de KNMT (Koninklijke Nederlandse Maatschappij tot bevordering der Tandheelkunde) heeft tot 30% van de volwassenen hier in meer of mindere mate last van. Veel mensen zijn zich er niet eens van bewust, omdat het vooral 's nachts optreedt (slaapbruxisme).
 
-Bij ORAVIVUM zien wij dagelijks patiënten met klachten die direct te herleiden zijn tot bruxisme. Als gespecialiseerde orthodontiepraktijk aan het Museumplein begrijpen wij dat tandenknarsen meer is dan een tandheelkundig probleem — het raakt uw algehele welzijn.
+Bij ORAVIVUM in Amsterdam zien wij dagelijks patiënten met klachten die direct te herleiden zijn tot bruxisme. Als gespecialiseerde orthodontiepraktijk aan het Museumplein begrijpen wij dat tandenknarsen meer is dan een tandheelkundig probleem — het raakt uw algehele welzijn.
 
 ## De oorzaken van tandenknarsen
 
@@ -25,7 +25,7 @@ Psychologische stress is de meest voorkomende trigger. In een druk leven — of 
 
 ### Slaapstoornissen
 
-Er is een sterke relatie tussen bruxisme en verstoorde slaap. Patiënten met [slaapapneu](/slaapapneu) hebben een significant verhoogd risico op nachtelijk tandenknarsen. De ademhalingsonderbrekingen bij slaapapneu activeren een stressrespons die het knarsen in gang zet.
+Er is een sterke relatie tussen bruxisme en verstoorde slaap. Het NHG (Nederlands Huisartsen Genootschap) benadrukt dat patiënten met [slaapapneu](/slaapapneu) een significant verhoogd risico hebben op nachtelijk tandenknarsen. De ademhalingsonderbrekingen bij slaapapneu activeren een stressrespons die het knarsen in gang zet.
 
 ### Kaakstand en occlusie
 
@@ -112,7 +112,27 @@ Herkent u een of meer van de volgende signalen? Dan is het verstandig om profess
 
 Bij ORAVIVUM geloven wij in een integrale benadering. Wij kijken niet alleen naar de symptomen, maar naar het complete beeld: uw gebit, uw kaakfunctie, uw slaapkwaliteit en uw algehele gezondheid. Vanuit ons longevity-perspectief zien wij bruxisme als een signaal dat aandacht verdient — niet alleen voor uw tanden, maar voor uw levenskwaliteit op de lange termijn.
 
-Wilt u weten wat wij voor u kunnen betekenen? [Neem contact met ons op](/contact) voor een vrijblijvend consult.
+Wilt u weten wat wij voor u kunnen betekenen? [Neem contact met ons op](/contact) voor een vrijblijvend consult in onze praktijk aan het Museumplein in Amsterdam.
+
+## Veelgestelde vragen
+
+**Hoe weet ik of ik tandenknars?**
+Veel mensen knarsen 's nachts zonder het zelf te merken. Veelvoorkomende aanwijzingen zijn: wakker worden met kaakpijn of hoofdpijn, slijtage aan uw tanden die uw tandarts constateert, of een partner die u hoort knarsen. Bij ORAVIVUM kunnen wij aan de hand van uw gebit en kaakspieren vaststellen of er sprake is van bruxisme.
+
+**Helpt een bitje tegen tandenknarsen?**
+Een op maat gemaakte bitesplint beschermt uw tanden tegen verdere slijtage, maar behandelt niet de onderliggende oorzaak. Het is een belangrijke eerste stap die vaak wordt gecombineerd met andere behandelingen, zoals botulinetoxine of stressmanagement.
+
+**Wat kost een bruxisme behandeling?**
+De kosten variëren afhankelijk van de behandeling. Een op maat gemaakte bitesplint kost doorgaans tussen de €200 en €400. Een behandeling met botulinetoxine van de kaakspieren kost tussen de €300 en €500 per sessie. Een bitesplint wordt in veel gevallen (gedeeltelijk) vergoed door uw zorgverzekering.
+
+**Kan stress tandenknarsen veroorzaken?**
+Ja, psychologische stress is de meest voorkomende trigger voor bruxisme. Onderzoek toont aan dat mensen met hoge stressniveaus tot drie keer vaker bruxisme ontwikkelen. Stressmanagement — zoals mindfulness, lichaamsbeweging en verbeterde slaaphygiëne — kan een wezenlijk verschil maken.
+
+**Is tandenknarsen gevaarlijk?**
+Chronisch tandenknarsen kan ernstige gevolgen hebben. De krachten bij bruxisme kunnen oplopen tot 250 kilogram, wat leidt tot tandslijtage, scheurtjes in het gebit, kaakklachten (TMD) en chronische hoofdpijn. De KNMT adviseert om bij vermoeden van bruxisme tijdig professioneel advies in te winnen.
+
+**Kan een tandarts tandenknarsen behandelen?**
+Absoluut. Een tandarts of orthodontist kan bruxisme diagnosticeren en behandelen met onder meer een bitesplint, botulinetoxine of orthodontische correctie. Bij ORAVIVUM in Amsterdam combineren wij deze behandelingen vanuit een integrale benadering van uw kaakfunctie en algehele gezondheid.
 
 ---EN---
 
@@ -120,7 +140,7 @@ Wilt u weten wat wij voor u kunnen betekenen? [Neem contact met ons op](/contact
 
 Teeth grinding — known in the medical world as **bruxism** — is the unconscious grinding, clenching or gnashing of the teeth. It is more common than you might think: research indicates that up to 30% of adults are affected to some degree. Many people are not even aware of it, as it predominantly occurs during sleep (sleep bruxism).
 
-At ORAVIVUM, we see patients every day with complaints directly attributable to bruxism. As a specialised orthodontic practice at the Museumplein, we understand that teeth grinding is more than a dental problem — it affects your overall well-being.
+At ORAVIVUM in Amsterdam, we see patients every day with complaints directly attributable to bruxism. As a specialised orthodontic practice at the Museumplein, we understand that teeth grinding is more than a dental problem — it affects your overall well-being.
 
 ## The Causes of Teeth Grinding
 
@@ -132,7 +152,7 @@ Psychological stress is the most common trigger. In a busy life — whether rela
 
 ### Sleep Disorders
 
-There is a strong link between bruxism and disrupted sleep. Patients with [sleep apnoea](/slaapapneu) have a significantly elevated risk of nocturnal teeth grinding. The breathing interruptions associated with sleep apnoea activate a stress response that triggers grinding.
+There is a strong link between bruxism and disrupted sleep. According to the NHG (Dutch College of General Practitioners), patients with [sleep apnoea](/slaapapneu) have a significantly elevated risk of nocturnal teeth grinding. The breathing interruptions associated with sleep apnoea activate a stress response that triggers grinding.
 
 ### Jaw Alignment and Occlusion
 
@@ -219,4 +239,24 @@ Do you recognise one or more of the following signs? Then it is advisable to see
 
 At ORAVIVUM, we believe in an integrated approach. We look beyond the symptoms to see the complete picture: your teeth, your jaw function, your sleep quality and your overall health. From our longevity perspective, we view bruxism as a signal that deserves attention — not only for your teeth, but for your quality of life in the long term.
 
-Would you like to know how we can help? [Contact us](/contact) for a no-obligation consultation.
+Would you like to know how we can help? [Contact us](/contact) for a no-obligation consultation at our practice near Museumplein in Amsterdam.
+
+## Frequently Asked Questions
+
+**How do I know if I grind my teeth?**
+Many people grind their teeth at night without realising it. Common signs include waking up with jaw pain or headaches, tooth wear detected by your dentist, or a partner who hears you grinding. At ORAVIVUM, we can determine whether bruxism is present by examining your teeth and jaw muscles.
+
+**Does a bite guard help against teeth grinding?**
+A custom-made bite splint protects your teeth against further wear but does not treat the underlying cause. It is an important first step that is often combined with other treatments, such as botulinum toxin or stress management.
+
+**What does bruxism treatment cost?**
+Costs vary depending on the treatment. A custom-made bite splint typically costs between €200 and €400. A botulinum toxin treatment of the jaw muscles costs between €300 and €500 per session. A bite splint is often (partially) covered by your health insurance.
+
+**Can stress cause teeth grinding?**
+Yes, psychological stress is the most common trigger for bruxism. Research shows that individuals with high stress levels are up to three times more likely to develop bruxism. Stress management — such as mindfulness, exercise and improved sleep hygiene — can make a meaningful difference.
+
+**Is teeth grinding dangerous?**
+Chronic teeth grinding can have serious consequences. The forces generated during bruxism can reach up to 250 kilograms, leading to tooth wear, cracks, jaw complaints (TMD) and chronic headaches. The KNMT (Royal Dutch Dental Association) advises seeking professional advice promptly if bruxism is suspected.
+
+**Can a dentist treat teeth grinding?**
+Absolutely. A dentist or orthodontist can diagnose and treat bruxism using a bite splint, botulinum toxin or orthodontic correction. At ORAVIVUM in Amsterdam, we combine these treatments with an integrated approach to your jaw function and overall health.

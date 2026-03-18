@@ -11,7 +11,7 @@ keywords: ["bruxisme behandeling", "botulinetoxine kaakspier", "tandenknarsen be
 
 ## Botulinetoxine tegen tandenknarsen: een moderne oplossing
 
-Botulinetoxine is al decennia bekend als cosmetisch middel, maar de medische toepassingen worden steeds breder erkend. Een van de meest effectieve toepassingen is de behandeling van **bruxisme** — het onbewust knarsen en klemmen van de tanden. Bij ORAVIVUM passen wij deze behandeling toe vanuit onze expertise in de orofaciale anatomie.
+Botulinetoxine is al decennia bekend als cosmetisch middel, maar de medische toepassingen worden steeds breder erkend. Een van de meest effectieve toepassingen is de behandeling van **bruxisme** — het onbewust knarsen en klemmen van de tanden. Bij ORAVIVUM in Amsterdam passen wij deze behandeling toe vanuit onze expertise in de orofaciale anatomie.
 
 ## Hoe werkt botulinetoxine bij bruxisme?
 
@@ -64,7 +64,7 @@ U kunt direct na de behandeling uw dagelijkse activiteiten hervatten. Er zijn en
 
 ### Effectiviteit
 
-Wetenschappelijk onderzoek laat positieve resultaten zien:
+Wetenschappelijk onderzoek laat positieve resultaten zien. De KNMT (Koninklijke Nederlandse Maatschappij tot bevordering der Tandheelkunde) erkent botulinetoxine als een veelbelovende behandeling bij therapieresistent bruxisme:
 
 - Een systematische review in het *Journal of Dental Research* rapporteerde significante afname van knarsintensiteit bij 70-90% van de patiënten
 - Patiënten rapporteren gemiddeld 50-60% afname van kaakpijn
@@ -108,28 +108,25 @@ Gezien de kosten van de alternatieve gevolgen — denk aan kronen, bruggen, fysi
 
 ## Veelgestelde vragen
 
-### Doet de behandeling pijn?
+**Hoe lang werkt botulinetoxine bij tandenknarsen?**
+Het effect van botulinetoxine bij bruxisme houdt gemiddeld 3 tot 6 maanden aan. Bij herhaalde behandelingen merken veel patiënten dat het effect langer aanhoudt, doordat de kaakspier geleidelijk kleiner wordt. De meeste patiënten komen 2 tot 3 keer per jaar voor een herbehandeling.
 
-De meeste patiënten ervaren niet meer dan een licht prikje. De naalden die wij gebruiken zijn uiterst fijn. Desgewenst brengen wij vooraf een verdovende crème aan.
+**Is botulinetoxine bij bruxisme pijnlijk?**
+De meeste patiënten ervaren niet meer dan een licht prikje. De naalden die wij bij ORAVIVUM gebruiken zijn uiterst fijn. Desgewenst brengen wij vooraf een verdovende crème aan. De behandeling zelf duurt slechts 10 tot 15 minuten.
 
-### Hoe lang houdt het resultaat aan?
+**Hoe vaak moet ik terugkomen voor een behandeling?**
+Wij adviseren een herbehandeling wanneer het effect begint af te nemen, doorgaans na 3 tot 6 maanden. In het eerste jaar zijn dat gemiddeld 2 tot 3 sessies. Bij langdurig gebruik kan de frequentie afnemen doordat de kaakspier structureel kleiner wordt.
 
-Gemiddeld 3 tot 6 maanden. Bij herhaalde behandelingen merken veel patiënten dat het effect langer aanhoudt, doordat de spier geleidelijk kleiner wordt.
+**Kan ik daarna normaal eten?**
+Ja. De dosering is zo afgestemd dat uw normale kauwfunctie behouden blijft. Sommige patiënten merken in de eerste weken dat zeer taai voedsel (zoals taaie biefstuk) iets meer moeite kost, maar dit is tijdelijk.
 
-### Kan ik daarna normaal eten?
-
-Ja. De dosering is zo afgestemd dat uw normale kauwfunctie behouden blijft. Sommige patiënten merken in de eerste weken dat zeer taai voedsel (zoals taaie biefstuk) iets meer moeite kost.
-
-### Is het veilig op de lange termijn?
-
+**Is botulinetoxine veilig op de lange termijn?**
 Botulinetoxine wordt al meer dan 30 jaar medisch toegepast. Langetermijnstudies naar het gebruik in de masseter tonen geen significante nadelige effecten. De spier herstelt zich volledig wanneer de behandeling wordt gestaakt.
 
-### Kan ik het combineren met een bitesplint?
+**Kan ik botulinetoxine combineren met een bitesplint?**
+Absoluut. Veel van onze patiënten bij ORAVIVUM aan het Museumplein in Amsterdam combineren botulinetoxine met een bitesplint voor optimale bescherming. De botulinetoxine vermindert de knarsdruk, de splint beschermt het gebit.
 
-Absoluut. Veel van onze patiënten combineren botulinetoxine met een bitesplint voor optimale bescherming. De botulinetoxine vermindert de krachten, de splint beschermt het gebit.
-
-### Waarom bij ORAVIVUM?
-
+**Waarom bij ORAVIVUM?**
 Als orthodontische praktijk zijn wij gespecialiseerd in de structuur en functie van het kaakgebied. Wij kennen de anatomie als geen ander, wat resulteert in een precieze plaatsing en optimaal resultaat. Bovendien kijken wij naar het totaalplaatje: past botulinetoxine bij uw situatie, of is een andere aanpak effectiever?
 
 ## De volgende stap
@@ -142,7 +139,7 @@ Lees ook ons artikel over [tandenknarsen: oorzaken, gevolgen en behandelingen](/
 
 ## Botulinum Toxin for Teeth Grinding: A Modern Solution
 
-Botulinum toxin has been well known as a cosmetic treatment for decades, but its medical applications are gaining increasingly broad recognition. One of the most effective uses is the treatment of **bruxism** — the unconscious grinding and clenching of the teeth. At ORAVIVUM, we offer this treatment drawing on our expertise in orofacial anatomy.
+Botulinum toxin has been well known as a cosmetic treatment for decades, but its medical applications are gaining increasingly broad recognition. One of the most effective uses is the treatment of **bruxism** — the unconscious grinding and clenching of the teeth. At ORAVIVUM in Amsterdam, we offer this treatment drawing on our expertise in orofacial anatomy.
 
 ## How Does Botulinum Toxin Work for Bruxism?
 
@@ -195,7 +192,7 @@ You can resume your daily activities immediately after treatment. There are a fe
 
 ### Effectiveness
 
-Scientific research shows positive results:
+Scientific research shows positive results. The KNMT (Royal Dutch Dental Association) recognises botulinum toxin as a promising treatment for therapy-resistant bruxism:
 
 - A systematic review in the *Journal of Dental Research* reported significant reduction in grinding intensity in 70–90% of patients
 - Patients report an average 50–60% reduction in jaw pain
@@ -239,28 +236,25 @@ Considering the costs of the alternative consequences — such as crowns, bridge
 
 ## Frequently Asked Questions
 
-### Does the treatment hurt?
+**How long does botulinum toxin work for teeth grinding?**
+The effect of botulinum toxin for bruxism lasts on average 3 to 6 months. With repeated treatments, many patients find that the effect lasts longer, as the jaw muscle gradually decreases in size. Most patients return 2 to 3 times per year for retreatment.
 
-Most patients experience no more than a slight prick. The needles we use are extremely fine. If desired, we apply a numbing cream beforehand.
+**Is botulinum toxin treatment for bruxism painful?**
+Most patients experience no more than a slight prick. The needles we use at ORAVIVUM are extremely fine. If desired, we apply a numbing cream beforehand. The treatment itself takes only 10 to 15 minutes.
 
-### How long do the results last?
+**How often do I need to return for treatment?**
+We recommend retreatment when the effect begins to diminish, typically after 3 to 6 months. In the first year, this means an average of 2 to 3 sessions. With long-term use, the frequency may decrease as the jaw muscle structurally reduces in size.
 
-On average, 3 to 6 months. With repeated treatments, many patients find that the effect lasts longer, as the muscle gradually decreases in size.
+**Can I eat normally afterwards?**
+Yes. The dosage is calibrated to preserve your normal chewing function. Some patients notice in the first weeks that very tough foods (such as chewy steak) require slightly more effort, but this is temporary.
 
-### Can I eat normally afterwards?
-
-Yes. The dosage is calibrated to preserve your normal chewing function. Some patients notice in the first weeks that very tough foods (such as chewy steak) require slightly more effort.
-
-### Is it safe in the long term?
-
+**Is botulinum toxin safe in the long term?**
 Botulinum toxin has been used medically for over 30 years. Long-term studies on its use in the masseter show no significant adverse effects. The muscle recovers fully when treatment is discontinued.
 
-### Can I combine it with a bite splint?
+**Can I combine botulinum toxin with a bite splint?**
+Absolutely. Many of our patients at ORAVIVUM near Museumplein in Amsterdam combine botulinum toxin with a bite splint for optimal protection. The botulinum toxin reduces grinding pressure, while the splint protects the teeth.
 
-Absolutely. Many of our patients combine botulinum toxin with a bite splint for optimal protection. The botulinum toxin reduces the forces, while the splint protects the teeth.
-
-### Why ORAVIVUM?
-
+**Why choose ORAVIVUM?**
 As an orthodontic practice, we specialise in the structure and function of the jaw region. We know the anatomy inside and out, resulting in precise placement and optimal results. Moreover, we look at the full picture: is botulinum toxin the right fit for your situation, or would a different approach be more effective?
 
 ## The Next Step

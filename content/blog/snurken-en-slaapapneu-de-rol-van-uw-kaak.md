@@ -15,7 +15,7 @@ Snurken wordt vaak afgedaan als een onschuldig — zij het hinderlijk — versch
 
 Bij slaapapneu valt de luchtweg tijdens de slaap herhaaldelijk dicht. Uw ademhaling stokt, soms tientallen keren per uur, zonder dat u zich daarvan bewust bent. Het gevolg: uw lichaam komt nooit in diepe, herstellende slaap. Vermoeidheid, concentratieproblemen en een verhoogd risico op hart- en vaatziekten zijn veelvoorkomende gevolgen.
 
-Wat minder bekend is: de stand van uw kaak speelt een cruciale rol in het ontstaan van slaapapneu. En daarmee komt een onverwachte specialist in beeld — uw tandarts.
+Wat minder bekend is: de stand van uw kaak speelt een cruciale rol in het ontstaan van slaapapneu. De NVTS (Nederlandse Vereniging voor Tandheelkundige Slaapgeneeskunde) benadrukt dat een gespecialiseerde tandarts een belangrijke rol kan spelen bij de behandeling van slaapgerelateerde ademhalingsstoornissen. En daarmee komt een onverwachte specialist in beeld — uw tandarts.
 
 ## De relatie tussen kaakstand en luchtweg
 
@@ -36,7 +36,7 @@ Het is een samenspel van factoren — maar de positie van de kaak is vaak een be
 
 Een mandibulaire repositie apparaat (MRA) — ook wel mandibulaire advancementspalk genoemd — is een op maat gemaakt apparaat dat u 's nachts draagt. Het lijkt op een bitesplint, maar doet iets fundamenteel anders: het brengt de onderkaak enkele millimeters naar voren. Daardoor wordt de ruimte achter in de keel vergroot en blijft de luchtweg open tijdens de slaap.
 
-De effectiviteit van het MRA is uitgebreid wetenschappelijk onderzocht. De *American Academy of Sleep Medicine* erkent het als eerstelijnsbehandeling voor mild tot matig slaapapneu en als alternatief voor patiënten die CPAP niet verdragen. Studies in het *Journal of Clinical Sleep Medicine* tonen een significante vermindering van het aantal ademstops (de AHI-score) en een verbetering van de slaapkwaliteit.
+De effectiviteit van het MRA is uitgebreid wetenschappelijk onderzocht. De *American Academy of Sleep Medicine* (AASM) erkent het als eerstelijnsbehandeling voor mild tot matig slaapapneu en als alternatief voor patiënten die CPAP niet verdragen. Ook het NHG (Nederlands Huisartsen Genootschap) noemt het MRA als behandeloptie in de huisartsenrichtlijn voor slaapapneu. Studies in het *Journal of Clinical Sleep Medicine* tonen een significante vermindering van het aantal ademstops (de AHI-score) en een verbetering van de slaapkwaliteit.
 
 ### De voordelen van een MRA
 
@@ -45,7 +45,7 @@ De effectiviteit van het MRA is uitgebreid wetenschappelijk onderzocht. De *Amer
 - **Therapietrouw:** juist doordat het comfort hoog is, dragen patiënten het consequenter dan CPAP
 - **Op maat gemaakt:** een gespecialiseerde tandarts neemt precieze afdrukken van uw gebit en stelt het apparaat individueel in
 
-Bij ORAVIVUM wordt het MRA uitsluitend door tandartsen vervaardigd die gespecialiseerd zijn in de relatie tussen kaakfunctie en slaap. De instelling wordt nauwkeurig afgestemd: ver genoeg naar voren voor een open luchtweg, maar comfortabel genoeg om de kaakgewrichten te ontzien.
+Bij ORAVIVUM in Amsterdam wordt het MRA uitsluitend door tandartsen vervaardigd die gespecialiseerd zijn in de relatie tussen kaakfunctie en slaap. De instelling wordt nauwkeurig afgestemd: ver genoeg naar voren voor een open luchtweg, maar comfortabel genoeg om de kaakgewrichten te ontzien.
 
 ## MRA versus CPAP: wat past bij u?
 
@@ -91,7 +91,27 @@ Deze klachten verdienen aandacht. Niet alleen voor uw slaapkwaliteit, maar voor 
 
 Bij ORAVIVUM benaderen wij slaapapneu vanuit ons longevity-perspectief. Goede slaap is geen luxe — het is een van de pijlers van een lang en gezond leven. Wij onderzoeken uw kaakfunctie, beet en luchtweg, en adviseren u eerlijk over de mogelijkheden. Wanneer een MRA de juiste oplossing is, begeleiden wij u van diagnose tot instelling en nazorg. Wanneer een andere behandeling beter past, zorgen wij voor de juiste doorverwijzing.
 
-Wilt u weten of een MRA bij u past? [Neem contact op](/contact) voor een persoonlijk gesprek. U kunt ook meer lezen over onze [slaapapneu behandeling](/slaapapneu).
+Wilt u weten of een MRA bij u past? [Neem contact op](/contact) voor een persoonlijk gesprek bij ORAVIVUM aan het Museumplein. U kunt ook meer lezen over onze [slaapapneu behandeling](/slaapapneu).
+
+## Veelgestelde vragen
+
+**Wat kost een MRA?**
+De kosten voor een op maat gemaakt MRA (mandibulaire repositie apparaat) liggen doorgaans tussen de €500 en €1.500, afhankelijk van het type en de complexiteit. Bij ORAVIVUM in Amsterdam ontvangt u tijdens het consult een gedetailleerde kostenopgave.
+
+**Vergoedt de verzekering een MRA?**
+Ja, in veel gevallen. Wanneer slaapapneu is vastgesteld via een slaaponderzoek (polysomnografie), vergoeden de meeste zorgverzekeraars het MRA geheel of gedeeltelijk vanuit de basisverzekering. De NVTS adviseert om vooraf bij uw verzekeraar te informeren naar de exacte vergoedingsvoorwaarden.
+
+**Hoe lang duurt het aanmeten van een MRA?**
+Het gehele traject — van eerste consult tot het dragen van uw MRA — duurt doorgaans 2 tot 4 weken. Tijdens het eerste bezoek nemen wij precieze afdrukken van uw gebit. Na vervaardiging door het laboratorium komt u terug voor het instellen en aanpassen van het apparaat.
+
+**Is een MRA beter dan CPAP?**
+Dat hangt af van de ernst van uw slaapapneu. Volgens de American Academy of Sleep Medicine (AASM) is CPAP de gouden standaard bij ernstig slaapapneu (AHI > 30). Bij mild tot matig slaapapneu is het MRA een bewezen effectief alternatief met een hogere therapietrouw — patiënten dragen het gemiddeld 6,5 uur per nacht, tegenover 4,5 uur bij CPAP.
+
+**Kan een tandarts slaapapneu behandelen?**
+Een gespecialiseerde slaapapneu tandarts kan een belangrijke rol spelen bij de behandeling van mild tot matig slaapapneu door middel van een MRA. De diagnose wordt gesteld door een slaapkliniek of KNO-arts via een polysomnografie. Bij ORAVIVUM werken wij nauw samen met slaapklinieken om een multidisciplinaire aanpak te waarborgen.
+
+**Went een MRA snel?**
+De meeste patiënten wennen binnen 1 tot 2 weken aan het dragen van een MRA. In het begin kunt u lichte druk op de tanden of kaakgewrichten ervaren, maar dit neemt doorgaans snel af. Het MRA wordt stapsgewijs ingesteld om het comfort te optimaliseren.
 
 ---EN---
 
@@ -101,7 +121,7 @@ Snoring is often dismissed as a harmless — if rather annoying — phenomenon. 
 
 In sleep apnoea, the airway repeatedly collapses during sleep. Your breathing stops, sometimes dozens of times per hour, without your being aware of it. The result: your body never reaches deep, restorative sleep. Fatigue, concentration difficulties and an increased risk of cardiovascular disease are common consequences.
 
-What is less well known is that the position of your jaw plays a crucial role in the development of sleep apnoea. And with that, an unexpected specialist enters the picture — your dentist.
+What is less well known is that the position of your jaw plays a crucial role in the development of sleep apnoea. The NVTS (Dutch Association for Dental Sleep Medicine) emphasises that a specialised dentist can play an important role in treating sleep-related breathing disorders. And with that, an unexpected specialist enters the picture — your dentist.
 
 ## The Relationship Between Jaw Position and Airway
 
@@ -122,7 +142,7 @@ It is an interplay of factors — but jaw position is often a determining elemen
 
 A mandibular advancement device (MAD) — also known as a mandibular repositioning appliance — is a custom-made device worn at night. It resembles a bite splint but does something fundamentally different: it brings the lower jaw forward by several millimetres. This enlarges the space at the back of the throat and keeps the airway open during sleep.
 
-The effectiveness of the MAD has been extensively studied. The *American Academy of Sleep Medicine* recognises it as a first-line treatment for mild to moderate sleep apnoea and as an alternative for patients who cannot tolerate CPAP. Studies in the *Journal of Clinical Sleep Medicine* demonstrate a significant reduction in the number of breathing interruptions (the AHI score) and an improvement in sleep quality.
+The effectiveness of the MAD has been extensively studied. The *American Academy of Sleep Medicine* (AASM) recognises it as a first-line treatment for mild to moderate sleep apnoea and as an alternative for patients who cannot tolerate CPAP. The NHG (Dutch College of General Practitioners) also lists the MAD as a treatment option in its clinical guidelines for sleep apnoea. Studies in the *Journal of Clinical Sleep Medicine* demonstrate a significant reduction in the number of breathing interruptions (the AHI score) and an improvement in sleep quality.
 
 ### The Advantages of a MAD
 
@@ -131,7 +151,7 @@ The effectiveness of the MAD has been extensively studied. The *American Academy
 - **Compliance:** precisely because comfort is high, patients wear it more consistently than CPAP
 - **Custom-made:** a specialised dentist takes precise impressions of your teeth and adjusts the device individually
 
-At ORAVIVUM, the MAD is exclusively crafted by dentists specialising in the relationship between jaw function and sleep. The setting is carefully calibrated: far enough forward for an open airway, yet comfortable enough to protect the jaw joints.
+At ORAVIVUM in Amsterdam, the MAD is exclusively crafted by dentists specialising in the relationship between jaw function and sleep. The setting is carefully calibrated: far enough forward for an open airway, yet comfortable enough to protect the jaw joints.
 
 ## MAD Versus CPAP: What Suits You?
 
@@ -177,4 +197,24 @@ These complaints deserve attention. Not only for your sleep quality, but for you
 
 At ORAVIVUM, we approach sleep apnoea from our longevity perspective. Good sleep is not a luxury — it is one of the pillars of a long and healthy life. We examine your jaw function, bite and airway, and advise you honestly about the possibilities. When a MAD is the right solution, we guide you from diagnosis through fitting and aftercare. When a different treatment is more appropriate, we ensure the right referral.
 
-Would you like to know whether a MAD is right for you? [Get in touch](/contact) for a personal consultation. You can also read more about our [sleep apnoea treatment](/slaapapneu).
+Would you like to know whether a MAD is right for you? [Get in touch](/contact) for a personal consultation at ORAVIVUM near Museumplein. You can also read more about our [sleep apnoea treatment](/slaapapneu).
+
+## Frequently Asked Questions
+
+**What does a MAD cost?**
+The cost of a custom-made MAD (mandibular advancement device) typically ranges between €500 and €1,500, depending on the type and complexity. At ORAVIVUM in Amsterdam, you will receive a detailed cost estimate during your consultation.
+
+**Does insurance cover a MAD?**
+In many cases, yes. When sleep apnoea has been diagnosed through a sleep study (polysomnography), most Dutch health insurers cover the MAD fully or partially under the basic insurance. The NVTS recommends checking with your insurer in advance for exact coverage conditions.
+
+**How long does it take to get fitted for a MAD?**
+The entire process — from initial consultation to wearing your MAD — typically takes 2 to 4 weeks. During the first visit, we take precise impressions of your teeth. After the laboratory fabricates the device, you return for fitting and adjustment.
+
+**Is a MAD better than CPAP?**
+That depends on the severity of your sleep apnoea. According to the American Academy of Sleep Medicine (AASM), CPAP is the gold standard for severe sleep apnoea (AHI > 30). For mild to moderate sleep apnoea, the MAD is a proven effective alternative with higher compliance — patients wear it an average of 6.5 hours per night, compared to 4.5 hours with CPAP.
+
+**Can a dentist treat sleep apnoea?**
+A specialised sleep apnoea dentist can play an important role in treating mild to moderate sleep apnoea using a MAD. The diagnosis is made by a sleep clinic or ENT specialist via polysomnography. At ORAVIVUM, we work closely with sleep clinics to ensure a multidisciplinary approach.
+
+**Does it take long to get used to a MAD?**
+Most patients adjust to wearing a MAD within 1 to 2 weeks. Initially, you may experience slight pressure on the teeth or jaw joints, but this typically diminishes quickly. The MAD is gradually adjusted to optimise comfort.

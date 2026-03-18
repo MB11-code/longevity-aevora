@@ -13,11 +13,11 @@ keywords: ["gummy smile behandeling", "gummy smile", "tandvlees zichtbaar bij la
 
 U lacht, en er is meer tandvlees zichtbaar dan u zou willen. Misschien heeft iemand er ooit iets over gezegd, of valt het u zelf op bij foto's. Een zogenaamde **gummy smile** — waarbij meer dan 3 tot 4 millimeter tandvlees boven de boventanden zichtbaar wordt bij het lachen — is medisch gezien vrijwel nooit een probleem. Toch kan het een bron van onzekerheid zijn die uw glimlach beïnvloedt.
 
-Bij ORAVIVUM begrijpen wij dat een glimlach meer is dan alleen esthetiek. Het is hoe u zich presenteert aan de wereld. In dit artikel leggen wij uit wat een gummy smile precies is, waardoor het ontstaat, welke behandelingen beschikbaar zijn en — misschien het belangrijkst — wanneer behandeling daadwerkelijk zinvol is.
+Bij ORAVIVUM in Amsterdam begrijpen wij dat een glimlach meer is dan alleen esthetiek. Het is hoe u zich presenteert aan de wereld. In dit artikel leggen wij uit wat een gummy smile precies is, waardoor het ontstaat, welke behandelingen beschikbaar zijn en — misschien het belangrijkst — wanneer behandeling daadwerkelijk zinvol is.
 
 ## Wat is een gummy smile?
 
-De term gummy smile beschrijft een situatie waarbij bij het lachen een bovengemiddelde hoeveelheid tandvlees zichtbaar is. Er bestaat geen harde grens, maar in de tandheelkunde en esthetische geneeskunde wordt over het algemeen gesproken van een gummy smile wanneer meer dan **3 tot 4 millimeter** tandvlees zichtbaar is boven de bovenste snijtanden.
+De term gummy smile beschrijft een situatie waarbij bij het lachen een bovengemiddelde hoeveelheid tandvlees zichtbaar is. Er bestaat geen harde grens, maar volgens de KNMT (Koninklijke Nederlandse Maatschappij tot bevordering der Tandheelkunde) wordt in de tandheelkunde en esthetische geneeskunde over het algemeen gesproken van een gummy smile wanneer meer dan **3 tot 4 millimeter** tandvlees zichtbaar is boven de bovenste snijtanden.
 
 Het is belangrijk te benadrukken: een gummy smile is geen aandoening of ziekte. Het is een anatomische variatie die bij sommige mensen meer uitgesproken is dan bij andere. Of u het als storend ervaart, is volledig persoonlijk.
 
@@ -118,17 +118,37 @@ Heeft u vragen over uw glimlach of overweegt u een behandeling voor een gummy sm
 
 Lees ook onze artikelen over [botulinetoxine bij bruxisme](/kennisbank/botulinetoxine-bij-bruxisme-wat-kunt-u-verwachten) en [tandenknarsen: oorzaken, gevolgen en behandelingen](/kennisbank/tandenknarsen-oorzaken-gevolgen-behandelingen) voor meer informatie over onze behandelingen in het orofaciale gebied.
 
+## Veelgestelde vragen
+
+**Wanneer is een gummy smile behandeling nodig?**
+Een gummy smile behandeling is zinvol wanneer u er daadwerkelijk last van heeft — bijvoorbeeld als het uw zelfvertrouwen beïnvloedt of u bewust minder lacht. Bij ORAVIVUM aan het Museumplein beoordelen wij eerst nauwkeurig welke factoren meespelen, zodat wij u eerlijk kunnen adviseren of behandeling in uw geval zinvol is.
+
+**Hoe lang duurt een gummy smile behandeling?**
+Dat hangt af van de gekozen behandeling. Een botulinetoxinebehandeling duurt slechts enkele minuten. Een tandvleescorrectie (gingivectomie) neemt circa 30 tot 60 minuten in beslag, en lip repositioning duurt 45 tot 60 minuten. Tijdens het consult bespreken wij welke optie het beste bij uw situatie past.
+
+**Is het resultaat van een gummy smile behandeling permanent?**
+Dat verschilt per behandeling. Botulinetoxine geeft een tijdelijk resultaat van 3 tot 6 maanden en vereist herbehandeling. Een tandvleescorrectie of lip repositioning biedt een blijvend resultaat. Wij bespreken de voor- en nadelen van elke optie zodat u een weloverwogen keuze kunt maken.
+
+**Wat kost een gummy smile behandeling?**
+De kosten variëren per behandeling. Een botulinetoxinebehandeling voor een gummy smile kost doorgaans tussen de €200 en €400 per sessie. Chirurgische opties zoals tandvleescorrectie of lip repositioning liggen hoger. Tijdens uw consult bij ORAVIVUM in Amsterdam ontvangt u een gedetailleerde kostenopgave.
+
+**Is een gummy smile behandeling met botulinetoxine veilig?**
+Ja. Botulinetoxine wordt al meer dan 30 jaar veilig medisch toegepast. De dosering bij een gummy smile behandeling is subtiel en uw glimlach blijft natuurlijk. Bij ORAVIVUM wordt de behandeling uitgevoerd door specialisten met grondige kennis van de orofaciale anatomie.
+
+**Kan ik eerst proberen hoe het eruitziet?**
+Dat is precies het voordeel van botulinetoxine: het effect is tijdelijk, waardoor u kunt ervaren hoe een aangepaste glimlach eruitziet zonder zich direct aan een permanente ingreep te committeren. Bevalt het resultaat, dan kunt u kiezen voor herbehandeling of een permanente oplossing.
+
 ---EN---
 
 ## Gummy Smile: When Is Treatment Worthwhile?
 
 You smile, and more gum tissue is visible than you would like. Perhaps someone once commented on it, or you notice it yourself in photographs. A so-called **gummy smile** — where more than 3 to 4 millimetres of gum tissue is visible above the upper teeth when smiling — is almost never a medical concern. Yet it can be a source of self-consciousness that affects how freely you smile.
 
-At ORAVIVUM, we understand that a smile is more than just aesthetics. It is how you present yourself to the world. In this article, we explain what a gummy smile is, what causes it, which treatments are available and — perhaps most importantly — when treatment is truly worthwhile.
+At ORAVIVUM in Amsterdam, we understand that a smile is more than just aesthetics. It is how you present yourself to the world. In this article, we explain what a gummy smile is, what causes it, which treatments are available and — perhaps most importantly — when treatment is truly worthwhile.
 
 ## What Is a Gummy Smile?
 
-The term gummy smile describes a situation in which an above-average amount of gum tissue is visible when smiling. There is no strict threshold, but in dentistry and aesthetic medicine, a gummy smile is generally defined as more than **3 to 4 millimetres** of gum tissue visible above the upper incisors.
+The term gummy smile describes a situation in which an above-average amount of gum tissue is visible when smiling. There is no strict threshold, but according to the KNMT (Royal Dutch Dental Association), in dentistry and aesthetic medicine a gummy smile is generally defined as more than **3 to 4 millimetres** of gum tissue visible above the upper incisors.
 
 It is important to emphasise: a gummy smile is not a condition or disease. It is an anatomical variation that is more pronounced in some people than in others. Whether you find it bothersome is entirely personal.
 
@@ -228,3 +248,23 @@ Our approach:
 Do you have questions about your smile or are you considering treatment for a gummy smile? At ORAVIVUM, we are happy to take the time for a [personal consultation](/contact). We analyse your situation, discuss the possibilities and provide honest advice — without pressure, without sales pitches.
 
 Also read our articles on [botulinum toxin for bruxism](/kennisbank/botulinetoxine-bij-bruxisme-wat-kunt-u-verwachten) and [teeth grinding: causes, effects and treatments](/kennisbank/tandenknarsen-oorzaken-gevolgen-behandelingen) for more information about our treatments in the orofacial area.
+
+## Frequently Asked Questions
+
+**When is gummy smile treatment necessary?**
+Gummy smile treatment is worthwhile when it genuinely bothers you — for instance, if it affects your confidence or causes you to smile less freely. At ORAVIVUM near Museumplein, we first carefully assess which factors are involved, so we can honestly advise whether treatment is appropriate in your case.
+
+**How long does a gummy smile treatment take?**
+That depends on the chosen treatment. A botulinum toxin treatment takes just a few minutes. Gum contouring (gingivectomy) takes approximately 30 to 60 minutes, and lip repositioning takes 45 to 60 minutes. During your consultation, we discuss which option best suits your situation.
+
+**Is the result of gummy smile treatment permanent?**
+This varies by treatment. Botulinum toxin provides a temporary result lasting 3 to 6 months and requires retreatment. Gum contouring or lip repositioning offers a lasting result. We discuss the advantages and disadvantages of each option so you can make an informed choice.
+
+**What does gummy smile treatment cost?**
+Costs vary by treatment. A botulinum toxin treatment for a gummy smile typically costs between €200 and €400 per session. Surgical options such as gum contouring or lip repositioning are priced higher. During your consultation at ORAVIVUM in Amsterdam, you will receive a detailed cost estimate.
+
+**Is botulinum toxin treatment for a gummy smile safe?**
+Yes. Botulinum toxin has been safely used in medicine for over 30 years. The dosage for a gummy smile treatment is subtle, and your smile remains natural. At ORAVIVUM, the treatment is performed by specialists with thorough knowledge of orofacial anatomy.
+
+**Can I try it out first to see how it looks?**
+That is precisely the advantage of botulinum toxin: the effect is temporary, allowing you to experience what an adjusted smile looks like without committing to a permanent procedure. If you are pleased with the result, you can choose retreatment or a permanent solution.
