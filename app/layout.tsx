@@ -38,24 +38,29 @@ export const metadata: Metadata = {
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": ["MedicalBusiness", "MedicalClinic", "Dentist"],
-  name: "ORAVIVUM — Oral Longevity Clinic Amsterdam",
+  "@type": ["Dentist", "MedicalBusiness"],
+  "@id": "https://oravivum.com/#organization",
+  name: "ORAVIVUM — Oral Longevity Clinic",
   alternateName: "ORAVIVUM",
   description:
     "De eerste oral longevity kliniek van Amsterdam. Bruxisme behandeling, gummy smile behandeling en slaapapneu screening.",
-  url: "https://oravivum.nl",
-  telephone: "020 72 35 222",
+  url: "https://oravivum.com",
+  telephone: "020 723 5222",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Teniersstraat 2 hs",
     addressLocality: "Amsterdam",
-    postalCode: "1071 DX",
+    postalCode: "1071 BS",
     addressCountry: "NL",
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 52.3579,
-    longitude: 4.879,
+    latitude: 52.3547,
+    longitude: 4.8833,
+  },
+  areaServed: {
+    "@type": "City",
+    name: "Amsterdam",
   },
   openingHoursSpecification: [
     {
@@ -64,9 +69,36 @@ const localBusinessSchema = {
       opens: "08:30",
       closes: "17:30",
     },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: "Saturday",
+      opens: "09:30",
+      closes: "16:00",
+    },
   ],
-  medicalSpecialty: "Orthodontics",
-  priceRange: "€€€",
+  medicalSpecialty: "Dentistry",
+  priceRange: "€€",
+  availableService: [
+    {
+      "@type": "MedicalTherapy",
+      name: "Bruxisme behandeling",
+      description: "Behandeling van tandenknarsen met botulinetoxine voor ontspanning van de kaakspieren.",
+      url: "https://oravivum.com/bruxisme-behandeling",
+    },
+    {
+      "@type": "MedicalTherapy",
+      name: "Gummy smile correctie",
+      description: "Correctie van overmatig zichtbaar tandvlees bij het lachen met botulinetoxine.",
+      url: "https://oravivum.com/gummy-smile",
+    },
+    {
+      "@type": "MedicalTherapy",
+      name: "Slaapapneu screening & MRA",
+      description: "Screening op slaapapneu en behandeling met een mandibulair repositie-apparaat (MRA).",
+      url: "https://oravivum.com/slaapapneu",
+    },
+  ],
+  sameAs: [],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
