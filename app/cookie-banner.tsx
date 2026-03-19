@@ -34,19 +34,19 @@ export function CookieBanner() {
         </h3>
         <p className="text-sm text-charcoal/60 leading-relaxed mb-4">
           {t(
-            "Wij gebruiken cookies om onze website te verbeteren en uw ervaring te optimaliseren. Noodzakelijke cookies zijn altijd actief. Met uw toestemming plaatsen wij ook analytische cookies om het gebruik van de site te meten.",
-            "We use cookies to improve our website and optimize your experience. Necessary cookies are always active. With your consent, we also place analytical cookies to measure site usage."
+            "Wij gebruiken functionele en analytische cookies om onze website te verbeteren. Analytische data wordt geanonimiseerd (Google Analytics met IP-anonimisering). Wij plaatsen geen marketing- of tracking cookies.",
+            "We use functional and analytical cookies to improve our website. Analytical data is anonymized (Google Analytics with IP anonymization). We do not place marketing or tracking cookies."
           )}
         </p>
 
         {showDetails && (
           <div className="mb-4 p-4 bg-sand/10 rounded-lg text-sm space-y-3">
             <div>
-              <p className="font-semibold text-charcoal mb-1">{t("Noodzakelijk", "Necessary")}</p>
+              <p className="font-semibold text-charcoal mb-1">{t("Functioneel", "Functional")}</p>
               <p className="text-charcoal/50 text-xs">
                 {t(
-                  "Deze cookies zijn essentieel voor het functioneren van de website (bijv. taalvoorkeur). Altijd actief.",
-                  "These cookies are essential for the website to function (e.g. language preference). Always active."
+                  "Essentieel voor het functioneren van de website (bijv. taalvoorkeur). Altijd actief.",
+                  "Essential for the website to function (e.g. language preference). Always active."
                 )}
               </p>
             </div>
@@ -54,8 +54,8 @@ export function CookieBanner() {
               <p className="font-semibold text-charcoal mb-1">{t("Analytisch", "Analytical")}</p>
               <p className="text-charcoal/50 text-xs">
                 {t(
-                  "Deze cookies helpen ons begrijpen hoe bezoekers de site gebruiken (Google Analytics). Geanonimiseerde data.",
-                  "These cookies help us understand how visitors use the site (Google Analytics). Anonymized data."
+                  "Helpen ons begrijpen hoe bezoekers de site gebruiken. Volledig geanonimiseerd conform AVG-richtlijnen.",
+                  "Help us understand how visitors use the site. Fully anonymized in accordance with GDPR guidelines."
                 )}
               </p>
             </div>
@@ -67,13 +67,7 @@ export function CookieBanner() {
             onClick={() => accept("all")}
             className="bg-teal text-offwhite px-6 py-2.5 text-xs tracking-[0.15em] uppercase rounded-lg hover:bg-teal/90 transition-colors"
           >
-            {t("Alles accepteren", "Accept all")}
-          </button>
-          <button
-            onClick={() => accept("necessary")}
-            className="border border-sand/40 text-charcoal/60 px-6 py-2.5 text-xs tracking-[0.15em] uppercase rounded-lg hover:border-teal hover:text-teal transition-colors"
-          >
-            {t("Alleen noodzakelijk", "Necessary only")}
+            {t("Begrepen", "Got it")}
           </button>
           <button
             onClick={() => setShowDetails(!showDetails)}

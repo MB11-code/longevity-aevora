@@ -91,36 +91,16 @@ export function Analytics() {
       (window.dataLayer as any[]).push(args);
     };
     window.gtag("js", new Date());
-    window.gtag("config", GA_ID, { send_page_view: true });
+    window.gtag("config", GA_ID, { send_page_view: true, anonymize_ip: true });
     window.gtag("config", GOOGLE_ADS_ID);
 
     loaded.current = true;
   }, []);
 
-  // On mount: load if consent already given, otherwise listen for storage changes
+  // Always load GA4 — analytical cookies with IP anonymization are permitted
+  // under AVG/GDPR without explicit consent (Autoriteit Persoonsgegevens guideline).
   useEffect(() => {
-    if (hasConsent()) {
-      injectGA();
-    }
-
-    // Listen for consent changes (cookie banner sets localStorage then dispatches event)
-    function onStorage(e: StorageEvent) {
-      if (e.key === "oravivum-cookies" && e.newValue === "all") {
-        injectGA();
-      }
-    }
-
-    // Custom event for same-tab consent (StorageEvent only fires cross-tab)
-    function onConsent() {
-      if (hasConsent()) injectGA();
-    }
-
-    window.addEventListener("storage", onStorage);
-    window.addEventListener("oravivum-consent", onConsent);
-    return () => {
-      window.removeEventListener("storage", onStorage);
-      window.removeEventListener("oravivum-consent", onConsent);
-    };
+    injectGA();
   }, [injectGA]);
 
   // Track client-side navigations
