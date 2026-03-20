@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useLang } from "./lang-context";
+import { updateGoogleConsent } from "./analytics";
 
 export function CookieBanner() {
   const { t } = useLang();
@@ -18,8 +19,10 @@ export function CookieBanner() {
   function accept(level: "all" | "necessary") {
     localStorage.setItem("oravivum-cookies", level);
     setVisible(false);
+    // Update Google Consent Mode v2
+    updateGoogleConsent(level === "all");
     if (level === "all") {
-      // Signal the Analytics component to load GA4 (same-tab)
+      // Signal the Analytics component (same-tab)
       window.dispatchEvent(new Event("oravivum-consent"));
     }
   }

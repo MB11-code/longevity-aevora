@@ -12,6 +12,18 @@ function hasConsent(): boolean {
   return localStorage.getItem("oravivum-cookies") === "all";
 }
 
+/** Update Google consent state — called from cookie banner */
+export function updateGoogleConsent(granted: boolean) {
+  if (typeof window === "undefined" || !window.gtag) return;
+  const state = granted ? "granted" : "denied";
+  window.gtag("consent", "update", {
+    analytics_storage: state,
+    ad_storage: state,
+    ad_user_data: state,
+    ad_personalization: state,
+  });
+}
+
 /** Fire a generate_lead conversion for both Google Ads and GA4. */
 export function trackGenerateLead() {
   if (typeof window === "undefined") return;
@@ -77,19 +89,31 @@ export function Analytics() {
     if (!GA_ID || loaded.current) return;
     if (document.getElementById("ga4-gtag")) return;
 
-    // gtag.js loader
+    // 1. Initialize dataLayer + gtag function FIRST
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag(...args: unknown[]) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (window.dataLayer as any[]).push(args);
+    };
+
+    // 2. Set Consent Mode v2 DEFAULTS before any config (required for EU/EEA)
+    const priorConsent = hasConsent();
+    window.gtag("consent", "default", {
+      analytics_storage: priorConsent ? "granted" : "denied",
+      ad_storage: priorConsent ? "granted" : "denied",
+      ad_user_data: priorConsent ? "granted" : "denied",
+      ad_personalization: priorConsent ? "granted" : "denied",
+      wait_for_update: 500,
+    });
+
+    // 3. Load gtag.js
     const script = document.createElement("script");
     script.id = "ga4-gtag";
     script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
     script.async = true;
     document.head.appendChild(script);
 
-    // inline init
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function gtag(...args: unknown[]) {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (window.dataLayer as any[]).push(args);
-    };
+    // 4. Configure GA4 + Google Ads
     window.gtag("js", new Date());
     window.gtag("config", GA_ID, { send_page_view: true, anonymize_ip: true });
     window.gtag("config", GOOGLE_ADS_ID);
@@ -97,11 +121,17 @@ export function Analytics() {
     loaded.current = true;
   }, []);
 
-  // Always load GA4 — analytical cookies with IP anonymization are permitted
-  // under AVG/GDPR without explicit consent (Autoriteit Persoonsgegevens guideline).
+  // Always load GA4 — consent mode handles data collection permissions
   useEffect(() => {
     injectGA();
   }, [injectGA]);
+
+  // Listen for consent updates from cookie banner
+  useEffect(() => {
+    const handleConsent = () => updateGoogleConsent(true);
+    window.addEventListener("oravivum-consent", handleConsent);
+    return () => window.removeEventListener("oravivum-consent", handleConsent);
+  }, []);
 
   // Track client-side navigations
   useEffect(() => {
@@ -115,6 +145,6 @@ export function Analytics() {
     return () => document.removeEventListener("click", handleTelClick);
   }, []);
 
-  // No visible output; scripts are injected dynamically after consent
+  // No visible output; scripts are injected dynamically
   return null;
 }
