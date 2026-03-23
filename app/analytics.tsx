@@ -2,8 +2,11 @@
 
 import { useEffect, useCallback, useRef } from "react";
 import { usePathname } from "next/navigation";
-const GA_ID = process.env.NEXT_PUBLIC_GA4_ID;
+const GA_ID = process.env.NEXT_PUBLIC_GA4_ID || "G-TBVV6HTH3Z";
 const GOOGLE_ADS_ID = "AW-18022149233";
+// Google Ads conversion labels — fill in when created in Google Ads
+const GOOGLE_ADS_CALL_LABEL = "AeqPCLz0r4ocEPHY0JFD";
+const GOOGLE_ADS_LEAD_LABEL = ""; // TODO: create in Google Ads and fill in
 
 /* ── helpers ── */
 
@@ -27,15 +30,20 @@ export function updateGoogleConsent(granted: boolean) {
 /** Fire a generate_lead conversion for both Google Ads and GA4. */
 export function trackGenerateLead() {
   if (typeof window === "undefined") return;
-  // Google Ads conversion
   if (window.gtag) {
+    // GA4 generate_lead event
     window.gtag("event", "generate_lead", {
-      send_to: GOOGLE_ADS_ID,
       value: 1.0,
       currency: "EUR",
     });
-    // GA4 generate_lead
-    window.gtag("event", "generate_lead");
+    // Google Ads conversion — only fires if label is configured
+    if (GOOGLE_ADS_LEAD_LABEL) {
+      window.gtag("event", "conversion", {
+        send_to: `${GOOGLE_ADS_ID}/${GOOGLE_ADS_LEAD_LABEL}`,
+        value: 1.0,
+        currency: "EUR",
+      });
+    }
   }
   // Also push to dataLayer for GTM
   window.dataLayer = window.dataLayer || [];
@@ -69,9 +77,9 @@ function handleTelClick(e: MouseEvent) {
     phone_number: anchor.href.replace("tel:", ""),
   });
   // Google Ads click-to-call conversion
-  if (window.gtag) {
+  if (window.gtag && GOOGLE_ADS_CALL_LABEL) {
     window.gtag("event", "conversion", {
-      send_to: "AW-18022149233/AeqPCLz0r4ocEPHY0JFD",
+      send_to: `${GOOGLE_ADS_ID}/${GOOGLE_ADS_CALL_LABEL}`,
       value: 1.0,
       currency: "EUR",
     });
@@ -105,6 +113,11 @@ export function Analytics() {
       ad_personalization: priorConsent ? "granted" : "denied",
       wait_for_update: 500,
     });
+
+    // Enable URL passthrough for better attribution without cookies
+    window.gtag("set", "url_passthrough", true);
+    // Redact ad click info when ad_storage is denied
+    window.gtag("set", "ads_data_redaction", true);
 
     // 3. Load gtag.js
     const script = document.createElement("script");

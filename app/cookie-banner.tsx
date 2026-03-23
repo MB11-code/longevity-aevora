@@ -37,8 +37,8 @@ export function CookieBanner() {
         </h3>
         <p className="text-sm text-charcoal/60 leading-relaxed mb-4">
           {t(
-            "Wij gebruiken functionele en analytische cookies om onze website te verbeteren. Analytische data wordt geanonimiseerd (Google Analytics met IP-anonimisering). Wij plaatsen geen marketing- of tracking cookies.",
-            "We use functional and analytical cookies to improve our website. Analytical data is anonymized (Google Analytics with IP anonymization). We do not place marketing or tracking cookies."
+            "Wij gebruiken functionele en analytische cookies om onze website te verbeteren. Analytische data wordt geanonimiseerd (Google Analytics met IP-anonimisering).",
+            "We use functional and analytical cookies to improve our website. Analytical data is anonymized (Google Analytics with IP anonymization)."
           )}
         </p>
 
@@ -57,8 +57,17 @@ export function CookieBanner() {
               <p className="font-semibold text-charcoal mb-1">{t("Analytisch", "Analytical")}</p>
               <p className="text-charcoal/50 text-xs">
                 {t(
-                  "Helpen ons begrijpen hoe bezoekers de site gebruiken. Volledig geanonimiseerd conform AVG-richtlijnen.",
-                  "Help us understand how visitors use the site. Fully anonymized in accordance with GDPR guidelines."
+                  "Google Analytics met IP-anonimisering. Helpt ons begrijpen hoe bezoekers de site gebruiken.",
+                  "Google Analytics with IP anonymization. Helps us understand how visitors use the site."
+                )}
+              </p>
+            </div>
+            <div>
+              <p className="font-semibold text-charcoal mb-1">{t("Advertenties", "Advertising")}</p>
+              <p className="text-charcoal/50 text-xs">
+                {t(
+                  "Google Ads conversie-tracking om de effectiviteit van onze advertenties te meten.",
+                  "Google Ads conversion tracking to measure the effectiveness of our advertisements."
                 )}
               </p>
             </div>
@@ -70,7 +79,13 @@ export function CookieBanner() {
             onClick={() => accept("all")}
             className="bg-teal text-offwhite px-6 py-2.5 text-xs tracking-[0.15em] uppercase rounded-lg hover:bg-teal/90 transition-colors"
           >
-            {t("Begrepen", "Got it")}
+            {t("Alles accepteren", "Accept all")}
+          </button>
+          <button
+            onClick={() => accept("necessary")}
+            className="border border-sand/40 text-charcoal/60 px-6 py-2.5 text-xs tracking-[0.15em] uppercase rounded-lg hover:border-teal hover:text-teal transition-colors"
+          >
+            {t("Alleen noodzakelijk", "Necessary only")}
           </button>
           <button
             onClick={() => setShowDetails(!showDetails)}
